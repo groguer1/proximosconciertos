@@ -1,0 +1,43 @@
+{
+ "artista": "Eros Ramazzotti",
+ "slug": "eros-ramazzotti",
+ "gira": "Una Historia Importante World Tour",
+ "revisado": "2026-10-04",
+ "fuente": "https://ramazzotti.com/es/worldtour/",
+ "fuente_nombre": "web oficial de Eros Ramazzotti",
+ "fechas": [
+  {
+   "fecha": "2028-04-23",
+   "hora": "21:00",
+   "ciudad": "Pamplona",
+   "recinto": "Navarra Arena",
+   "entradas": "https://www.entradas.com/event/eros-ramazzotti-una-historia-importante-world-tour-navarra-arena-21322406/"
+  },
+  {
+   "fecha": "2028-04-26",
+   "hora": "20:30",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "entradas": "https://www.entradas.com/event/eros-ramazzotti-una-historia-importante-world-tour-roig-arena-21326369/"
+  },
+  {
+   "fecha": "2028-04-28",
+   "hora": "20:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "https://www.entradas.com/event/eros-ramazzotti-una-historia-importante-world-tour-movistar-arena-21625535/"
+  },
+  {
+   "fecha": "2028-04-30",
+   "hora": "20:30",
+   "ciudad": "Barcelona",
+   "recinto": "Palau Sant Jordi",
+   "entradas": "https://www.entradas.com/event/eros-ramazzotti-una-historia-importante-world-tour-palau-sant-jordi-21311397/"
+  }
+ ],
+ "vigilar": {
+  "url": "https://ramazzotti.com/es/worldtour/",
+  "patron": "x",
+  "manual": true
+ }
+}

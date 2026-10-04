@@ -1,0 +1,32 @@
+{
+ "artista": "Il Volo",
+ "slug": "il-volo",
+ "tipo": "MusicGroup",
+ "gira": "World Tour 2026-2027",
+ "revisado": "2026-10-04",
+ "fuente": "https://www.ilvolomusic.com/tour/",
+ "fuente_nombre": "web oficial de Il Volo",
+ "fechas": [
+  {
+   "fecha": "2027-10-26",
+   "hora": "20:30",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "https://entradas.baila.fm/baila/select/2671348",
+   "ficha": "https://www.movistararena.es/programacion/evento/il-volo-world-tour-2026-2027/26-10-2027/20:30"
+  },
+  {
+   "fecha": "2027-10-31",
+   "hora": "20:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "entradas": "https://www.roigarena.com/es/event/il-volo-world-tour-2026-2027-20271031/tickets/",
+   "ficha": "https://www.roigarena.com/es/event/il-volo-world-tour-2026-2027-20271031/"
+  }
+ ],
+ "vigilar": {
+  "url": "https://www.ilvolomusic.com/tour/",
+  "patron": "x",
+  "manual": true
+ }
+}
