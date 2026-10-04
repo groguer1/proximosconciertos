@@ -26,6 +26,13 @@ h1{font:800 clamp(30px,5vw,46px)/1.05 Archivo,sans-serif;letter-spacing:-.03em;m
 .btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:12px 18px;font:600 15px Archivo,sans-serif;text-decoration:none;background:var(--accent);color:#fff}
 ul{padding-left:20px} li{margin:6px 0}
 .muted{color:var(--muted);font-size:14px}
+label{display:block;font-weight:600;margin:14px 0 6px}
+label.check{font-weight:400;display:flex;gap:8px;align-items:flex-start;font-size:14px}
+input[type=text],input[type=email],select,textarea{width:100%;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:10px 12px;font:16px Archivo,sans-serif}
+textarea{resize:vertical}
+form .btn{border:0;cursor:pointer;margin-top:16px}
+.aviso-ok{background:#e6f4ea;color:#1e5b31;border-radius:10px;padding:12px;margin:14px 0 0}
+.aviso-error{background:#fde8e7;color:#8a1c14;border-radius:10px;padding:12px;margin:14px 0 0}
 footer{margin-top:56px;border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:14px}
 </style>
 </head>
@@ -33,27 +40,49 @@ footer{margin-top:56px;border-top:1px solid var(--line);padding:24px 0 40px;colo
 <header class="top"><div class="wrap"><a class="logo" href="index.html"><i aria-hidden="true"></i>Próximos Conciertos</a></div></header>
 <main class="wrap">
   <h1>Contacto</h1>
-  <p>Próximos Conciertos lo hace una sola persona, que revisa a mano las fechas contra la web oficial de cada artista y de cada recinto. Si algo no cuadra, escríbeme.</p>
-  <div class="card">
-    <p><b>Correo</b>: <span id="correo">activa JavaScript para ver la dirección</span></p>
-    <p><a class="btn" id="boton" href="#">Escribir un correo</a></p>
-    <p class="muted">Contesto yo, normalmente en unos días.</p>
-  </div>
-  <h2>Me sirve sobre todo que me escribas si…</h2>
-  <ul>
-    <li>falta una fecha, ha cambiado la hora o un concierto se ha cancelado;</li>
-    <li>un enlace de entradas no lleva a la venta oficial;</li>
-    <li>quieres que añada la gira de un artista (si tiene fuente oficial con todas sus fechas en España);</li>
-    <li>eres artista, promotora o recinto y quieres corregir un dato.</li>
-  </ul>
+  <p>Las fechas de esta web se revisan a mano contra la web oficial de cada artista y de cada recinto. Si algo no cuadra, cuéntanoslo con este formulario.</p>
+  <form class="card" id="form-contacto" action="https://formspree.io/f/xqewlzgj" method="POST">
+    <input type="hidden" name="_subject" value="Próximos Conciertos · Mensaje de contacto">
+    <input type="hidden" name="web" value="proximosconciertos.es - contacto">
+    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+    <label for="c-nombre">Nombre <span class="muted">(opcional)</span></label>
+    <input id="c-nombre" name="nombre" type="text" autocomplete="name">
+    <label for="c-email">Tu correo, para poder contestarte</label>
+    <input id="c-email" name="email" type="email" required autocomplete="email">
+    <label for="c-motivo">Motivo</label>
+    <select id="c-motivo" name="motivo">
+      <option>Falta una fecha o ha cambiado</option>
+      <option>Un enlace de entradas no funciona</option>
+      <option>Quiero que añadáis a un artista</option>
+      <option>Soy artista, promotora o recinto</option>
+      <option>Otra cosa</option>
+    </select>
+    <label for="c-mensaje">Mensaje</label>
+    <textarea id="c-mensaje" name="mensaje" rows="6" required></textarea>
+    <label class="check"><input type="checkbox" name="privacidad" value="acepto" required> Acepto que se use mi correo solo para contestar a este mensaje.</label>
+    <button class="btn" type="submit">Enviar mensaje</button>
+    <p id="c-ok" class="aviso-ok" style="display:none">Mensaje enviado. Gracias: lo leeremos y, si hace falta, te contestaremos en unos días.</p>
+    <p id="c-error" class="aviso-error" style="display:none">No se ha podido enviar. Revisa tu conexión e inténtalo de nuevo dentro de un rato.</p>
+  </form>
   <p class="muted">Esta web no vende entradas: para cualquier problema con una compra, escribe a la ticketera donde compraste.</p>
 </main>
 <footer><div class="wrap">Próximos Conciertos · Agenda de conciertos en España · <a href="index.html">Agenda</a></div></footer>
 <script>
-// la dirección se monta aquí para que no la recojan los robots que rastrean correos
-(function(){var u="",d="",m=u+"@"+d;
-document.getElementById("correo").textContent=m;
-document.getElementById("boton").href="mailto:"+m+"?subject="+encodeURIComponent("Próximos Conciertos");})();
+(function () {
+  var f = document.getElementById('form-contacto');
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var b = f.querySelector('button[type=submit]'), ok = document.getElementById('c-ok'), err = document.getElementById('c-error');
+    ok.style.display = 'none'; err.style.display = 'none';
+    b.disabled = true; b.textContent = 'Enviando…';
+    fetch(f.action, { method: 'POST', body: new FormData(f), headers: { Accept: 'application/json' } })
+      .then(function (r) {
+        if (r.ok) { f.reset(); ok.style.display = 'block'; b.style.display = 'none'; }
+        else { err.style.display = 'block'; b.disabled = false; b.textContent = 'Enviar mensaje'; }
+      })
+      .catch(function () { err.style.display = 'block'; b.disabled = false; b.textContent = 'Enviar mensaje'; });
+  });
+})();
 </script>
 </body>
 </html>
