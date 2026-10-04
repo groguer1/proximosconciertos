@@ -1,0 +1,78 @@
+{
+ "artista": "Raphael",
+ "slug": "raphael",
+ "gira": "Raphaelísimo Tour 2026",
+ "revisado": "2026-10-04",
+ "fuente": "https://raphaelnet.com/gira/",
+ "fuente_nombre": "web oficial de Raphael",
+ "nota_2027": "A 4 de octubre de 2026, la web oficial de Raphael no publica ninguna fecha en 2027.",
+ "fechas": [
+  {
+   "fecha": "2026-11-07",
+   "hora": "",
+   "ciudad": "Vitoria",
+   "recinto": "Buesa Arena",
+   "entradas": "https://entradas.crashmusic.es/event/concierto-raphael-vitoria-buesa-arena-sabado-7-de-noviembre"
+  },
+  {
+   "fecha": "2026-11-13",
+   "hora": "20:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "entradas": "https://www.roigarena.com/es/event/raphaelisimo-tour-2026-20261113/tickets"
+  },
+  {
+   "fecha": "2026-11-21",
+   "hora": "",
+   "ciudad": "A Coruña",
+   "recinto": "Coliseum",
+   "entradas": "https://entradas.ataquilla.com/es/ventaentradas/conciertos/85-coliseum/x3ak2zer-raphael-tour-raphaelisimo"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "",
+   "ciudad": "Málaga",
+   "recinto": "Palacio de Deportes José María Martín Carpena",
+   "entradas": "https://www.redentradas.com/?entradas=raphael-raphaelisimo-tour-2026&provincia=m%C3%A1laga&cpro=29&eid=3071"
+  },
+  {
+   "fecha": "2026-12-07",
+   "hora": "",
+   "ciudad": "Las Palmas de Gran Canaria",
+   "recinto": "Gran Canaria Arena",
+   "entradas": "https://www.entradas.com/artist/raphael/"
+  },
+  {
+   "fecha": "2026-12-12",
+   "hora": "",
+   "ciudad": "Granada",
+   "recinto": "Palacio de Deportes de Granada",
+   "entradas": "https://www.elcorteingles.es/entradas/channels/raphael/performance/performance-0000089O50000089nv00000000b-raphael_victoria-channel"
+  },
+  {
+   "fecha": "2026-12-19",
+   "hora": "20:30",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "https://www.elcorteingles.es/entradas/conciertos/entradas-raphael-raphaelisimo-madrid-19-diciembre/"
+  }
+ ],
+ "vigilar": {
+  "url": "https://raphaelnet.com/gira/",
+  "patron": "([0-3][0-9]/[01][0-9]/20[0-9]{2})",
+  "huella": [
+   "07/10/2026",
+   "07/11/2026",
+   "07/12/2026",
+   "10/10/2026",
+   "12/10/2026",
+   "12/12/2026",
+   "13/11/2026",
+   "17/10/2026",
+   "19/10/2026",
+   "19/12/2026",
+   "21/11/2026",
+   "28/11/2026"
+  ]
+ }
+}

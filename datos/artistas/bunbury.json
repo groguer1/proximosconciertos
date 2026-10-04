@@ -1,0 +1,44 @@
+{
+ "artista": "Bunbury",
+ "slug": "bunbury",
+ "gira": "Nuevas Mutaciones Tour 2026",
+ "revisado": "2026-10-04",
+ "fuente": "https://www.enriquebunbury.com/tour",
+ "fuente_nombre": "web oficial de Bunbury",
+ "nota_2027": "A 4 de octubre de 2026, la web oficial de Bunbury no publica ninguna fecha en España en 2027.",
+ "fechas": [
+  {
+   "fecha": "2026-12-04",
+   "hora": "20:30",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "https://entradas.baila.fm/baila/select/2730982"
+  },
+  {
+   "fecha": "2026-12-07",
+   "hora": "20:30",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "entradas": "https://www.roigarena.com/es/event/nuevas-mutaciones-tour-2026-20261207/tickets/"
+  },
+  {
+   "fecha": "2026-12-10",
+   "hora": "21:00",
+   "ciudad": "A Coruña",
+   "recinto": "Coliseum",
+   "entradas": "https://www.ticketmaster.es/event/1021774157"
+  },
+  {
+   "fecha": "2026-12-12",
+   "hora": "20:30",
+   "ciudad": "Zaragoza",
+   "recinto": "Pabellón Príncipe Felipe",
+   "entradas": "https://www.ticketmaster.es/event/bunbury-nuevas-mutaciones-tour-2026-entradas/1887677569"
+  }
+ ],
+ "vigilar": {
+  "url": "https://www.enriquebunbury.com/tour",
+  "patron": "x",
+  "manual": true
+ }
+}
