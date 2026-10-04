@@ -1,0 +1,106 @@
+{
+ "artista": "Vetusta Morla",
+ "slug": "vetusta-morla",
+ "gira": "Gira de Vuelta Canciones de Ida",
+ "revisado": "2026-10-04",
+ "fuente": "https://www.vetustamorla.com/gira/",
+ "fuente_nombre": "web oficial de Vetusta Morla",
+ "nota_2027": "A 4 de octubre de 2026, la web oficial de Vetusta Morla no publica ninguna fecha en 2027.",
+ "fechas": [
+  {
+   "fecha": "2026-10-09",
+   "hora": "20:30",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "entradas": "https://www.roigarena.com/es/event/vetusta-morla-2026-gira-de-vuelta-canciones-de-ida-20261009/tickets/",
+   "ficha": "https://www.vetustamorla.com/gira/valencia/"
+  },
+  {
+   "fecha": "2026-10-24",
+   "hora": "",
+   "ciudad": "Pamplona",
+   "recinto": "Navarra Arena",
+   "entradas": "https://entradasnavarrarena.nicdo.es/selection/event/date?productId=10229764074824",
+   "ficha": "https://www.vetustamorla.com/gira/pamplona-navarra-arena/",
+   "estado": "ultimas"
+  },
+  {
+   "fecha": "2026-10-31",
+   "hora": "",
+   "ciudad": "Málaga",
+   "recinto": "Auditorio Municipal Cortijo de Torres",
+   "entradas": "",
+   "ficha": "https://www.vetustamorla.com/gira/malaga-auditorio-cortijo-torres/",
+   "estado": "agotado"
+  },
+  {
+   "fecha": "2026-11-06",
+   "hora": "",
+   "ciudad": "A Coruña",
+   "recinto": "Coliseum",
+   "entradas": "https://entradas.ataquilla.com/es/ventaentradas/conciertos/85-coliseum/x3akjqh9-vetusta-morla",
+   "ficha": "https://www.vetustamorla.com/gira/a-coruna-coliseum-2/",
+   "estado": "ultimas"
+  },
+  {
+   "fecha": "2026-11-07",
+   "hora": "",
+   "ciudad": "A Coruña",
+   "recinto": "Coliseum",
+   "entradas": "",
+   "ficha": "https://www.vetustamorla.com/gira/a-coruna-coliseum/",
+   "estado": "agotado"
+  },
+  {
+   "fecha": "2026-11-14",
+   "hora": "",
+   "ciudad": "Sevilla",
+   "recinto": "Live Sur Stadium",
+   "entradas": "",
+   "ficha": "https://www.vetustamorla.com/gira/sevilla-live-sur-stadium/",
+   "estado": "agotado"
+  },
+  {
+   "fecha": "2026-11-19",
+   "hora": "20:30",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "https://entradas.baila.fm/baila/select/2757609",
+   "ficha": "https://www.vetustamorla.com/gira/madrid-movistar-arena-3/"
+  },
+  {
+   "fecha": "2026-11-20",
+   "hora": "20:30",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "",
+   "ficha": "https://www.vetustamorla.com/gira/madrid-movistar-arena-2/",
+   "estado": "agotado"
+  },
+  {
+   "fecha": "2026-11-21",
+   "hora": "20:30",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "",
+   "ficha": "https://www.vetustamorla.com/gira/madrid-movistar-arena/",
+   "estado": "agotado"
+  }
+ ],
+ "tipo": "MusicGroup",
+ "vigilar": {
+  "url": "https://www.vetustamorla.com/gira/",
+  "patron": "vetustamorla\\.com/gira/([a-z0-9-]+)/",
+  "huella": [
+   "a-coruna-coliseum",
+   "a-coruna-coliseum-2",
+   "madrid-movistar-arena",
+   "madrid-movistar-arena-2",
+   "madrid-movistar-arena-3",
+   "malaga-auditorio-cortijo-torres",
+   "pamplona-navarra-arena",
+   "sevilla-live-sur-stadium",
+   "valencia"
+  ]
+ }
+}

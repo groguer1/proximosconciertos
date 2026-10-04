@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Directo · Agenda de conciertos en España</title>
+<meta name="description" content="Próximos conciertos en el Movistar Arena de Madrid y el Roig Arena de Valencia, con fecha, hora y enlace a la venta oficial de entradas.">
+<link rel="canonical" href="https://proximosconciertos.es/">
+<meta property="og:title" content="Directo · Agenda de conciertos en España">
+<meta property="og:description" content="Próximos conciertos en el Movistar Arena y el Roig Arena, con enlace a la venta oficial de entradas.">
+<meta property="og:url" content="https://proximosconciertos.es/">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=Archivo+Narrow:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f4ef; --surface:#fff; --ink:#15131a; --muted:#6b6672; --line:#e3dfd6;
+  --accent:#e4352b; --accent-ink:#fff; --chip:#ece8df; --soldout:#8a8590;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 8px 24px rgba(0,0,0,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#111014; --surface:#1b1a20; --ink:#f2f0f5; --muted:#a19ca8; --line:#2c2a33;
+    --accent:#ff4d42; --chip:#26242c; --soldout:#77727e; --shadow:0 8px 24px rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#111014; --surface:#1b1a20; --ink:#f2f0f5; --muted:#a19ca8; --line:#2c2a33;
+  --accent:#ff4d42; --chip:#26242c; --soldout:#77727e; --shadow:0 8px 24px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Archivo,system-ui,sans-serif}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+
+header.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:12px;height:60px}
+.logo{font:800 22px/1 "Archivo",sans-serif;letter-spacing:-.02em;text-decoration:none;display:flex;align-items:center;gap:8px}
+.logo i{width:12px;height:12px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 25%,transparent);animation:pulse 2s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 8px color-mix(in srgb,var(--accent) 0%,transparent)}}
+.top nav{margin-left:auto;font-size:14px;color:var(--muted)}
+
+.hero{padding:48px 0 24px}
+.hero h1{font:800 clamp(34px,6vw,64px)/1 "Archivo",sans-serif;letter-spacing:-.035em;margin:0 0 12px;max-width:16ch}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{color:var(--muted);margin:0;max-width:60ch}
+.stats{display:flex;gap:24px;margin-top:20px;flex-wrap:wrap}
+.stats b{display:block;font:800 28px/1 Archivo,sans-serif}
+.stats span{font-size:13px;color:var(--muted)}
+
+.filters{position:sticky;top:60px;z-index:10;background:var(--bg);padding:12px 0;border-bottom:1px solid var(--line);
+  display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;padding:8px 14px;font:600 14px Archivo,sans-serif;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.filters input[type=search],.filters select{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 14px;font:14px Archivo,sans-serif;min-width:0}
+.filters input[type=search]{flex:1 1 200px}
+.filters label{font-size:14px;color:var(--muted);display:flex;gap:6px;align-items:center;cursor:pointer}
+
+.month{margin:36px 0 12px;display:flex;align-items:baseline;gap:12px}
+.month h2{font:800 26px/1 Archivo,sans-serif;letter-spacing:-.02em;margin:0;text-transform:capitalize}
+.month span{color:var(--muted);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;cursor:pointer;
+  display:flex;flex-direction:column;box-shadow:var(--shadow);transition:transform .15s;text-align:left;padding:0;font:inherit;color:inherit}
+.card:hover{transform:translateY(-3px)}
+.card:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.art{position:relative;aspect-ratio:16/10;display:flex;align-items:flex-end;padding:14px;color:#fff;overflow:hidden}
+.art::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 10%,rgba(255,255,255,.25),transparent 45%),
+  repeating-linear-gradient(115deg,rgba(255,255,255,.06) 0 2px,transparent 2px 14px)}
+.art .name{position:relative;z-index:1;font:700 clamp(22px,2.6vw,30px)/.95 "Archivo Narrow",sans-serif;text-transform:uppercase;letter-spacing:-.01em;
+  text-shadow:0 2px 12px rgba(0,0,0,.25);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.date{position:absolute;z-index:1;top:12px;left:12px;background:#fff;color:#15131a;border-radius:10px;padding:6px 10px;text-align:center;line-height:1}
+.date b{display:block;font:800 22px Archivo,sans-serif}
+.date small{font:600 11px Archivo,sans-serif;text-transform:uppercase}
+.badge{position:absolute;z-index:1;top:12px;right:12px;background:var(--ink);color:var(--bg);font:600 11px Archivo,sans-serif;
+  text-transform:uppercase;padding:5px 8px;border-radius:6px;letter-spacing:.04em}
+.meta{padding:12px 14px 14px;display:flex;flex-direction:column;gap:2px}
+.meta .tour{font-size:14px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-height:1.5em}
+.meta .where{font-size:14px;font-weight:600}
+.card.soldout .art{filter:grayscale(.85)}
+
+.giras{margin:8px 0 0}
+.giras h2{font:800 20px/1.2 Archivo,sans-serif;margin:0 0 10px}
+.giras ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.giras a{display:inline-block;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 14px;font:600 14px Archivo,sans-serif;text-decoration:none}
+.giras a:hover{border-color:var(--accent)}
+.empty{padding:60px 0;text-align:center;color:var(--muted)}
+
+/* ficha del concierto */
+dialog{border:0;padding:0;border-radius:18px;width:min(640px,calc(100vw - 24px));background:var(--surface);color:var(--ink);box-shadow:0 30px 80px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(10,8,14,.55);backdrop-filter:blur(3px)}
+.d-art{aspect-ratio:21/9;padding:20px}
+.d-art .name{font-size:clamp(28px,6vw,46px)}
+.d-body{padding:20px 22px 24px}
+.d-body h3{margin:0 0 4px;font:800 24px/1.15 Archivo,sans-serif;letter-spacing:-.02em}
+.d-body .tour{color:var(--muted);margin:0 0 16px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:0 0 18px}
+.fact{background:var(--chip);border-radius:10px;padding:10px 12px}
+.fact small{display:block;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.fact b{font-size:15px}
+.actions{display:flex;flex-wrap:wrap;gap:8px}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:12px 18px;font:600 15px Archivo,sans-serif;
+  text-decoration:none;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.primary[aria-disabled="true"]{background:var(--soldout);border-color:var(--soldout)}
+.note{font-size:13px;color:var(--muted);margin:16px 0 0}
+.close{position:absolute;top:12px;right:12px;z-index:2;width:38px;height:38px;border-radius:50%;border:0;background:rgba(0,0,0,.45);color:#fff;font-size:20px;cursor:pointer}
+
+footer{margin-top:64px;border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:14px}
+footer p{margin:0 0 8px;max-width:75ch}
+@media (max-width:560px){.hero{padding:32px 0 16px}.stats{gap:16px}.filters select{flex:1 1 40%}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="logo" href="#"><i aria-hidden="true"></i>Directo</a>
+  <nav id="actualizado"></nav>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>Los conciertos que vienen, <em>en directo</em>.</h1>
+    <p>La agenda de los grandes recintos de España sacada de sus webs oficiales, con fecha, hora y el enlace a la venta oficial de entradas. Aquí no se venden entradas: te llevamos a quien las vende.</p>
+    <div class="stats" id="stats"></div>
+  </section>
+
+  <!--ARTISTAS--><section class="giras"><h2>Giras completas por España</h2><ul><li><a href="artistas/bryan-adams.html">Conciertos de Bryan Adams</a></li><li><a href="artistas/david-bisbal.html">Conciertos de David Bisbal</a></li><li><a href="artistas/hombres-g.html">Conciertos de Hombres G</a></li><li><a href="artistas/melendi.html">Conciertos de Melendi</a></li><li><a href="artistas/muse.html">Conciertos de Muse</a></li><li><a href="artistas/thirty-seconds-to-mars.html">Conciertos de Thirty Seconds to Mars</a></li><li><a href="artistas/vetusta-morla.html">Conciertos de Vetusta Morla</a></li></ul></section><!--/ARTISTAS-->
+  <!--RECINTOS--><section class="giras"><h2>Guías de recinto</h2><ul><li><a href="recintos/movistar-arena.html">Movistar Arena: cómo llegar y normas</a></li><li><a href="recintos/roig-arena.html">Roig Arena: cómo llegar y normas</a></li></ul></section><!--/RECINTOS-->
+
+  <div class="filters" role="search">
+    <button class="chip" data-ciudad="" aria-pressed="true">Todas</button>
+    <button class="chip" data-ciudad="Madrid" aria-pressed="false">Madrid</button>
+    <button class="chip" data-ciudad="Valencia" aria-pressed="false">Valencia</button>
+    <select id="mes" aria-label="Mes"><option value="">Todos los meses</option></select>
+    <input type="search" id="q" placeholder="Busca un artista o una gira" aria-label="Buscar">
+    <label><input type="checkbox" id="ocultar"> Ocultar agotados</label>
+  </div>
+
+  <div id="lista"></div>
+</main>
+
+<dialog id="ficha" aria-labelledby="f-titulo"></dialog>
+
+<footer><div class="wrap">
+  <p><b>Fuentes:</b> la programación oficial del <a href="https://www.movistararena.es/programacion" rel="noopener">Movistar Arena</a> (Madrid) y del <a href="https://www.roigarena.com/es/eventos/" rel="noopener">Roig Arena</a> (Valencia). Fechas, horarios y disponibilidad pueden cambiar: confírmalos siempre en la web del vendedor antes de comprar.</p>
+  <p>Directo no vende entradas ni cobra comisiones. Los botones de entradas llevan a la web del recinto o del vendedor que el propio recinto indica.</p>
+</div></footer>
+
+<script src="datos.js"></script>
+<script src="artistas/indice.js"></script>
+<script>
+(() => {
+  const A = window.AGENDA || {eventos: []};
+  const MESES = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+  const MES3 = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+  const DIAS = ["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
+  const DIRECCION = {"Movistar Arena":"Movistar Arena, Av. Felipe II, Madrid", "Roig Arena":"Roig Arena, Valencia"};
+
+  // El Movistar Arena escribe «Artista - Gira» y el Roig Arena «Gira - Artista».
+  function partir(e) {
+    const t = e.titulo.replace(/\s+/g, " ").trim();
+    const sep = t.split(/\s*[-–]\s+/);
+    if (sep.length < 2) return {artista: t, gira: ""};
+    if (e.recinto === "Roig Arena") {
+      const artista = sep.pop().trim();
+      return {artista, gira: sep.join(" - ").trim()};
+    }
+    return {artista: sep[0].trim(), gira: sep.slice(1).join(" - ").trim()};
+  }
+  function hash(s){let h=0;for(const c of s)h=(h*31+c.charCodeAt(0))|0;return Math.abs(h)}
+  function arte(nombre){
+    const h = hash(nombre.toLowerCase());
+    const a = h % 360, b = (a + 40 + (h >> 8) % 80) % 360;
+    return `linear-gradient(${(h>>4)%180}deg,hsl(${a} 70% 42%),hsl(${b} 75% 30%))`;
+  }
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const slug = s => s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+
+  const eventos = A.eventos.map(e => {
+    const {artista, gira} = partir(e);
+    const [y, m, d] = e.fecha.slice(0, 10).split("-").map(Number);
+    const hora = e.fecha.length > 10 ? e.fecha.slice(11, 16) : "";
+    const fecha = new Date(y, m - 1, d);
+    return {...e, artista, gira, y, m, d, hora, fecha,
+      id: slug(artista) + "-" + e.ciudad.toLowerCase() + "-" + e.fecha.slice(0, 10),
+      buscar: (artista + " " + gira + " " + e.ciudad).normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase()};
+  });
+
+  // cabecera y filtros
+  document.getElementById("actualizado").textContent = A.actualizado ? "Actualizado el " + A.actualizado.split("-").reverse().join("/") : "";
+  const artistas = new Set(eventos.map(e => e.artista.toLowerCase())).size;
+  document.getElementById("stats").innerHTML =
+    `<div><b>${eventos.length}</b><span>conciertos</span></div>
+     <div><b>${artistas}</b><span>artistas</span></div>
+     <div><b>${new Set(eventos.map(e=>e.recinto)).size}</b><span>recintos</span></div>`;
+  const selMes = document.getElementById("mes");
+  [...new Set(eventos.map(e => `${e.y}-${String(e.m).padStart(2,"0")}`))].forEach(k => {
+    const [y, m] = k.split("-").map(Number);
+    selMes.insertAdjacentHTML("beforeend", `<option value="${k}">${MESES[m-1]} ${y}</option>`);
+  });
+
+  const estado = {ciudad: "", mes: "", q: "", ocultar: false};
+  document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+    document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", x === b));
+    estado.ciudad = b.dataset.ciudad; pintar();
+  }));
+  selMes.addEventListener("change", () => { estado.mes = selMes.value; pintar(); });
+  document.getElementById("q").addEventListener("input", ev => {
+    estado.q = ev.target.value.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().trim(); pintar();
+  });
+  document.getElementById("ocultar").addEventListener("change", ev => { estado.ocultar = ev.target.checked; pintar(); });
+
+  function tarjeta(e) {
+    return `<button class="card${e.agotado ? " soldout" : ""}" data-id="${e.id}" aria-label="${esc(e.artista)}, ${e.d} de ${MESES[e.m-1]}, ${esc(e.recinto)}">
+      <div class="art" style="background:${arte(e.artista)}">
+        <div class="date"><b>${e.d}</b><small>${MES3[e.m-1]}</small></div>
+        ${e.agotado ? '<span class="badge">Agotado</span>' : ""}
+        <div class="name">${esc(e.artista)}</div>
+      </div>
+      <div class="meta">
+        <div class="tour">${esc(e.gira) || "&nbsp;"}</div>
+        <div class="where">${esc(e.recinto)} · ${esc(e.ciudad)}${e.hora ? " · " + e.hora : ""}</div>
+      </div>
+    </button>`;
+  }
+
+  function pintar() {
+    const vis = eventos.filter(e =>
+      (!estado.ciudad || e.ciudad === estado.ciudad) &&
+      (!estado.mes || e.fecha.getFullYear() + "-" + String(e.m).padStart(2,"0") === estado.mes) &&
+      (!estado.q || e.buscar.includes(estado.q)) &&
+      (!estado.ocultar || !e.agotado));
+    const lista = document.getElementById("lista");
+    if (!vis.length) { lista.innerHTML = '<p class="empty">No hay conciertos con esos filtros.</p>'; return; }
+    const porMes = {};
+    vis.forEach(e => (porMes[`${e.y}-${String(e.m).padStart(2,"0")}`] ||= []).push(e));
+    lista.innerHTML = Object.entries(porMes).map(([k, es]) => {
+      const [y, m] = k.split("-").map(Number);
+      return `<section><div class="month"><h2>${MESES[m-1]} ${y}</h2><span>${es.length} concierto${es.length>1?"s":""}</span></div>
+        <div class="grid">${es.map(tarjeta).join("")}</div></section>`;
+    }).join("");
+  }
+
+  // ficha
+  const dlg = document.getElementById("ficha");
+  function ics(e) {
+    const f = e.fecha.toISOString ? `${e.y}${String(e.m).padStart(2,"0")}${String(e.d).padStart(2,"0")}` : "";
+    const ini = e.hora ? `DTSTART;TZID=Europe/Madrid:${f}T${e.hora.replace(":","")}00` : `DTSTART;VALUE=DATE:${f}`;
+    const txt = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Directo//ES","BEGIN:VEVENT",
+      `UID:${e.id}@directo`, ini, `SUMMARY:${e.artista} en ${e.recinto}`,
+      `LOCATION:${DIRECCION[e.recinto] || e.recinto}`, `URL:${e.entradas || e.info || ""}`,
+      "END:VEVENT","END:VCALENDAR"].join("\r\n");
+    return "data:text/calendar;charset=utf-8," + encodeURIComponent(txt);
+  }
+  function abrir(id, empujar = true) {
+    const e = eventos.find(x => x.id === id);
+    if (!e) return;
+    const destino = e.entradas || e.info;
+    const fechaLarga = `${DIAS[e.fecha.getDay()]} ${e.d} de ${MESES[e.m-1]} de ${e.y}`;
+    dlg.innerHTML = `
+      <button class="close" aria-label="Cerrar">×</button>
+      <div class="art d-art" style="background:${arte(e.artista)}"><div class="name">${esc(e.artista)}</div></div>
+      <div class="d-body">
+        <h3 id="f-titulo">${esc(e.artista)} en ${esc(e.recinto)}</h3>
+        <p class="tour">${esc(e.gira) || "Concierto"}</p>
+        <div class="facts">
+          <div class="fact"><small>Fecha</small><b>${fechaLarga}</b></div>
+          <div class="fact"><small>Hora</small><b>${e.hora || "Por confirmar"}</b></div>
+          <div class="fact"><small>Lugar</small><b>${esc(e.recinto)}, ${esc(e.ciudad)}</b></div>
+          <div class="fact"><small>Entradas</small><b>${e.agotado ? "Agotadas según el recinto" : "A la venta en la web oficial"}</b></div>
+        </div>
+        <div class="actions">
+          ${destino ? `<a class="btn primary" href="${esc(destino)}" target="_blank" rel="noopener nofollow" ${e.agotado ? 'aria-disabled="true"' : ""}>${e.agotado ? "Ver en la web oficial" : "Entradas oficiales"} ↗</a>` : ""}
+          ${e.info && e.info !== destino ? `<a class="btn" href="${esc(e.info)}" target="_blank" rel="noopener">Ficha del recinto ↗</a>` : ""}
+          ${(window.ARTISTAS||{})[e.artista.toLowerCase()] ? `<a class="btn" href="${window.ARTISTAS[e.artista.toLowerCase()]}">Todas las fechas de ${esc(e.artista)}</a>` : ""}
+          <a class="btn" href="${ics(e)}" download="${e.id}.ics">Añadir al calendario</a>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(DIRECCION[e.recinto] || e.recinto)}" target="_blank" rel="noopener">Cómo llegar ↗</a>
+        </div>
+        <p class="note">Directo no vende entradas. El botón te lleva a la web que el propio ${esc(e.recinto)} enlaza para este concierto. Comprueba allí la fecha, el precio y las zonas antes de comprar.</p>
+      </div>`;
+    dlg.querySelector(".close").onclick = () => dlg.close();
+    if (!dlg.open) dlg.showModal();
+    if (empujar) history.pushState(null, "", "#" + id);
+  }
+  dlg.addEventListener("close", () => { if (location.hash) history.pushState(null, "", location.pathname + location.search); });
+  dlg.addEventListener("click", ev => { if (ev.target === dlg) dlg.close(); });
+  document.getElementById("lista").addEventListener("click", ev => {
+    const c = ev.target.closest(".card"); if (c) abrir(c.dataset.id);
+  });
+  window.addEventListener("popstate", () => {
+    const id = location.hash.slice(1);
+    if (id) abrir(id, false); else if (dlg.open) dlg.close();
+  });
+
+  // datos estructurados para Google (Event)
+  const ld = document.createElement("script");
+  ld.type = "application/ld+json";
+  ld.textContent = JSON.stringify({"@context":"https://schema.org","@graph": eventos.slice(0, 100).map(e => ({
+    "@type":"MusicEvent", name:`${e.artista} en ${e.recinto}`,
+    startDate: e.hora ? `${e.fecha.getFullYear()}-${String(e.m).padStart(2,"0")}-${String(e.d).padStart(2,"0")}T${e.hora}:00` : `${e.y}-${String(e.m).padStart(2,"0")}-${String(e.d).padStart(2,"0")}`,
+    eventStatus:"https://schema.org/EventScheduled", eventAttendanceMode:"https://schema.org/OfflineEventAttendanceMode",
+    location:{"@type":"Place", name:e.recinto, address:{"@type":"PostalAddress", addressLocality:e.ciudad, addressCountry:"ES"}},
+    performer:{"@type":"PerformingGroup", name:e.artista},
+    ...(e.entradas ? {offers:{"@type":"Offer", url:e.entradas, availability: e.agotado ? "https://schema.org/SoldOut" : "https://schema.org/InStock"}} : {})
+  }))});
+  document.head.appendChild(ld);
+
+  pintar();
+  if (location.hash.length > 1) abrir(location.hash.slice(1), false);
+})();
+</script>
+</body>
+</html>

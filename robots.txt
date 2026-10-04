@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /datos/
+
+Sitemap: https://proximosconciertos.es/sitemap.xml

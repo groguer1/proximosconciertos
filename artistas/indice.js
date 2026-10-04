@@ -1,0 +1,1 @@
+window.ARTISTAS = {"bryan adams": "artistas/bryan-adams.html", "david bisbal": "artistas/david-bisbal.html", "hombres g": "artistas/hombres-g.html", "melendi": "artistas/melendi.html", "muse": "artistas/muse.html", "thirty seconds to mars": "artistas/thirty-seconds-to-mars.html", "vetusta morla": "artistas/vetusta-morla.html"};

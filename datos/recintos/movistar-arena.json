@@ -1,0 +1,87 @@
+{
+ "slug": "movistar-arena",
+ "nombre": "Movistar Arena",
+ "ciudad": "Madrid",
+ "revisado": "2026-10-04",
+ "fuentes": [
+  [
+   "Planifica tu visita",
+   "https://www.movistararena.es/planifica-tu-visita"
+  ],
+  [
+   "Centro de ayuda",
+   "https://www.movistararena.es/ayuda"
+  ],
+  [
+   "El recinto",
+   "https://www.movistararena.es/recinto"
+  ]
+ ],
+ "intro": "El Movistar Arena es el antiguo Palacio de Deportes de la Comunidad de Madrid, en el barrio de Salamanca, junto a la plaza de Felipe II y la calle Goya. Es una parada fija de las grandes giras nacionales e internacionales que pasan por Madrid.",
+ "datos": [
+  [
+   "Dirección",
+   "Avenida de Felipe II, s/n, 28009 Madrid"
+  ],
+  [
+   "Aforo en conciertos",
+   "Más de 18.000 personas (configuraciones reducidas desde 5.630)"
+  ],
+  [
+   "Teléfono",
+   "91 444 99 49"
+  ],
+  [
+   "Atención telefónica",
+   "L-J 9-14 y 15-18 h; V 9-15 h (jun-ago, 9-15 h)"
+  ]
+ ],
+ "secciones": [
+  [
+   "Cómo llegar",
+   "<ul><li><b>Metro</b>: Goya (líneas 2 y 4) y O'Donnell (línea 6).</li><li><b>Autobús EMT</b>: 2, 15, 21, 28, 29, 30, 43, 53, 56, 63, 71, 143 y Circular. Las paradas más pegadas al recinto son las de las líneas 30 y C1 y la de la C2 (Jorge Juan, esquina Máiquez).</li><li><b>BiciMAD</b>: estaciones en la plaza de Felipe II y en la calle Jorge Juan, a la altura de la Casa de la Moneda.</li><li><b>Taxi o GPS</b>: el recinto recomienda poner como destino <b>calle Jorge Juan, 99</b> o <b>calle Goya, 90</b>.</li></ul><p>En los conciertos grandes el tráfico de la zona se complica: el transporte público suele ser la opción más rápida.</p>"
+  ],
+  [
+   "Dónde aparcar",
+   "<p>Debajo del recinto hay dos aparcamientos públicos, con entrada por <b>Jorge Juan–Lombía</b> y por <b>Goya–Fuente del Berro</b>, y hay más parkings en la zona. El recinto indica que se puede consultar el servicio y reservar plaza con la aplicación okpark. No publica las tarifas, así que conviene mirarlas allí antes de ir.</p>"
+  ],
+  [
+   "Puertas: por dónde se entra",
+   "<p>Tu entrada indica la puerta, según dónde esté tu localidad. El día del concierto el recinto publica además un plano de accesos en sus redes sociales.</p><ul><li><b>Calle Goya</b>: puertas 14 a 33 (acceso para personas con movilidad reducida por las puertas 14 y 15).</li><li><b>Calle Felipe II</b>: puertas 70 a 76 y 01 a 09.</li><li><b>Calle Jorge Juan</b>: puertas 54 a 65.</li><li><b>Calle Fuente del Berro</b>: puertas 38 a 53.</li></ul>"
+  ],
+  [
+   "A qué hora abren y hasta cuándo se puede entrar",
+   "<p>La apertura de puertas cambia en cada concierto y viene en la ficha del evento. El recinto recomienda llegar a la hora de apertura, no más tarde, porque hay control de seguridad y la cola depende de la gente. Una vez empezado el concierto se puede entrar <b>hasta 15 minutos antes del final</b>. Si sales, no puedes volver a entrar, salvo que el evento diga lo contrario.</p>"
+  ],
+  [
+   "Qué no se puede llevar",
+   "<p>Entre otras cosas: <b>paraguas, cascos, coches de bebé, botes y envases, bolsos o equipaje de más de 25 litros</b>, altavoces y megáfonos, patinetes, banderas y pancartas, cámaras profesionales, mascotas (salvo perros de asistencia), petardos y bengalas, y tapones en envases de más de 50 cl. No se puede fumar ni vapear dentro; en algunos conciertos se habilita una zona de fumadores en el exterior una vez empezado el espectáculo.</p><p><b>Consigna</b>: hay consigna exterior en Felipe II (junto a las taquillas) y a veces en Fuente del Berro, desde media hora antes de abrir puertas. Cuesta <b>2 € por prenda o pieza</b>, en efectivo o con tarjeta.</p>"
+  ],
+  [
+   "Entradas, taquilla y menores",
+   "<ul><li><b>Los niños de cualquier edad necesitan entrada</b>, salvo que el evento diga otra cosa. La edad mínima para ir sin un adulto la pone cada promotor; según el recinto, suele ser 14 o 16 años.</li><li>La <b>taquilla</b> no abre a diario: solo el día del concierto, si el organizador lo decide, normalmente dos horas antes de abrir puertas.</li><li>No se aceptan fotos ni capturas de pantalla de la entrada, y las entradas no se devuelven ni se cambian.</li><li>Si compras fuera de los canales oficiales, la entrada puede no ser válida.</li></ul>"
+  ]
+ ],
+ "faq": [
+  [
+   "¿Cuál es el metro más cercano al Movistar Arena?",
+   "Goya (líneas 2 y 4) y O'Donnell (línea 6)."
+  ],
+  [
+   "¿Hay parking en el Movistar Arena?",
+   "Sí: hay aparcamientos públicos bajo el recinto, con entrada por Jorge Juan–Lombía y por Goya–Fuente del Berro, y otros en la zona."
+  ],
+  [
+   "¿Se puede entrar al Movistar Arena con el concierto empezado?",
+   "Sí, hasta 15 minutos antes del final del espectáculo."
+  ],
+  [
+   "¿Cuánto cuesta la consigna del Movistar Arena?",
+   "2 € por prenda o pieza, en efectivo o con tarjeta."
+  ],
+  [
+   "¿Los niños necesitan entrada en el Movistar Arena?",
+   "Sí, los niños de cualquier edad necesitan entrada salvo que el evento indique lo contrario."
+  ]
+ ]
+}

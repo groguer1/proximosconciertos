@@ -1,0 +1,65 @@
+{
+ "artista": "Bryan Adams",
+ "slug": "bryan-adams",
+ "gira": "Roll with the Punches",
+ "revisado": "2026-10-04",
+ "fuente": "https://www.bryanadams.com/tours",
+ "fuente_nombre": "web oficial de Bryan Adams",
+ "nota_2027": "A 4 de octubre de 2026, la web oficial de Bryan Adams no publica ninguna fecha en España en 2027.",
+ "fechas": [
+  {
+   "fecha": "2026-11-06",
+   "hora": "",
+   "ciudad": "Murcia",
+   "recinto": "Palacio de los Deportes de Murcia",
+   "entradas": "https://www.entradas.com/event/bryan-adams-roll-with-the-punches-palacio-de-deportes-de-murcia-21366593/"
+  },
+  {
+   "fecha": "2026-11-07",
+   "hora": "",
+   "ciudad": "Zaragoza",
+   "recinto": "Pabellón Príncipe Felipe",
+   "entradas": "https://www.entradas.com/artist/bryan-adams/"
+  },
+  {
+   "fecha": "2026-11-08",
+   "hora": "20:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "entradas": "https://www.ticketvip.es/evento-entradas-bryan-adams-valencia-2026"
+  },
+  {
+   "fecha": "2026-11-10",
+   "hora": "20:30",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "https://entradas.baila.fm/baila/select/2750402"
+  },
+  {
+   "fecha": "2026-11-13",
+   "hora": "",
+   "ciudad": "Bilbao",
+   "recinto": "Bizkaia Arena BEC!",
+   "entradas": "https://www.entradas.com/artist/bryan-adams/"
+  },
+  {
+   "fecha": "2026-11-14",
+   "hora": "",
+   "ciudad": "Barcelona",
+   "recinto": "Palau Sant Jordi",
+   "entradas": "https://www.entradas.com/artist/bryan-adams/"
+  },
+  {
+   "fecha": "2026-11-16",
+   "hora": "",
+   "ciudad": "A Coruña",
+   "recinto": "Coliseum",
+   "entradas": "https://tickets.baila.fm/bryan-adams-coliseum-a-coruna-2026"
+  }
+ ],
+ "vigilar": {
+  "url": "https://www.bryanadams.com/tours",
+  "patron": "x",
+  "manual": true
+ }
+}

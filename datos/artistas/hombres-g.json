@@ -1,0 +1,84 @@
+{
+ "artista": "Hombres G",
+ "slug": "hombres-g",
+ "gira": "Los mejores años de nuestra vida",
+ "revisado": "2026-10-04",
+ "fuente": "https://www.livenation.es/hombres-g-tickets-adp97297",
+ "fuente_nombre": "página de Hombres G en Live Nation, su promotora",
+ "nota_2027": "A 4 de octubre de 2026, Live Nation no publica ninguna fecha de Hombres G en España en 2027.",
+ "fechas": [
+  {
+   "fecha": "2026-10-04",
+   "hora": "21:00",
+   "ciudad": "Barcelona",
+   "recinto": "Palau Sant Jordi",
+   "entradas": "https://www.livenation.es/event/hombres-g-los-mejores-a%C3%B1os-de-nuestra-vida-barcelona-tickets-edp1637360"
+  },
+  {
+   "fecha": "2026-10-09",
+   "hora": "",
+   "ciudad": "Murcia",
+   "recinto": "Plaza de Toros de Murcia",
+   "entradas": "https://www.vivaticket.es/ticket/murcia-on-presenta-hombres-g-2026/14363#/sell/events/14363/sessions/21359",
+   "gira": "Murcia ON"
+  },
+  {
+   "fecha": "2026-11-14",
+   "hora": "",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "entradas": "https://www.livenation.es/event/hombres-g-los-mejores-a%C3%B1os-de-nuestra-vida-valencia-tickets-edp1637367"
+  },
+  {
+   "fecha": "2026-11-21",
+   "hora": "21:00",
+   "ciudad": "Zaragoza",
+   "recinto": "Pabellón Príncipe Felipe",
+   "entradas": "https://www.livenation.es/event/hombres-g-los-mejores-a%C3%B1os-de-nuestra-vida-zaragoza-tickets-edp1637374"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "21:00",
+   "ciudad": "Pamplona",
+   "recinto": "Navarra Arena",
+   "entradas": "https://www.livenation.es/event/hombres-g-los-mejores-a%C3%B1os-de-nuestra-vida-pamplona-tickets-edp1637381"
+  },
+  {
+   "fecha": "2026-12-05",
+   "hora": "21:00",
+   "ciudad": "A Coruña",
+   "recinto": "Coliseum",
+   "entradas": "https://www.livenation.es/event/hombres-g-los-mejores-a%C3%B1os-de-nuestra-vida-a-coru%C3%B1a-tickets-edp1637388"
+  },
+  {
+   "fecha": "2026-12-11",
+   "hora": "21:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "https://www.livenation.es/event/hombres-g-los-mejores-a%C3%B1os-de-nuestra-vida-madrid-tickets-edp1637402"
+  },
+  {
+   "fecha": "2026-12-12",
+   "hora": "21:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "https://www.livenation.es/event/hombres-g-los-mejores-a%C3%B1os-de-nuestra-vida-madrid-tickets-edp1637395"
+  }
+ ],
+ "tipo": "MusicGroup",
+ "vigilar": {
+  "url": "https://www.livenation.es/hombres-g-tickets-adp97297",
+  "patron": "edp(\\d+)",
+  "huella": [
+   "1637360",
+   "1637367",
+   "1637374",
+   "1637381",
+   "1637388",
+   "1637395",
+   "1637402",
+   "1638291",
+   "1654105"
+  ]
+ }
+}

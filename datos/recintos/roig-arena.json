@@ -1,0 +1,91 @@
+{
+ "slug": "roig-arena",
+ "nombre": "Roig Arena",
+ "ciudad": "Valencia",
+ "revisado": "2026-10-04",
+ "fuentes": [
+  [
+   "Cómo llegar",
+   "https://www.roigarena.com/es/como-llegar/"
+  ],
+  [
+   "Parking",
+   "https://www.roigarena.com/es/parking/"
+  ],
+  [
+   "Preguntas frecuentes",
+   "https://www.roigarena.com/es/preguntas-frecuentes/"
+  ],
+  [
+   "Normas de acceso",
+   "https://www.roigarena.com/es/normas-instalaciones/"
+  ]
+ ],
+ "intro": "El Roig Arena es el gran recinto cubierto de Valencia, en el barrio de Quatre Carreres, con aforo para 20.000 personas en conciertos. Es también la casa del Valencia Basket.",
+ "datos": [
+  [
+   "Dirección",
+   "C/ Bomber Ramón Duart, 12, 46013 Valencia"
+  ],
+  [
+   "Aforo en conciertos",
+   "20.000 personas (15.200 en baloncesto)"
+  ],
+  [
+   "Contacto",
+   "info@roigarena.es"
+  ],
+  [
+   "Atención al cliente",
+   "L-V 10-14 y 16-18 h"
+  ]
+ ],
+ "secciones": [
+  [
+   "Cómo llegar",
+   "<ul><li><b>Metrovalencia</b>: línea 10, parada Quatre Carreres, a unos cinco minutos andando.</li><li><b>Autobús EMT</b>: líneas 7, 13, 14, 35 y 99.</li><li><b>Taxi</b>: los días de evento hay paradas en la avenida Antonio Ferrandis, 22 (junto a la puerta E) y en la calle Bomber Ramón Duart, 17.</li><li><b>Uber</b> tiene un punto de recogida propio en la planta -1 del parking privado.</li></ul>"
+  ],
+  [
+   "Dónde aparcar",
+   "<p>El <b>Mapfre Parking Roig Arena</b> (avenida Hermanos Maristas, 16D) tiene más de 1.200 plazas y está a unos 500 metros del recinto. Tarifas publicadas: <b>0,05 €/minuto</b>, o <b>0,0333 €/minuto</b> pagando con la app del Roig Arena, con un máximo de 30 € al día. No se puede reservar plaza. Abre de 8:00 a 0:00 y, los días de evento, al menos hasta 90 minutos después del final. Altura máxima, 2,20 m. Tiene 32 plazas para personas con movilidad reducida y 28 con cargador eléctrico.</p>"
+  ],
+  [
+   "Hasta cuándo se puede entrar",
+   "<p>Con el concierto empezado se puede entrar <b>hasta 15 minutos antes del final</b>. Si sales, no puedes volver a entrar. Todos los accesos tienen control de seguridad, y el recinto tiene ascensores en sus cuatro núcleos de escaleras.</p>"
+  ],
+  [
+   "Qué no se puede llevar",
+   "<p>Entre otras cosas: <b>maletas y mochilas grandes, paraguas no plegables, cascos de moto o de patín, carritos de bebé</b>, objetos de más de 500 gramos o 500 ml que puedan lanzarse, pelotas, pancartas o banderas de más de un A3 o con palo, cámaras y equipos profesionales, ordenadores y tabletas sin autorización, y productos CBD. Se puede entrar con <b>agua en botellín de hasta 50 cl y sin tapón</b>. No se puede fumar ni vapear, tampoco en los exteriores del recinto.</p><p><b>Consigna</b>: hay consigna exterior de pago para dejar lo que no puede entrar. El recinto no publica el precio.</p>"
+  ],
+  [
+   "Entradas y menores",
+   "<ul><li><b>Todas las personas necesitan entrada, también los bebés</b> (desde 0 años).</li><li>La edad mínima depende de cada evento: hay que mirar las condiciones del organizador al comprar.</li><li>Máximo de <b>6 entradas por compra</b>. Cada entrada para personas con movilidad reducida permite un acompañante, y en el acceso se pide el certificado de discapacidad.</li><li>Se puede pagar con el <b>Bono Cultural Joven</b>, salvo en eventos deportivos y hasta 200 € por compra.</li><li>Sin cambios ni devoluciones, y se puede negar el acceso con entradas de canales no oficiales.</li></ul>"
+  ],
+  [
+   "Comer y beber",
+   "<p>Los días de concierto hay barras repartidas por todo el recinto, hasta 40 puntos de venta. Solo los mayores de 18 años pueden consumir alcohol, y en los eventos deportivos está prohibido. Si llevas el vaso del Roig Arena en buen estado, se aplica una tarifa reducida en bebidas. Todos los baños adaptados tienen cambiador, y hay sala de lactancia en el anillo 1.</p>"
+  ]
+ ],
+ "faq": [
+  [
+   "¿Cómo llegar al Roig Arena en metro?",
+   "Con la línea 10 de Metrovalencia, parada Quatre Carreres, a unos cinco minutos andando."
+  ],
+  [
+   "¿Cuánto cuesta el parking del Roig Arena?",
+   "0,05 € por minuto, o 0,0333 € pagando con la app del Roig Arena, con un máximo de 30 € al día."
+  ],
+  [
+   "¿Se puede entrar con agua al Roig Arena?",
+   "Sí, en botellín de plástico de hasta 50 cl y sin tapón."
+  ],
+  [
+   "¿Los bebés necesitan entrada en el Roig Arena?",
+   "Sí, las normas del recinto piden entrada desde los 0 años."
+  ],
+  [
+   "¿Cuál es el aforo del Roig Arena?",
+   "20.000 personas en conciertos y 15.200 en baloncesto."
+  ]
+ ]
+}

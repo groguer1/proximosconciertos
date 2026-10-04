@@ -1,0 +1,40 @@
+{
+ "artista": "Muse",
+ "slug": "muse",
+ "tipo": "MusicGroup",
+ "gira": "The Wow! Signal Europa Tour",
+ "revisado": "2026-10-04",
+ "fuente": "https://www.muse.mu/tour",
+ "fuente_nombre": "web oficial de Muse",
+ "fechas": [
+  {
+   "fecha": "2027-01-19",
+   "hora": "",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "",
+   "ficha": "https://www.movistararena.es/programacion/evento/muse-the-wow-signal-europa-tour"
+  },
+  {
+   "fecha": "2027-01-20",
+   "hora": "",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "",
+   "ficha": "https://www.movistararena.es/programacion/evento/muse-the-wow-signal-europa-tour"
+  },
+  {
+   "fecha": "2027-01-23",
+   "hora": "",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "entradas": "",
+   "ficha": "https://www.roigarena.com/es/event/muse-20270123/"
+  }
+ ],
+ "vigilar": {
+  "url": "https://www.muse.mu/tour",
+  "patron": "x",
+  "manual": true
+ }
+}

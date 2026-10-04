@@ -1,0 +1,170 @@
+{
+ "artista": "Melendi",
+ "slug": "melendi",
+ "gira": "Pop Rock Tour",
+ "revisado": "2026-10-04",
+ "fuente": "https://www.melendioficial.com/conciertos/",
+ "fuente_nombre": "web oficial de Melendi",
+ "nota_2027": "A 4 de octubre de 2026, la web oficial de Melendi no publica ninguna fecha en 2027.",
+ "fechas": [
+  {
+   "fecha": "2026-10-10",
+   "hora": "21:00",
+   "ciudad": "Murcia",
+   "recinto": "Plaza de Toros de Murcia",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2680346?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/murcia/"
+  },
+  {
+   "fecha": "2026-10-11",
+   "hora": "21:00",
+   "ciudad": "Murcia",
+   "recinto": "Plaza de Toros de Murcia",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2682211?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/murcia-2/"
+  },
+  {
+   "fecha": "2026-10-16",
+   "hora": "21:00",
+   "ciudad": "Pamplona",
+   "recinto": "Navarra Arena",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2680403?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/pamplona/"
+  },
+  {
+   "fecha": "2026-10-17",
+   "hora": "21:00",
+   "ciudad": "Bilbao",
+   "recinto": "Bizkaia Arena BEC!",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2679716?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/bilbao/"
+  },
+  {
+   "fecha": "2026-10-18",
+   "hora": "21:00",
+   "ciudad": "Bilbao",
+   "recinto": "Bizkaia Arena BEC!",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2708205?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/bilbao-2/"
+  },
+  {
+   "fecha": "2026-11-01",
+   "hora": "21:00",
+   "ciudad": "Barcelona",
+   "recinto": "Palau Sant Jordi",
+   "entradas": "https://tickets.oneboxtds.com/theproject/events/51041?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/barcelona/"
+  },
+  {
+   "fecha": "2026-11-02",
+   "hora": "21:00",
+   "ciudad": "Barcelona",
+   "recinto": "Palau Sant Jordi",
+   "entradas": "https://tickets.oneboxtds.com/theproject/select/2707466?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/barcelona-2/"
+  },
+  {
+   "fecha": "2026-11-12",
+   "hora": "21:00",
+   "ciudad": "A Coruña",
+   "recinto": "Coliseum",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2957253?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/a-coruna-3/"
+  },
+  {
+   "fecha": "2026-11-13",
+   "hora": "21:00",
+   "ciudad": "A Coruña",
+   "recinto": "Coliseum",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2680526?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/a-coruna-2/"
+  },
+  {
+   "fecha": "2026-11-14",
+   "hora": "21:00",
+   "ciudad": "A Coruña",
+   "recinto": "Coliseum",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/events/51035?sessionView=LIST",
+   "ficha": "https://www.melendioficial.com/event/a-coruna/"
+  },
+  {
+   "fecha": "2026-11-20",
+   "hora": "21:00",
+   "ciudad": "Málaga",
+   "recinto": "Palacio de Deportes José María Martín Carpena",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2681926?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/malaga-2/"
+  },
+  {
+   "fecha": "2026-11-21",
+   "hora": "21:00",
+   "ciudad": "Málaga",
+   "recinto": "Palacio de Deportes José María Martín Carpena",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2680307?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/malaga/"
+  },
+  {
+   "fecha": "2026-12-12",
+   "hora": "20:30",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2680341?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/valencia/"
+  },
+  {
+   "fecha": "2026-12-13",
+   "hora": "20:30",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2708206?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/valencia-2/"
+  },
+  {
+   "fecha": "2026-12-21",
+   "hora": "20:30",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2680520?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/madrid-4/"
+  },
+  {
+   "fecha": "2026-12-22",
+   "hora": "20:30",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2679715?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/madrid-2/"
+  },
+  {
+   "fecha": "2026-12-23",
+   "hora": "20:30",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2680519?hl=es-ES",
+   "ficha": "https://www.melendioficial.com/event/madrid-3/"
+  }
+ ],
+ "vigilar": {
+  "url": "https://www.melendioficial.com/conciertos/",
+  "patron": "melendioficial\\.com/event/([a-z0-9-]+)/",
+  "huella": [
+   "a-coruna",
+   "a-coruna-2",
+   "a-coruna-3",
+   "barcelona",
+   "barcelona-2",
+   "bilbao",
+   "bilbao-2",
+   "madrid-2",
+   "madrid-3",
+   "madrid-4",
+   "malaga",
+   "malaga-2",
+   "murcia",
+   "murcia-2",
+   "pamplona",
+   "valencia",
+   "valencia-2"
+  ]
+ }
+}

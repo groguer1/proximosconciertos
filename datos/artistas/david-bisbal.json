@@ -1,0 +1,135 @@
+{
+ "artista": "David Bisbal",
+ "slug": "david-bisbal",
+ "gira": "Tour Eternos España 2027",
+ "revisado": "2026-10-04",
+ "fuente": "https://tienda.davidbisbal.com/pages/tour-eternos-espana-2027",
+ "fuente_nombre": "web oficial de David Bisbal",
+ "fechas": [
+  {
+   "fecha": "2027-05-22",
+   "hora": "21:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "entradas": "https://davidbisbal.lnk.to/22_05_27_ValenciaWE"
+  },
+  {
+   "fecha": "2027-05-29",
+   "hora": "",
+   "ciudad": "Bilbao",
+   "recinto": "Bilbao Arena Miribilla",
+   "entradas": "https://davidbisbal.lnk.to/29_05_27_BilbaoWE"
+  },
+  {
+   "fecha": "2027-06-04",
+   "hora": "",
+   "ciudad": "A Coruña",
+   "recinto": "Coliseum",
+   "entradas": "https://davidbisbal.lnk.to/04_06_27_CorunaWE"
+  },
+  {
+   "fecha": "2027-06-11",
+   "hora": "",
+   "ciudad": "Barcelona",
+   "recinto": "Palau Sant Jordi",
+   "entradas": "https://davidbisbal.lnk.to/11_06_27_BCNWE"
+  },
+  {
+   "fecha": "2027-06-12",
+   "hora": "",
+   "ciudad": "Zaragoza",
+   "recinto": "Pabellón Príncipe Felipe",
+   "entradas": "https://davidbisbal.lnk.to/12_06_27_zgzWE"
+  },
+  {
+   "fecha": "2027-06-19",
+   "hora": "",
+   "ciudad": "Murcia",
+   "recinto": "Plaza de Toros de Murcia",
+   "entradas": "https://davidbisbal.lnk.to/19_06_27_MurciaWE"
+  },
+  {
+   "fecha": "2027-06-22",
+   "hora": "22:00",
+   "ciudad": "Albacete",
+   "recinto": "Plaza de Toros de Albacete",
+   "entradas": "https://davidbisbal.lnk.to/22_06_27_albaceteWE"
+  },
+  {
+   "fecha": "2027-06-25",
+   "hora": "",
+   "ciudad": "Granada",
+   "recinto": "Plaza de Toros de Granada",
+   "entradas": "https://davidbisbal.lnk.to/25_06_27_grxWE"
+  },
+  {
+   "fecha": "2027-06-26",
+   "hora": "",
+   "ciudad": "Almería",
+   "recinto": "Plaza de Toros de Almería",
+   "entradas": "https://davidbisbal.lnk.to/26_06_26_almeriaWE"
+  },
+  {
+   "fecha": "2027-07-01",
+   "hora": "21:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "https://davidbisbal.lnk.to/01_07_27_MadridWE"
+  },
+  {
+   "fecha": "2027-07-10",
+   "hora": "",
+   "ciudad": "Alicante",
+   "recinto": "Plaza de Toros de Alicante",
+   "entradas": "https://davidbisbal.lnk.to/10_07_27_alicanteWE"
+  },
+  {
+   "fecha": "2027-07-17",
+   "hora": "",
+   "ciudad": "Villanueva de la Serena",
+   "recinto": "Anexo Estadio Villanovense",
+   "entradas": "https://davidbisbal.lnk.to/17_07_27_VDLSWE"
+  },
+  {
+   "fecha": "2027-07-22",
+   "hora": "",
+   "ciudad": "Fuengirola",
+   "recinto": "Marenostrum Fuengirola",
+   "entradas": "https://davidbisbal.lnk.to/22_07_2027_fuengirolaWE"
+  },
+  {
+   "fecha": "2027-07-24",
+   "hora": "",
+   "ciudad": "Chiclana de la Frontera",
+   "recinto": "Concert Music Festival",
+   "entradas": "https://www.ticketmaster.es/event/1961719038?subchannel_id=11800&brand=es_concertmusicfest"
+  },
+  {
+   "fecha": "2027-09-09",
+   "hora": "",
+   "ciudad": "Sevilla",
+   "recinto": "Plaza de Toros de la Real Maestranza",
+   "entradas": "https://davidbisbal.lnk.to/09_09_27_SevillaWE"
+  }
+ ],
+ "vigilar": {
+  "url": "https://tienda.davidbisbal.com/pages/tour-eternos-espana-2027",
+  "patron": "lnk\\.to/(\\d\\d_\\d\\d_[0-9A-Za-z_]+)",
+  "huella": [
+   "01_07_27_MadridWE",
+   "04_06_27_CorunaWE",
+   "09_09_27_SevillaWE",
+   "10_07_27_alicanteWE",
+   "11_06_27_BCNWE",
+   "12_06_27_zgzWE",
+   "17_07_27_VDLSWE",
+   "19_06_27_MurciaWE",
+   "22_05_27_ValenciaWE",
+   "22_06_27_albaceteWE",
+   "22_07_2027_fuengirolaWE",
+   "25_06_27_grxWE",
+   "26_06_26_almeriaWE",
+   "29_05_27_BilbaoWE"
+  ]
+ }
+}

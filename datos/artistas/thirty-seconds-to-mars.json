@@ -1,0 +1,33 @@
+{
+ "artista": "Thirty Seconds to Mars",
+ "slug": "thirty-seconds-to-mars",
+ "tipo": "MusicGroup",
+ "gira": "A Beautiful Lie vs This Is War",
+ "revisado": "2026-10-04",
+ "fuente": "https://thirtysecondstomars.com/tour",
+ "fuente_nombre": "web oficial de Thirty Seconds to Mars",
+ "fechas": [
+  {
+   "fecha": "2027-04-08",
+   "hora": "20:30",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "entradas": "https://www.ticketmaster.es/event/65562275?subchannel_id=43&brand=base_mb_es"
+  },
+  {
+   "fecha": "2027-04-09",
+   "hora": "20:30",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "entradas": "https://www.roigarena.com/es/event/thirty-seconds-to-mars-20270409/tickets/"
+  }
+ ],
+ "vigilar": {
+  "url": "https://thirtysecondstomars.com/tour",
+  "patron": "tour-date/([a-z0-9-]*spain-\\d{4}-\\d\\d-\\d\\d)",
+  "huella": [
+   "roig-arena-valencia-spain-2027-04-09",
+   "vistalegre-madrid-spain-2027-04-08"
+  ]
+ }
+}
