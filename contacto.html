@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto · Próximos Conciertos</title>
+<meta name="description" content="Cómo contactar con Próximos Conciertos: avisos de fechas que faltan o han cambiado, correcciones y propuestas.">
+<link rel="canonical" href="https://proximosconciertos.es/contacto.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ContactPage","name":"Contacto","url":"https://proximosconciertos.es/contacto.html"}</script>
+<style>
+:root{--bg:#f6f4ef;--surface:#fff;--ink:#15131a;--muted:#6b6672;--line:#e3dfd6;--accent:#e4352b;--chip:#ece8df}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111014;--surface:#1b1a20;--ink:#f2f0f5;--muted:#a19ca8;--line:#2c2a33;--accent:#ff4d42;--chip:#26242c}}
+:root[data-theme="dark"]{--bg:#111014;--surface:#1b1a20;--ink:#f2f0f5;--muted:#a19ca8;--line:#2c2a33;--accent:#ff4d42;--chip:#26242c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Archivo,system-ui,sans-serif}
+a{color:inherit}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px}
+header.top{border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;height:60px}
+.logo{font:800 22px/1 Archivo,sans-serif;letter-spacing:-.02em;text-decoration:none;display:flex;align-items:center;gap:8px}
+.logo i{width:12px;height:12px;border-radius:50%;background:var(--accent)}
+h1{font:800 clamp(30px,5vw,46px)/1.05 Archivo,sans-serif;letter-spacing:-.03em;margin:36px 0 12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px;margin:20px 0}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:12px 18px;font:600 15px Archivo,sans-serif;text-decoration:none;background:var(--accent);color:#fff}
+ul{padding-left:20px} li{margin:6px 0}
+.muted{color:var(--muted);font-size:14px}
+footer{margin-top:56px;border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="logo" href="index.html"><i aria-hidden="true"></i>Próximos Conciertos</a></div></header>
+<main class="wrap">
+  <h1>Contacto</h1>
+  <p>Próximos Conciertos lo hace una sola persona, que revisa a mano las fechas contra la web oficial de cada artista y de cada recinto. Si algo no cuadra, escríbeme.</p>
+  <div class="card">
+    <p><b>Correo</b>: <span id="correo">activa JavaScript para ver la dirección</span></p>
+    <p><a class="btn" id="boton" href="#">Escribir un correo</a></p>
+    <p class="muted">Contesto yo, normalmente en unos días.</p>
+  </div>
+  <h2>Me sirve sobre todo que me escribas si…</h2>
+  <ul>
+    <li>falta una fecha, ha cambiado la hora o un concierto se ha cancelado;</li>
+    <li>un enlace de entradas no lleva a la venta oficial;</li>
+    <li>quieres que añada la gira de un artista (si tiene fuente oficial con todas sus fechas en España);</li>
+    <li>eres artista, promotora o recinto y quieres corregir un dato.</li>
+  </ul>
+  <p class="muted">Esta web no vende entradas: para cualquier problema con una compra, escribe a la ticketera donde compraste.</p>
+</main>
+<footer><div class="wrap">Próximos Conciertos · Agenda de conciertos en España · <a href="index.html">Agenda</a></div></footer>
+<script>
+// la dirección se monta aquí para que no la recojan los robots que rastrean correos
+(function(){var u="",d="",m=u+"@"+d;
+document.getElementById("correo").textContent=m;
+document.getElementById("boton").href="mailto:"+m+"?subject="+encodeURIComponent("Próximos Conciertos");})();
+</script>
+</body>
+</html>

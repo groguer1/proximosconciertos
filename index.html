@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Directo · Agenda de conciertos en España</title>
+<title>Próximos Conciertos · Agenda de conciertos en España</title>
 <meta name="description" content="Próximos conciertos en el Movistar Arena de Madrid y el Roig Arena de Valencia, con fecha, hora y enlace a la venta oficial de entradas.">
 <link rel="canonical" href="https://proximosconciertos.es/">
-<meta property="og:title" content="Directo · Agenda de conciertos en España">
+<meta property="og:title" content="Próximos Conciertos · Agenda de conciertos en España">
 <meta property="og:description" content="Próximos conciertos en el Movistar Arena y el Roig Arena, con enlace a la venta oficial de entradas.">
 <meta property="og:url" content="https://proximosconciertos.es/">
 <meta property="og:type" content="website">
@@ -116,7 +116,7 @@ footer p{margin:0 0 8px;max-width:75ch}
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <a class="logo" href="#"><i aria-hidden="true"></i>Directo</a>
+  <a class="logo" href="#"><i aria-hidden="true"></i>Próximos Conciertos</a>
   <nav id="actualizado"></nav>
 </div></header>
 
@@ -146,7 +146,7 @@ footer p{margin:0 0 8px;max-width:75ch}
 
 <footer><div class="wrap">
   <p><b>Fuentes:</b> la programación oficial del <a href="https://www.movistararena.es/programacion" rel="noopener">Movistar Arena</a> (Madrid) y del <a href="https://www.roigarena.com/es/eventos/" rel="noopener">Roig Arena</a> (Valencia). Fechas, horarios y disponibilidad pueden cambiar: confírmalos siempre en la web del vendedor antes de comprar.</p>
-  <p>Directo no vende entradas ni cobra comisiones. Los botones de entradas llevan a la web del recinto o del vendedor que el propio recinto indica.</p>
+  <p><a href="contacto.html">Contacto</a> · Próximos Conciertos no vende entradas ni cobra comisiones. Los botones de entradas llevan a la web del recinto o del vendedor que el propio recinto indica.</p>
 </div></footer>
 
 <script src="datos.js"></script>
@@ -249,8 +249,8 @@ footer p{margin:0 0 8px;max-width:75ch}
   function ics(e) {
     const f = e.fecha.toISOString ? `${e.y}${String(e.m).padStart(2,"0")}${String(e.d).padStart(2,"0")}` : "";
     const ini = e.hora ? `DTSTART;TZID=Europe/Madrid:${f}T${e.hora.replace(":","")}00` : `DTSTART;VALUE=DATE:${f}`;
-    const txt = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Directo//ES","BEGIN:VEVENT",
-      `UID:${e.id}@directo`, ini, `SUMMARY:${e.artista} en ${e.recinto}`,
+    const txt = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Proximos Conciertos//ES","BEGIN:VEVENT",
+      `UID:${e.id}@proximosconciertos.es`, ini, `SUMMARY:${e.artista} en ${e.recinto}`,
       `LOCATION:${DIRECCION[e.recinto] || e.recinto}`, `URL:${e.entradas || e.info || ""}`,
       "END:VEVENT","END:VCALENDAR"].join("\r\n");
     return "data:text/calendar;charset=utf-8," + encodeURIComponent(txt);
@@ -279,7 +279,7 @@ footer p{margin:0 0 8px;max-width:75ch}
           <a class="btn" href="${ics(e)}" download="${e.id}.ics">Añadir al calendario</a>
           <a class="btn" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(DIRECCION[e.recinto] || e.recinto)}" target="_blank" rel="noopener">Cómo llegar ↗</a>
         </div>
-        <p class="note">Directo no vende entradas. El botón te lleva a la web que el propio ${esc(e.recinto)} enlaza para este concierto. Comprueba allí la fecha, el precio y las zonas antes de comprar.</p>
+        <p class="note">Próximos Conciertos no vende entradas. El botón te lleva a la web que el propio ${esc(e.recinto)} enlaza para este concierto. Comprueba allí la fecha, el precio y las zonas antes de comprar.</p>
       </div>`;
     dlg.querySelector(".close").onclick = () => dlg.close();
     if (!dlg.open) dlg.showModal();

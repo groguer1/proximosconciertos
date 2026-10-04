@@ -95,7 +95,7 @@ footer{{margin-top:56px;border-top:1px solid var(--line);padding:24px 0 40px;col
 </style>
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="logo" href="../index.html"><i aria-hidden="true"></i>Directo</a></div></header>
+<header class="top"><div class="wrap"><a class="logo" href="../index.html"><i aria-hidden="true"></i>Próximos Conciertos</a></div></header>
 <main class="wrap">
   <p class="crumbs"><a href="../index.html">Agenda</a> › Recintos › {e(r['nombre'])}</p>
   <section class="hero">
@@ -110,9 +110,9 @@ footer{{margin-top:56px;border-top:1px solid var(--line);padding:24px 0 40px;col
   <p><a href="../index.html">Ver toda la agenda</a></p>
   <h2>Preguntas frecuentes</h2>
   {''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q, a in r['faq'])}
-  <p class="aviso">Horarios, normas y servicios pueden cambiar en cada evento. Antes de ir, mira la ficha del concierto y la web oficial del recinto. Directo no vende entradas.</p>
+  <p class="aviso">Horarios, normas y servicios pueden cambiar en cada evento. Antes de ir, mira la ficha del concierto y la web oficial del recinto. Próximos Conciertos no vende entradas.</p>
 </main>
-<footer><div class="wrap">Directo · Agenda de conciertos en España. Datos de fuentes oficiales, revisados a mano.</div></footer>
+<footer><div class="wrap">Próximos Conciertos · Agenda de conciertos en España. Datos de fuentes oficiales, revisados a mano. · <a href="../contacto.html">Contacto</a></div></footer>
 </body>
 </html>
 """

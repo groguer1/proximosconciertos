@@ -150,7 +150,7 @@ footer{{margin-top:56px;border-top:1px solid var(--line);padding:24px 0 40px;col
 </style>
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="logo" href="../index.html"><i aria-hidden="true"></i>Directo</a></div></header>
+<header class="top"><div class="wrap"><a class="logo" href="../index.html"><i aria-hidden="true"></i>Próximos Conciertos</a></div></header>
 <main class="wrap">
   <p class="crumbs"><a href="../index.html">Agenda</a> › Artistas › {e(a['artista'])}</p>
   <section class="hero">
@@ -176,9 +176,9 @@ footer{{margin-top:56px;border-top:1px solid var(--line);padding:24px 0 40px;col
   <h2>Preguntas frecuentes</h2>
   {''.join(f'<details><summary>{e(q)}</summary><p>{e(r)}</p></details>' for q, r in faq)}
 
-  <p class="aviso">Directo no vende entradas. Los botones llevan a la venta que enlaza la propia {e(a['fuente_nombre'])}. Las fechas y los horarios pueden cambiar: confírmalos allí antes de comprar.</p>
+  <p class="aviso">Próximos Conciertos no vende entradas. Los botones llevan a la venta que enlaza la propia {e(a['fuente_nombre'])}. Las fechas y los horarios pueden cambiar: confírmalos allí antes de comprar.</p>
 </main>
-<footer><div class="wrap">Directo · Agenda de conciertos en España. Datos de fuentes oficiales, revisados a mano.</div></footer>
+<footer><div class="wrap">Próximos Conciertos · Agenda de conciertos en España. Datos de fuentes oficiales, revisados a mano. · <a href="../contacto.html">Contacto</a></div></footer>
 </body>
 </html>
 """
