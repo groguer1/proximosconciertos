@@ -1,16 +1,7 @@
-// Generado por actualizar.py el 2026-10-04. No editar a mano.
+// Generado por actualizar.py el 2026-10-05. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-10-04",
+ "actualizado": "2026-10-05",
  "eventos": [
-  {
-   "titulo": "Silvio Rodríguez- Tour España 2026",
-   "fecha": "2026-10-04T19:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/silvio-rodriguez-tour-espana-2026/4-10-2026/19:00",
-   "entradas": "https://tickets.baila.fm/silvio-rodriguez-movistar-arena-madrid-tour-espana-2026",
-   "agotado": false
-  },
   {
    "titulo": "Festival Vallenato - Binomio de Oro",
    "fecha": "2026-10-08T20:30:00",
@@ -759,6 +750,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Jay Wheeler",
+   "fecha": "2026-12-08",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/jay-wheeler-20261208/",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "Miguel Ríos - Fin de gira El último Vals",
    "fecha": "2026-12-08T19:30:00",
    "ciudad": "Madrid",
@@ -838,6 +838,15 @@ window.AGENDA = {
    "info": "https://www.movistararena.es/programacion/evento/hombres-g-gira-2026-los-mejores-anos-de-nuestra-vida",
    "entradas": null,
    "agotado": true
+  },
+  {
+   "titulo": "Jay Wheeler - La Voz Favorita World Tour",
+   "fecha": "2026-12-13",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/jay-wheeler-la-voz-favorita-world-tour/13-12-2026/00:00",
+   "entradas": null,
+   "agotado": false
   },
   {
    "titulo": "Pop Rock Tour - Melendi",

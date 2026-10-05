@@ -2,7 +2,7 @@
  "artista": "Hombres G",
  "slug": "hombres-g",
  "gira": "Los mejores años de nuestra vida",
- "revisado": "2026-10-04",
+ "revisado": "2026-10-05",
  "fuente": "https://www.livenation.es/hombres-g-tickets-adp97297",
  "fuente_nombre": "página de Hombres G en Live Nation, su promotora",
  "nota_2027": "A 4 de octubre de 2026, Live Nation no publica ninguna fecha de Hombres G en España en 2027.",
@@ -70,7 +70,6 @@
   "url": "https://www.livenation.es/hombres-g-tickets-adp97297",
   "patron": "edp(\\d+)",
   "huella": [
-   "1637360",
    "1637367",
    "1637374",
    "1637381",
