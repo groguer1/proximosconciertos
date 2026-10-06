@@ -7,6 +7,10 @@ regenerar. Uso:  python3 generar_artistas.py
 """
 import json, html, datetime, pathlib
 
+
+# Imagen genérica de la web para los datos estructurados de eventos (Google pide 16:9, 4:3 y 1:1).
+IMAGENES_EVENTO = [f"https://proximosconciertos.es/img/proximos-conciertos-{r}.png" for r in ("16x9", "4x3", "1x1")]
+
 RAIZ = pathlib.Path(__file__).parent
 HOY = datetime.date.today()
 MESES = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto",
@@ -66,12 +70,15 @@ def pagina(a):
         "@type": "MusicEvent",
         "name": f"{a['artista']} · {a['gira']} en {f['ciudad']}",
         "startDate": f"{f['fecha']}T{f['hora']}:00" if f.get("hora") else f["fecha"],
+        "description": (f"Concierto de {a['artista']} ({a['gira']}) en {f['recinto']}, {f['ciudad']}, "
+                        f"el {fecha_larga(datetime.date.fromisoformat(f['fecha']))}. Fecha verificada en la {a['fuente_nombre']}."),
+        "image": IMAGENES_EVENTO,
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
         "location": {"@type": "Place", "name": f["recinto"],
                      "address": {"@type": "PostalAddress", "addressLocality": f["ciudad"], "addressCountry": "ES"}},
         "performer": {"@type": a.get("tipo", "Person"), "name": a["artista"]},
-        "offers": {"@type": "Offer", "url": f.get("entradas") or f.get("ficha") or a["fuente"],
+        "offers": {"@type": "Offer", "url": f.get("entradas") or f.get("ficha") or a["fuente"], "priceCurrency": "EUR",
                    "availability": "https://schema.org/SoldOut" if f.get("estado") == "agotado" else "https://schema.org/InStock"},
     } for f in fechas]
     faq = [
@@ -101,6 +108,7 @@ def pagina(a):
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="https://proximosconciertos.es/artistas/{a['slug']}.html">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://proximosconciertos.es/img/proximos-conciertos-16x9.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=Archivo+Narrow:wght@700&display=swap" rel="stylesheet">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>

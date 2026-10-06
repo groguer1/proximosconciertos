@@ -10,6 +10,7 @@
 <meta property="og:description" content="Próximos conciertos en el Movistar Arena y el Roig Arena, con enlace a la venta oficial de entradas.">
 <meta property="og:url" content="https://proximosconciertos.es/">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://proximosconciertos.es/img/proximos-conciertos-16x9.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=Archivo+Narrow:wght@700&display=swap" rel="stylesheet">
 <style>
@@ -301,10 +302,12 @@ footer p{margin:0 0 8px;max-width:75ch}
   ld.textContent = JSON.stringify({"@context":"https://schema.org","@graph": eventos.slice(0, 100).map(e => ({
     "@type":"MusicEvent", name:`${e.artista} en ${e.recinto}`,
     startDate: e.hora ? `${e.fecha.getFullYear()}-${String(e.m).padStart(2,"0")}-${String(e.d).padStart(2,"0")}T${e.hora}:00` : `${e.y}-${String(e.m).padStart(2,"0")}-${String(e.d).padStart(2,"0")}`,
+    description:`Concierto de ${e.artista} en ${e.recinto}, ${e.ciudad}. Fecha tomada de la agenda oficial del recinto.`,
+    image:["16x9","4x3","1x1"].map(r => `https://proximosconciertos.es/img/proximos-conciertos-${r}.png`),
     eventStatus:"https://schema.org/EventScheduled", eventAttendanceMode:"https://schema.org/OfflineEventAttendanceMode",
     location:{"@type":"Place", name:e.recinto, address:{"@type":"PostalAddress", addressLocality:e.ciudad, addressCountry:"ES"}},
     performer:{"@type":"PerformingGroup", name:e.artista},
-    ...(e.entradas ? {offers:{"@type":"Offer", url:e.entradas, availability: e.agotado ? "https://schema.org/SoldOut" : "https://schema.org/InStock"}} : {})
+    ...(e.entradas ? {offers:{"@type":"Offer", url:e.entradas, priceCurrency:"EUR", availability: e.agotado ? "https://schema.org/SoldOut" : "https://schema.org/InStock"}} : {})
   }))});
   document.head.appendChild(ld);
 

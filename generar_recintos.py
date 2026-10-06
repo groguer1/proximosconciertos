@@ -55,6 +55,7 @@ def pagina(r, artistas):
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="https://proximosconciertos.es/recintos/{r['slug']}.html">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://proximosconciertos.es/img/proximos-conciertos-16x9.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap" rel="stylesheet">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
