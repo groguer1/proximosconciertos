@@ -122,7 +122,7 @@ footer{{margin-top:56px;border-top:1px solid var(--line);padding:24px 0 40px;col
   {''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q, a in r['faq'])}
   <p class="aviso">Horarios, normas y servicios pueden cambiar en cada evento. Antes de ir, mira la ficha del concierto y la web oficial del recinto. Próximos Conciertos no vende entradas.</p>
 </main>
-<footer><div class="wrap">Próximos Conciertos · Agenda de conciertos en España. Datos de fuentes oficiales, revisados a mano. · <a href="../contacto.html">Contacto</a> · <a href="../cookies.html">Cookies</a></div></footer>
+<footer><div class="wrap">Próximos Conciertos · Agenda de conciertos en España. Datos de fuentes oficiales, revisados a mano. · <a href="../contacto.html">Contacto</a> · <a href="../aviso-legal.html">Aviso legal</a> · <a href="../privacidad.html">Privacidad</a> · <a href="../cookies.html">Cookies</a></div></footer>
 </body>
 </html>
 """
