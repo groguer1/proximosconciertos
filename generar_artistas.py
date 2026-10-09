@@ -101,6 +101,15 @@ def pagina(a):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Google Analytics 4 con Consent Mode v2: todo denegado hasta que el visitante
+     acepte en el aviso de /cookies.js. TIENE QUE IR ANTES de gtag.js. -->
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}
+gtag('consent','default',{{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500}});
+gtag('js',new Date());gtag('config','G-07V0S0P0MH');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-07V0S0P0MH"></script>
+<script src="/cookies.js" defer></script>
 <title>{e(titulo)}</title>
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="https://proximosconciertos.es/artistas/{a['slug']}.html">
@@ -186,7 +195,7 @@ footer{{margin-top:56px;border-top:1px solid var(--line);padding:24px 0 40px;col
 
   <p class="aviso">Próximos Conciertos no vende entradas. Los botones llevan a la venta que enlaza la propia {e(a['fuente_nombre'])}. Las fechas y los horarios pueden cambiar: confírmalos allí antes de comprar.</p>
 </main>
-<footer><div class="wrap">Próximos Conciertos · Agenda de conciertos en España. Datos de fuentes oficiales, revisados a mano. · <a href="../contacto.html">Contacto</a></div></footer>
+<footer><div class="wrap">Próximos Conciertos · Agenda de conciertos en España. Datos de fuentes oficiales, revisados a mano. · <a href="../contacto.html">Contacto</a> · <a href="../cookies.html">Cookies</a></div></footer>
 </body>
 </html>
 """

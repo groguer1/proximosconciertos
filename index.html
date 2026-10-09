@@ -3,6 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Google Analytics 4 con Consent Mode v2: todo denegado hasta que el visitante
+     acepte en el aviso de /cookies.js. TIENE QUE IR ANTES de gtag.js. -->
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});
+gtag('js',new Date());gtag('config','G-07V0S0P0MH');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-07V0S0P0MH"></script>
+<script src="/cookies.js" defer></script>
 <title>Próximos Conciertos · Agenda de conciertos en España</title>
 <meta name="description" content="Próximos conciertos en el Movistar Arena de Madrid y el Roig Arena de Valencia, con fecha, hora y enlace a la venta oficial de entradas.">
 <link rel="canonical" href="https://proximosconciertos.es/">
@@ -147,7 +156,7 @@ footer p{margin:0 0 8px;max-width:75ch}
 
 <footer><div class="wrap">
   <p><b>Fuentes:</b> la programación oficial del <a href="https://www.movistararena.es/programacion" rel="noopener">Movistar Arena</a> (Madrid) y del <a href="https://www.roigarena.com/es/eventos/" rel="noopener">Roig Arena</a> (Valencia). Fechas, horarios y disponibilidad pueden cambiar: confírmalos siempre en la web del vendedor antes de comprar.</p>
-  <p><a href="contacto.html">Contacto</a> · Próximos Conciertos no vende entradas ni cobra comisiones. Los botones de entradas llevan a la web del recinto o del vendedor que el propio recinto indica.</p>
+  <p><a href="contacto.html">Contacto</a> · <a href="cookies.html">Cookies</a> · Próximos Conciertos no vende entradas ni cobra comisiones. Los botones de entradas llevan a la web del recinto o del vendedor que el propio recinto indica.</p>
 </div></footer>
 
 <script src="datos.js"></script>
