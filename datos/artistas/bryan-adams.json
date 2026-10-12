@@ -2,10 +2,10 @@
  "artista": "Bryan Adams",
  "slug": "bryan-adams",
  "gira": "Roll with the Punches",
- "revisado": "2026-10-04",
+ "revisado": "2026-10-12",
  "fuente": "https://www.bryanadams.com/tours",
  "fuente_nombre": "web oficial de Bryan Adams",
- "nota_2027": "A 4 de octubre de 2026, la web oficial de Bryan Adams no publica ninguna fecha en España en 2027.",
+ "nota_2027": "A 12 de octubre de 2026, la web oficial de Bryan Adams publica tres fechas en España en 2027: Pamplona (19/08), Gijón (20/08) y Fuengirola (22/08).",
  "fechas": [
   {
    "fecha": "2026-11-06",
@@ -55,6 +55,27 @@
    "ciudad": "A Coruña",
    "recinto": "Coliseum",
    "entradas": "https://tickets.baila.fm/bryan-adams-coliseum-a-coruna-2026"
+  },
+  {
+   "fecha": "2027-08-19",
+   "hora": "",
+   "ciudad": "Pamplona",
+   "recinto": "Navarra Arena",
+   "entradas": "https://www.entradas.com/event/bryan-adams-roll-with-the-punches-navarra-arena-22157420/"
+  },
+  {
+   "fecha": "2027-08-20",
+   "hora": "",
+   "ciudad": "Gijón",
+   "recinto": "Gijón Life Fest",
+   "entradas": "https://www.entradas.com/event/bryan-adams-roll-with-the-punches-gijon-life-22237201/"
+  },
+  {
+   "fecha": "2027-08-22",
+   "hora": "",
+   "ciudad": "Fuengirola",
+   "recinto": "Marenostrum Fuengirola",
+   "entradas": "https://www.entradas.com/event/bryan-adams-roll-with-the-punches-marenostrum-fuengirola-22211189/"
   }
  ],
  "vigilar": {
