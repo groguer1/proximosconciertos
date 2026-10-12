@@ -1,88 +1,7 @@
-// Generado por actualizar.py el 2026-10-05. No editar a mano.
+// Generado por actualizar.py el 2026-10-12. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-10-05",
+ "actualizado": "2026-10-12",
  "eventos": [
-  {
-   "titulo": "Festival Vallenato - Binomio de Oro",
-   "fecha": "2026-10-08T20:30:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/binomio-de-oro-20261008/",
-   "entradas": "https://entradaselite.com/producto/valencia-el-binomio-de-oro-de-america/",
-   "agotado": false
-  },
-  {
-   "titulo": "Europe Tour 2026 - Little Big",
-   "fecha": "2026-10-09T20:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/little-big-20261009/",
-   "entradas": "https://ticketshop.store/en/events/107565",
-   "agotado": false
-  },
-  {
-   "titulo": "Dani Fernández- La Insurrección",
-   "fecha": "2026-10-09T20:30:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/dani-fern-ndez-la-insurrecci-n/9-10-2026/20:30",
-   "entradas": null,
-   "agotado": false
-  },
-  {
-   "titulo": "Gira de vuelta Canciones de ida - Vetusta Morla",
-   "fecha": "2026-10-09T20:30:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/vetusta-morla-2026-gira-de-vuelta-canciones-de-ida-20261009/",
-   "entradas": "https://my.weezevent.com/vetusta-morla-2026-valencia-roig-arena",
-   "agotado": false
-  },
-  {
-   "titulo": "Mercury World Tour '26 - Morgenshtern",
-   "fecha": "2026-10-10T20:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/morgenshtern-20261010/",
-   "entradas": "https://ticketshop.store/en/events/107453",
-   "agotado": false
-  },
-  {
-   "titulo": "Galván Real- 10 años contigo",
-   "fecha": "2026-10-10T20:30:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/galvan-real-10-anos-contigo/10-10-2026/20:30",
-   "entradas": "https://entradas.baila.fm/baila/select/2519427",
-   "agotado": false
-  },
-  {
-   "titulo": "25 p*t*s años - Dani Martín",
-   "fecha": "2026-10-10T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/dani-martin-20261010/",
-   "entradas": "https://www.elcorteingles.es/entradas/conciertos/entradas-dani-martin-gira-25-p-t-s-anos-valencia/",
-   "agotado": false
-  },
-  {
-   "titulo": "Domination Tour 2026 - Primal Fear",
-   "fecha": "2026-10-11T19:30:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/primal-fear-20261011/",
-   "entradas": "https://www.getrock.es/conciertos/primal-fear/valencia-2026",
-   "agotado": false
-  },
-  {
-   "titulo": "25 p*t*s años - Dani Martín",
-   "fecha": "2026-10-11T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/dani-martin-20261011/",
-   "entradas": "https://www.elcorteingles.es/entradas/conciertos/entradas-dani-martin-gira-25-p-t-s-anos-valen-11-10-26-valencia/",
-   "agotado": false
-  },
   {
    "titulo": "God Save The Queen 2026",
    "fecha": "2026-10-12T20:30:00",
@@ -206,7 +125,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/morat-2026-20261023/",
-   "entradas": "https://www.roigarena.com/es/event/morat-2026-20261023/tickets/",
+   "entradas": "https://www.ticketmaster.es/event/morat-entradas/1856771310",
    "agotado": false
   },
   {
@@ -260,7 +179,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/no-te-va-a-gustar-20261025/",
-   "entradas": "https://dice.fm/event/7dqkkb-no-te-va-gustar-25th-oct-roig-arena-valencia-tickets",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -395,7 +314,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/servando-y-florentino-20261108/",
-   "entradas": "https://entradas.roigarena.com/roigarena/select/3010029",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -755,7 +674,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/jay-wheeler-20261208/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3045384?hl=es-ES",
    "agotado": false
   },
   {
@@ -841,11 +760,11 @@ window.AGENDA = {
   },
   {
    "titulo": "Jay Wheeler - La Voz Favorita World Tour",
-   "fecha": "2026-12-13",
+   "fecha": "2026-12-13T20:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/jay-wheeler-la-voz-favorita-world-tour/13-12-2026/00:00",
-   "entradas": null,
+   "info": "https://www.movistararena.es/programacion/evento/jay-wheeler-la-voz-favorita-world-tour/13-12-2026/20:30",
+   "entradas": "https://www.ticketmaster.es/event/1155605421?subchannel_id=43&brand=base_mb_es",
    "agotado": false
   },
   {
@@ -864,6 +783,15 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/macy-gray-the-trouble-with-the-truth-tour-20261215/",
    "entradas": "https://www.notikumi.com/channel/tranquilo-musica/2026/12/15/macy-gray-the-trouble-with-the-truth-tour",
+   "agotado": false
+  },
+  {
+   "titulo": "Raya Real - Con Alegría",
+   "fecha": "2026-12-16T20:30:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/raya-real-20261216/",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -939,12 +867,30 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Rudolph, El Musical",
+   "fecha": "2026-12-26T18:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/rudolph-musical-20261226/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3044307?hl=es-ES",
+   "agotado": false
+  },
+  {
    "titulo": "Taburete- El perro que fuma tour 2026",
    "fecha": "2026-12-26T21:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/taburete-el-perro-que-fuma-tour-2026/26-12-2026/21:00",
    "entradas": "https://entradas.baila.fm/baila/select/2630430",
+   "agotado": false
+  },
+  {
+   "titulo": "Rudolph El Musical",
+   "fecha": "2026-12-27",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/rudolph-musical-20261227/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3044308?hl=es-ES",
    "agotado": false
   },
   {
@@ -963,6 +909,15 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/la-oreja-de-van-gogh-tantas-cosas-que-contar-tour-2026/30-12-2026/20:30",
    "entradas": "https://entradas.baila.fm/baila/select/2670865",
+   "agotado": false
+  },
+  {
+   "titulo": "Concierto Año Nuevo",
+   "fecha": "2027-01-01T19:30:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/concierto-ano-nuevo-20270101/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/events/60916?hl=es-ES",
    "agotado": false
   },
   {
@@ -1092,15 +1047,6 @@ window.AGENDA = {
    "agotado": false
   },
   {
-   "titulo": "Muse – The Wow! Signal Europa Tour",
-   "fecha": "2027-01-19",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/muse-the-wow-signal-europa-tour",
-   "entradas": null,
-   "agotado": false
-  },
-  {
    "titulo": "Futttura Tour - TINI",
    "fecha": "2027-01-19T20:00:00",
    "ciudad": "Valencia",
@@ -1111,7 +1057,7 @@ window.AGENDA = {
   },
   {
    "titulo": "Muse – The Wow! Signal Europa Tour",
-   "fecha": "2027-01-20",
+   "fecha": "2027-01-19T20:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/muse-the-wow-signal-europa-tour",
@@ -1125,6 +1071,15 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/tini-futttura-20270120/",
    "entradas": "https://www.roigarena.com/es/event/tini-futttura-20270120/tickets/",
+   "agotado": false
+  },
+  {
+   "titulo": "Muse – The Wow! Signal Europa Tour",
+   "fecha": "2027-01-20T20:30:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/muse-the-wow-signal-europa-tour",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -1151,7 +1106,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/muse-20270123/",
-   "entradas": null,
+   "entradas": "https://www.livenation.es/show/1701965",
    "agotado": false
   },
   {
@@ -1170,6 +1125,15 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/carlos-ares-20270123/",
    "entradas": null,
+   "agotado": false
+  },
+  {
+   "titulo": "Muse 2027",
+   "fecha": "2027-01-24T20:30:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/muse-20270124/",
+   "entradas": "https://www.livenation.es/show/1701969",
    "agotado": false
   },
   {
@@ -1305,6 +1269,15 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/Raule-20270206/",
    "entradas": "https://www.roigarena.com/es/event/Raule-20270206/tickets/",
+   "agotado": false
+  },
+  {
+   "titulo": "Barry B",
+   "fecha": "2027-02-13",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/barryb-20270213/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3041916?hl=es-ES",
    "agotado": false
   },
   {
@@ -1561,11 +1534,20 @@ window.AGENDA = {
   },
   {
    "titulo": "Anunciado en Televisión - Pignoise",
+   "fecha": "2027-04-16T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/pignoise-en-valencia-20270416/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3045275?hl=es-ES",
+   "agotado": false
+  },
+  {
+   "titulo": "Anunciado en Televisión - Pignoise",
    "fecha": "2027-04-17T21:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/pignoise-valencia-20270417/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3039192?hl=es-ES",
    "agotado": false
   },
   {
@@ -1575,6 +1557,15 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/bombai-en-valencia-20270424/",
    "entradas": "https://www.roigarena.com/es/event/bombai-en-valencia-20270424/tickets/",
+   "agotado": false
+  },
+  {
+   "titulo": "Pasión Vega - 'Pasión Almodóvar'",
+   "fecha": "2027-04-25T19:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/pasion-vega-20270425/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3043572?hl=es-ES",
    "agotado": false
   },
   {
@@ -1602,6 +1593,15 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/hilary-duff-the-lucky-me-tour/7-5-2027/21:00",
    "entradas": "https://www.ticketmaster.es/event/1960579669?subchannel_id=43&brand=base_mb_es",
+   "agotado": false
+  },
+  {
+   "titulo": "FMS Internacional 2027",
+   "fecha": "2027-05-08T18:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/fms-internacional-2027-20270508/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3045398?hl=es-ES",
    "agotado": false
   },
   {
@@ -1675,6 +1675,15 @@ window.AGENDA = {
    "info": "https://www.movistararena.es/programacion/evento/quevedo-el-baifo-tour-2027/20-5-2027/00:00",
    "entradas": null,
    "agotado": true
+  },
+  {
+   "titulo": "Burning",
+   "fecha": "2027-05-22T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/burning-20270522/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3045179?hl=es-ES",
+   "agotado": false
   },
   {
    "titulo": "SFDK - Gira 2027",
@@ -1772,7 +1781,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/20271009-siloe/",
-   "entradas": null,
+   "entradas": "https://entradas.siloemusic.es/siloe-terrorismo-emocional-deluxe-tour-valencia-2027",
    "agotado": false
   },
   {
@@ -1822,11 +1831,11 @@ window.AGENDA = {
   },
   {
    "titulo": "Pignoise - Anunciado en Televisión Gira 2027",
-   "fecha": "2027-12-10",
+   "fecha": "2027-12-10T21:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/pignoise-anunciado-en-televisi-n-gira-2027/10-12-2027/00:00",
-   "entradas": null,
+   "info": "https://www.movistararena.es/programacion/evento/pignoise-anunciado-en-televisi-n-gira-2027/10-12-2027/21:00",
+   "entradas": "https://tickets.baila.fm/pignoise-en-madrid-2027",
    "agotado": false
   },
   {

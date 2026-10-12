@@ -2,7 +2,7 @@
  "artista": "Vetusta Morla",
  "slug": "vetusta-morla",
  "gira": "Gira de Vuelta Canciones de Ida",
- "revisado": "2026-10-04",
+ "revisado": "2026-10-12",
  "fuente": "https://www.vetustamorla.com/gira/",
  "fuente_nombre": "web oficial de Vetusta Morla",
  "nota_2027": "A 4 de octubre de 2026, la web oficial de Vetusta Morla no publica ninguna fecha en 2027.",
@@ -99,8 +99,7 @@
    "madrid-movistar-arena-3",
    "malaga-auditorio-cortijo-torres",
    "pamplona-navarra-arena",
-   "sevilla-live-sur-stadium",
-   "valencia"
+   "sevilla-live-sur-stadium"
   ]
  }
 }
