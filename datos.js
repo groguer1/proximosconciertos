@@ -1,97 +1,7 @@
-// Generado por actualizar.py el 2026-10-12. No editar a mano.
+// Generado por actualizar.py el 2026-10-20. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-10-12",
+ "actualizado": "2026-10-20",
  "eventos": [
-  {
-   "titulo": "God Save The Queen 2026",
-   "fecha": "2026-10-12T20:30:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/god-save-the-queen-2026/12-10-2026/20:30",
-   "entradas": "https://tickets.baila.fm/god-save-the-queen-movistar-arena-madrid-2026",
-   "agotado": false
-  },
-  {
-   "titulo": "El Vendedor de Rosas Tour - Raúl Clyde",
-   "fecha": "2026-10-12T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/raul-clyde-el-vendedor-de-rosas-tour-20261012/",
-   "entradas": "https://www.ticketmaster.es/event/raul-clyde-entradas/877359209",
-   "agotado": false
-  },
-  {
-   "titulo": "Ricardo Montaner - El último regreso",
-   "fecha": "2026-10-13T20:30:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/ricardo-montaner-el-ltimo-regreso/13-10-2026/20:30",
-   "entradas": null,
-   "agotado": true
-  },
-  {
-   "titulo": "Leoni Torres",
-   "fecha": "2026-10-15T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/leonni-torres-en-valencia-20261015/",
-   "entradas": "https://innovaeventos.es/evento/leoni-torres-en-valencia-2026-15-de-octubre/",
-   "agotado": false
-  },
-  {
-   "titulo": "Dani Fernández- La Insurrección",
-   "fecha": "2026-10-16T20:30:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/dani-fern-ndez-la-insurrecci-n/16-10-2026/20:30",
-   "entradas": null,
-   "agotado": false
-  },
-  {
-   "titulo": "Gira Taracá - Jorge Drexler",
-   "fecha": "2026-10-16T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/jorge-drexler-en-valencia-20261016/",
-   "entradas": "https://www.roigarena.com/es/event/jorge-drexler-en-valencia-20261016/tickets/",
-   "agotado": false
-  },
-  {
-   "titulo": "La Gira de Mr. Bond - Melon Diesel",
-   "fecha": "2026-10-16T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/melon-diesel-gira-mr-bond-20261016/",
-   "entradas": "https://www.roigarena.com/es/event/melon-diesel-gira-mr-bond-20261016/tickets/",
-   "agotado": false
-  },
-  {
-   "titulo": "Dani Fernández- La Insurrección",
-   "fecha": "2026-10-17T20:30:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/dani-fern-ndez-la-insurrecci-n/17-10-2026/20:30",
-   "entradas": null,
-   "agotado": false
-  },
-  {
-   "titulo": "El día H - Homenaje a Héroes del Silencio",
-   "fecha": "2026-10-17T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/heroes-el-culto-el-dia-h-20261017/",
-   "entradas": "https://www.gazpatxofestcultura.com/eventos/dia-h-roig-arena",
-   "agotado": false
-  },
-  {
-   "titulo": "La Gira de tu Vida - Antonio Orozco",
-   "fecha": "2026-10-17T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/antonio-orozco-20261017/",
-   "entradas": "https://www.roigarena.com/es/event/antonio-orozco-20261017/tickets/",
-   "agotado": false
-  },
   {
    "titulo": "Deep Purple",
    "fecha": "2026-10-20T21:00:00",
@@ -134,7 +44,7 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/dani-fern-ndez-la-insurrecci-n/23-10-2026/20:30",
-   "entradas": null,
+   "entradas": "https://entradas.baila.fm/baila/select/2647550",
    "agotado": false
   },
   {
@@ -309,21 +219,21 @@ window.AGENDA = {
    "agotado": false
   },
   {
-   "titulo": "Servando & Florentino",
-   "fecha": "2026-11-08",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/servando-y-florentino-20261108/",
-   "entradas": null,
-   "agotado": false
-  },
-  {
    "titulo": "Roll with the punches - Bryan Adams",
    "fecha": "2026-11-08T20:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/bryan-adams-20261108/",
    "entradas": "https://www.ticketvip.es/evento-entradas-bryan-adams-valencia-2026",
+   "agotado": false
+  },
+  {
+   "titulo": "Servando & Florentino",
+   "fecha": "2026-11-08T20:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/servando-y-florentino-20261108/",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -350,7 +260,7 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/miranda/11-11-2026/21:00",
-   "entradas": "https://entradas.baila.fm/baila/select/2730429",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -849,6 +759,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Estoy Solo en Casa",
+   "fecha": "2026-12-22T18:30:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/estoy-solo-en-casa-20261222/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3045732?hl=es-ES",
+   "agotado": false
+  },
+  {
    "titulo": "Melendi- Pop Rock Tour",
    "fecha": "2026-12-22T20:30:00",
    "ciudad": "Madrid",
@@ -886,11 +805,20 @@ window.AGENDA = {
   },
   {
    "titulo": "Rudolph El Musical",
-   "fecha": "2026-12-27",
+   "fecha": "2026-12-27T18:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/rudolph-musical-20261227/",
    "entradas": "https://tickets.oneboxtds.com/roigarena/select/3044308?hl=es-ES",
+   "agotado": false
+  },
+  {
+   "titulo": "Rudolph, El Musical",
+   "fecha": "2026-12-28T18:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/rudolph-musical-20261228/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3044309?hl=es-ES",
    "agotado": false
   },
   {
@@ -918,6 +846,24 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/concierto-ano-nuevo-20270101/",
    "entradas": "https://tickets.oneboxtds.com/roigarena/events/60916?hl=es-ES",
+   "agotado": false
+  },
+  {
+   "titulo": "Harry Sinfónico | 17:00h",
+   "fecha": "2027-01-02T17:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/harry-sinfonico-2701022/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3050542?hl=es-ES",
+   "agotado": false
+  },
+  {
+   "titulo": "Harry Sinfónico",
+   "fecha": "2027-01-02T20:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/harry-sinfonico-270102/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3048763?hl=es-ES",
    "agotado": false
   },
   {
@@ -1272,6 +1218,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Siempre Héroes",
+   "fecha": "2027-02-11T20:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/siempre-heroes-270211/",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "Barry B",
    "fecha": "2027-02-13",
    "ciudad": "Valencia",
@@ -1488,6 +1443,15 @@ window.AGENDA = {
    "agotado": true
   },
   {
+   "titulo": "Emotional by Miguel Serna",
+   "fecha": "2027-04-10",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/emotional-by-miguel-serna-270410/",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "Quevedo - El Baifo Tour 2027",
    "fecha": "2027-04-10T20:30:00",
    "ciudad": "Madrid",
@@ -1551,6 +1515,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "LOGICALTRAMP – THE SPIRIT OF SUPERTRAMP",
+   "fecha": "2027-04-23T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/logicaltramp-260423/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3049170?hl=es-ES",
+   "agotado": false
+  },
+  {
    "titulo": "Pasado, presente y futuro - Bombai",
    "fecha": "2027-04-24T21:00:00",
    "ciudad": "Valencia",
@@ -1566,6 +1539,33 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/pasion-vega-20270425/",
    "entradas": "https://tickets.oneboxtds.com/roigarena/select/3043572?hl=es-ES",
+   "agotado": false
+  },
+  {
+   "titulo": "Lucho RK",
+   "fecha": "2027-04-28T20:30:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/lucho-rk-270428/",
+   "entradas": null,
+   "agotado": false
+  },
+  {
+   "titulo": "Lucho RK",
+   "fecha": "2027-04-29T20:30:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/lucho-rk-270429/",
+   "entradas": null,
+   "agotado": false
+  },
+  {
+   "titulo": "Lucho RK",
+   "fecha": "2027-04-30",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/lucho-rk-270430/",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -1749,6 +1749,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Montaner - El último regreso (Una vuelta más para que seas feliz)",
+   "fecha": "2027-06-19T20:30:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/montaner-el-ltimo-regreso-una-vuelta-m-s-para-que-seas-feliz/19-6-2027/20:30",
+   "entradas": "https://tickets.baila.fm/ricardo-montaner-el-ultimo-regreso-madrid-2027",
+   "agotado": false
+  },
+  {
    "titulo": "David Bisbal - Tour Eternos 2027",
    "fecha": "2027-07-01T21:00:00",
    "ciudad": "Madrid",
@@ -1809,6 +1818,15 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/il-volo-world-tour-2026-2027-20271031/",
    "entradas": "https://www.roigarena.com/es/event/il-volo-world-tour-2026-2027-20271031/tickets/",
+   "agotado": false
+  },
+  {
+   "titulo": "Lucho RK - Sordo de un pie Tour",
+   "fecha": "2027-11-08T20:30:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/lucho-rk-sordo-de-un-pie-tour/8-11-2027/20:30",
+   "entradas": "https://tickets.baila.fm/lucho-rk-sordo-de-un-pie-tour-madrid-2027",
    "agotado": false
   },
   {
