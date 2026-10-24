@@ -2,7 +2,7 @@
  "artista": "David Bisbal",
  "slug": "david-bisbal",
  "gira": "Tour Eternos España 2027",
- "revisado": "2026-10-20",
+ "revisado": "2026-10-24",
  "fuente": "https://tienda.davidbisbal.com/pages/tour-eternos-espana-2027",
  "fuente_nombre": "web oficial de David Bisbal",
  "fechas": [
@@ -11,7 +11,14 @@
    "hora": "21:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
-   "entradas": "https://davidbisbal.lnk.to/22_05_27_ValenciaWE"
+   "entradas": "https://tienda.davidbisbal.com/pages/22-de-mayo-2027-roig-arena-valencia"
+  },
+  {
+   "fecha": "2027-05-28",
+   "hora": "",
+   "ciudad": "Valladolid",
+   "recinto": "Polideportivo Pisuerga",
+   "entradas": "https://emotionalevents.es/concierto/david-bisbal-valladolid-28-de-mayo/"
   },
   {
    "fecha": "2027-05-29",
@@ -46,7 +53,7 @@
    "hora": "",
    "ciudad": "Murcia",
    "recinto": "Plaza de Toros de Murcia",
-   "entradas": "https://davidbisbal.lnk.to/19_06_27_MurciaWE"
+   "entradas": "https://tienda.davidbisbal.com/pages/19-de-junio-2027-plaza-de-toros-murcia"
   },
   {
    "fecha": "2027-06-22",
@@ -75,6 +82,13 @@
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "entradas": "https://davidbisbal.lnk.to/01_07_27_MadridWE"
+  },
+  {
+   "fecha": "2027-07-03",
+   "hora": "",
+   "ciudad": "Córdoba",
+   "recinto": "Recinto Ferial",
+   "entradas": "https://www.enterticket.es/eventos/david-bisbal-en-cordoba-821181"
   },
   {
    "fecha": "2027-07-10",
@@ -114,7 +128,7 @@
  ],
  "vigilar": {
   "url": "https://tienda.davidbisbal.com/pages/tour-eternos-espana-2027",
-  "patron": "lnk\\.to/(\\d\\d_\\d\\d_[0-9A-Za-z_]+)",
+  "patron": "(?:lnk\\.to/|emotionalevents\\.es/concierto/|enterticket\\.es/eventos/|ticketmaster\\.es/event/|tienda\\.davidbisbal\\.com/pages/(?=\\d))([0-9A-Za-z_-]+)",
   "huella": [
    "01_07_27_MadridWE",
    "04_06_27_CorunaWE",
@@ -123,13 +137,16 @@
    "11_06_27_BCNWE",
    "12_06_27_zgzWE",
    "17_07_27_VDLSWE",
-   "19_06_27_MurciaWE",
-   "22_05_27_ValenciaWE",
+   "19-de-junio-2027-plaza-de-toros-murcia",
+   "1961719038",
+   "22-de-mayo-2027-roig-arena-valencia",
    "22_06_27_albaceteWE",
    "22_07_2027_fuengirolaWE",
    "25_06_27_grxWE",
    "26_06_26_almeriaWE",
-   "29_05_27_BilbaoWE"
+   "29_05_27_BilbaoWE",
+   "david-bisbal-en-cordoba-821181",
+   "david-bisbal-valladolid-28-de-mayo"
   ]
  }
 }

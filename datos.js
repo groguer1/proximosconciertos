@@ -1,78 +1,15 @@
-// Generado por actualizar.py el 2026-10-20. No editar a mano.
+// Generado por actualizar.py el 2026-10-24. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-10-20",
+ "actualizado": "2026-10-24",
  "eventos": [
-  {
-   "titulo": "Deep Purple",
-   "fecha": "2026-10-20T21:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/deep-purple/20-10-2026/21:00",
-   "entradas": "https://entradas.baila.fm/baila/select/2732169",
-   "agotado": false
-  },
-  {
-   "titulo": "Trueno 2026",
-   "fecha": "2026-10-21T21:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/trueno-2026/21-10-2026/21:00",
-   "entradas": "https://entradas.baila.fm/baila/select/2685865",
-   "agotado": false
-  },
-  {
-   "titulo": "Fontaines D.C. - D.C, EU TOUR 2026",
-   "fecha": "2026-10-22T20:45:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/fontaines-d-c-d-c-eu-tour-2026/22-10-2026/20:45",
-   "entradas": "https://www.ticketmaster.es/event/659113815?subchannel_id=43&brand=base_mb_es",
-   "agotado": false
-  },
-  {
-   "titulo": "Ya es mañana Tour - Morat",
-   "fecha": "2026-10-23T20:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/morat-2026-20261023/",
-   "entradas": "https://www.ticketmaster.es/event/morat-entradas/1856771310",
-   "agotado": false
-  },
-  {
-   "titulo": "Dani Fernández- La Insurrección",
-   "fecha": "2026-10-23T20:30:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/dani-fern-ndez-la-insurrecci-n/23-10-2026/20:30",
-   "entradas": "https://entradas.baila.fm/baila/select/2647550",
-   "agotado": false
-  },
-  {
-   "titulo": "Beatles Monumental - La Banda del Late Motiv",
-   "fecha": "2026-10-23T22:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/beatles-monumental-con-la-banda-del-late-motiv-20261023/",
-   "entradas": "https://www.roigarena.com/es/event/beatles-monumental-con-la-banda-del-late-motiv-20261023/tickets/",
-   "agotado": false
-  },
   {
    "titulo": "Aaron Sevilla",
    "fecha": "2026-10-24T16:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/Aaron-sevilla-20261026/",
-   "entradas": "https://app.afrodisemusic.com/tickets-store/events/41",
+   "entradas": "https://www.roigarena.com/es/event/Aaron-sevilla-20261026/tickets/",
    "agotado": false
-  },
-  {
-   "titulo": "CADENA 100 Por Ellas 2026",
-   "fecha": "2026-10-24T20:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/cadena-100-por-ellas-2026/24-10-2026/20:00",
-   "entradas": null,
-   "agotado": true
   },
   {
    "titulo": "Lia Kali final de gira Kaelis 2.0",
@@ -139,7 +76,7 @@ window.AGENDA = {
   },
   {
    "titulo": "Tot s'acaba - La Fúmiga",
-   "fecha": "2026-10-30T20:00:00",
+   "fecha": "2026-10-30T20:30:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/la-fumiga-tot-s-acaba-20251030/",
@@ -157,7 +94,7 @@ window.AGENDA = {
   },
   {
    "titulo": "Tot s'acaba - La Fúmiga",
-   "fecha": "2026-10-31T20:00:00",
+   "fecha": "2026-10-31T20:30:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/la-fumiga-tot-s-acaba-20261024/",
@@ -458,7 +395,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/los-fabulosos-cadillacs-en-valencia-20261126/",
-   "entradas": "https://conciertosya.com/Los-Fabulosos-Cadillacs-en-Valencia/",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -579,21 +516,21 @@ window.AGENDA = {
    "agotado": false
   },
   {
-   "titulo": "Jay Wheeler",
-   "fecha": "2026-12-08",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/jay-wheeler-20261208/",
-   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3045384?hl=es-ES",
-   "agotado": false
-  },
-  {
    "titulo": "Miguel Ríos - Fin de gira El último Vals",
    "fecha": "2026-12-08T19:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/miguel-rios-fin-de-gira-el-ultimo-vals/8-12-2026/19:30",
    "entradas": "https://entradas.baila.fm/baila/select/2908950",
+   "agotado": false
+  },
+  {
+   "titulo": "Jay Wheeler",
+   "fecha": "2026-12-08T20:30:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/jay-wheeler-20261208/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3045384?hl=es-ES",
    "agotado": false
   },
   {
@@ -849,6 +786,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Harry Sinfónico | 12:00h",
+   "fecha": "2027-01-02T12:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/harry-sinfonico-12-270102/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3052328?hl=es-ES",
+   "agotado": false
+  },
+  {
    "titulo": "Harry Sinfónico | 17:00h",
    "fecha": "2027-01-02T17:00:00",
    "ciudad": "Valencia",
@@ -858,7 +804,7 @@ window.AGENDA = {
    "agotado": false
   },
   {
-   "titulo": "Harry Sinfónico",
+   "titulo": "Harry Sinfónico | 20:00h",
    "fecha": "2027-01-02T20:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
@@ -1219,11 +1165,11 @@ window.AGENDA = {
   },
   {
    "titulo": "Siempre Héroes",
-   "fecha": "2027-02-11T20:00:00",
+   "fecha": "2027-02-11T21:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/siempre-heroes-270211/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3051429?hl=es-ES",
    "agotado": false
   },
   {
@@ -1308,6 +1254,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Alcalá Norte",
+   "fecha": "2027-02-26T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/alcala-norte-20270226/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3050535?hl=es-ES",
+   "agotado": false
+  },
+  {
    "titulo": "Kase.O - Camisa de Fuerza 2027",
    "fecha": "2027-02-27T20:30:00",
    "ciudad": "Madrid",
@@ -1323,6 +1278,15 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/los-zigarros-20270227/",
    "entradas": "https://www.roigarena.com/es/event/los-zigarros-20270227/tickets/",
+   "agotado": false
+  },
+  {
+   "titulo": "Mala Conducta 007 : L0rna",
+   "fecha": "2027-03-05T19:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/mala-conducta-lorna-20270305/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3054745?hl=es-ES",
    "agotado": false
   },
   {
@@ -1444,11 +1408,11 @@ window.AGENDA = {
   },
   {
    "titulo": "Emotional by Miguel Serna",
-   "fecha": "2027-04-10",
+   "fecha": "2027-04-10T17:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/emotional-by-miguel-serna-270410/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3052954?hl=es-ES",
    "agotado": false
   },
   {
@@ -1619,7 +1583,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/the-world-of-hans-zimmer-a-new-dimension-20270510/",
-   "entradas": "https://www.roigarena.com/es/event/the-world-of-hans-zimmer-a-new-dimension-20270510/tickets/",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -1767,6 +1731,33 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Camilo",
+   "fecha": "2027-07-03T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/camilo-20270703/",
+   "entradas": null,
+   "agotado": false
+  },
+  {
+   "titulo": "Camilo - Para cuando sean mayores",
+   "fecha": "2027-07-07T21:00:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/camilo-para-cuando-sean-mayores",
+   "entradas": null,
+   "agotado": false
+  },
+  {
+   "titulo": "Camilo - Para cuando sean mayores",
+   "fecha": "2027-07-08T21:00:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/camilo-para-cuando-sean-mayores",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "Cano- Anais Tour 2027",
    "fecha": "2027-07-16T21:00:00",
    "ciudad": "Madrid",
@@ -1785,12 +1776,39 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Marlena",
+   "fecha": "2027-10-01T21:00:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/marlena/1-10-2027/21:00",
+   "entradas": "https://tickets.baila.fm/marlena-madrid-gira-2027",
+   "agotado": false
+  },
+  {
    "titulo": "Siloé",
    "fecha": "2027-10-09",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/20271009-siloe/",
    "entradas": "https://entradas.siloemusic.es/siloe-terrorismo-emocional-deluxe-tour-valencia-2027",
+   "agotado": false
+  },
+  {
+   "titulo": "Rodrigo Cuevas - La Belleza",
+   "fecha": "2027-10-15T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/rodrigo-cuevas-271015/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3049165?hl=es-ES",
+   "agotado": false
+  },
+  {
+   "titulo": "Rodrigo Cuevas - La Belleza",
+   "fecha": "2027-10-22",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/rodrigo-cuevas-la-belleza/22-10-2027/00:00",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -1812,6 +1830,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Lucho RK - Sordo de un pie Tour",
+   "fecha": "2027-10-30T20:30:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/lucho-rk-sordo-de-un-pie-tour/30-10-2027/20:30",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "World Tour 2026/27 - Il Volo",
    "fecha": "2027-10-31T20:00:00",
    "ciudad": "Valencia",
@@ -1826,8 +1853,8 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/lucho-rk-sordo-de-un-pie-tour/8-11-2027/20:30",
-   "entradas": "https://tickets.baila.fm/lucho-rk-sordo-de-un-pie-tour-madrid-2027",
-   "agotado": false
+   "entradas": null,
+   "agotado": true
   },
   {
    "titulo": "El Kanka - Gira La Calma",
