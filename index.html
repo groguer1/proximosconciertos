@@ -316,7 +316,7 @@ footer p{margin:0 0 8px;max-width:75ch}
     eventStatus:"https://schema.org/EventScheduled", eventAttendanceMode:"https://schema.org/OfflineEventAttendanceMode",
     location:{"@type":"Place", name:e.recinto, address:{"@type":"PostalAddress", addressLocality:e.ciudad, addressCountry:"ES"}},
     performer:{"@type":"PerformingGroup", name:e.artista},
-    ...(e.entradas ? {offers:{"@type":"Offer", url:e.entradas, priceCurrency:"EUR", availability: e.agotado ? "https://schema.org/SoldOut" : "https://schema.org/InStock"}} : {})
+    ...((e.entradas || e.info) ? {offers:{"@type":"Offer", url:e.entradas || e.info, priceCurrency:"EUR", availability: e.agotado ? "https://schema.org/SoldOut" : "https://schema.org/InStock"}} : {})
   }))});
   document.head.appendChild(ld);
 
