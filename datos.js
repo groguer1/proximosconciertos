@@ -1,70 +1,7 @@
-// Generado por actualizar.py el 2026-10-24. No editar a mano.
+// Generado por actualizar.py el 2026-10-30. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-10-24",
+ "actualizado": "2026-10-30",
  "eventos": [
-  {
-   "titulo": "Aaron Sevilla",
-   "fecha": "2026-10-24T16:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/Aaron-sevilla-20261026/",
-   "entradas": "https://www.roigarena.com/es/event/Aaron-sevilla-20261026/tickets/",
-   "agotado": false
-  },
-  {
-   "titulo": "Lia Kali final de gira Kaelis 2.0",
-   "fecha": "2026-10-24T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/lia-kali-20261024/",
-   "entradas": "https://dice.fm/event/2wam36-lia-kali-24th-oct-roig-arena-valencia-tickets",
-   "agotado": false
-  },
-  {
-   "titulo": "No te va gustar",
-   "fecha": "2026-10-25T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/no-te-va-a-gustar-20261025/",
-   "entradas": null,
-   "agotado": false
-  },
-  {
-   "titulo": "Jungle",
-   "fecha": "2026-10-26T21:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/jungle/26-10-2026/21:00",
-   "entradas": "https://baila.fm/eventos/entradas-jungle-madrid-movistar-arena-2026/",
-   "agotado": false
-  },
-  {
-   "titulo": "Morat- YEM World Tour",
-   "fecha": "2026-10-27T20:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/morat-yem-world-tour/27-10-2026/20:00",
-   "entradas": null,
-   "agotado": false
-  },
-  {
-   "titulo": "Morat- YEM World Tour",
-   "fecha": "2026-10-28T20:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/morat-yem-world-tour/28-10-2026/20:00",
-   "entradas": null,
-   "agotado": false
-  },
-  {
-   "titulo": "Que Tin y Que Tan - Nanpa Básico",
-   "fecha": "2026-10-29T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/nanpa-basico-20261029/",
-   "entradas": "https://feverup.com/m/601753",
-   "agotado": false
-  },
   {
    "titulo": "Morat- YEM World Tour",
    "fecha": "2026-10-30T20:00:00",
@@ -79,8 +16,8 @@ window.AGENDA = {
    "fecha": "2026-10-30T20:30:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/la-fumiga-tot-s-acaba-20251030/",
-   "entradas": null,
+   "info": "https://www.roigarena.com/es/event/la-fumiga-tot-s-acaba-20261030/",
+   "entradas": "https://venta.ticketing.roigarena.com/buy/?id=60698&color=ff5200&afiliado=roigarena_app",
    "agotado": false
   },
   {
@@ -97,8 +34,17 @@ window.AGENDA = {
    "fecha": "2026-10-31T20:30:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/la-fumiga-tot-s-acaba-20261024/",
-   "entradas": null,
+   "info": "https://www.roigarena.com/es/event/la-fumiga-tot-s-acaba-20261031/",
+   "entradas": "https://venta.ticketing.roigarena.com/buy/?id=60699&color=ff5200&afiliado=roigarena_app",
+   "agotado": false
+  },
+  {
+   "titulo": "PRESENTACIÓN FUNDACIÓN PICCOLO ALL MOZART",
+   "fecha": "2026-11-01T19:30:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/presentacion-fundacion-piccolo-all-mozart-20261101/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/events/61502",
    "agotado": false
   },
   {
@@ -143,7 +89,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/shinova-20261007/",
-   "entradas": null,
+   "entradas": "https://www.roigarena.com/es/event/shinova-20261007/tickets/",
    "agotado": false
   },
   {
@@ -238,7 +184,7 @@ window.AGENDA = {
   },
   {
    "titulo": "Los mejores años de nuestra vida - Hombres G",
-   "fecha": "2026-11-14T20:30:00",
+   "fecha": "2026-11-14T21:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/hombres-g-20261114/",
@@ -269,7 +215,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/jesse-and-joy-20261115/",
-   "entradas": "https://www.notikumi.com/2026/11/15/jesse-and-joy",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -377,7 +323,7 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/juntos-la-maquina-del-tiempo-europa-tour/26-11-2026/20:00",
-   "entradas": "https://tickets.baila.fm/juntos-gira-la-maquina-del-tiempo-madrid-2026",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -584,7 +530,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/melendi-pop-rock-tour-20261212/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2680341?hl=es-ES",
    "agotado": false
   },
   {
@@ -620,7 +566,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/melendi-pop-rock-tour-20261213/",
-   "entradas": null,
+   "entradas": "https://www.roigarena.com/es/event/melendi-pop-rock-tour-20261213/tickets/",
    "agotado": false
   },
   {
@@ -693,15 +639,6 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/melendi-pop-rock-tour",
    "entradas": null,
-   "agotado": false
-  },
-  {
-   "titulo": "Estoy Solo en Casa",
-   "fecha": "2026-12-22T18:30:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/estoy-solo-en-casa-20261222/",
-   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3045732?hl=es-ES",
    "agotado": false
   },
   {
@@ -819,6 +756,15 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/luli-pamp-n-millones-de-gracias-world-tour/4-1-2027/18:00",
    "entradas": "https://entradas.baila.fm/baila/select/2923119",
+   "agotado": false
+  },
+  {
+   "titulo": "Estoy Solo en Casa | 19:30h",
+   "fecha": "2027-01-04T19:30:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/estoy-solo-en-casa202701044/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3064302?hl=es-ES",
    "agotado": false
   },
   {
@@ -1079,7 +1025,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/editors-20270130/",
-   "entradas": "https://www.roigarena.com/es/event/editors-20270130/tickets/",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -1174,6 +1120,15 @@ window.AGENDA = {
   },
   {
    "titulo": "Barry B",
+   "fecha": "2027-02-12T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/barry-b-20270212/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3054731?hl=es-ES",
+   "agotado": false
+  },
+  {
+   "titulo": "Barry B",
    "fecha": "2027-02-13",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
@@ -1192,11 +1147,11 @@ window.AGENDA = {
   },
   {
    "titulo": "Concierto Solidario - Cris Contra El Cáncer",
-   "fecha": "2027-02-17",
+   "fecha": "2027-02-17T19:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/concierto-solidario-cris-contra-el-cancer/17-2-2027/00:00",
-   "entradas": null,
+   "info": "https://www.movistararena.es/programacion/evento/concierto-solidario-cris-contra-el-cancer/17-2-2027/19:30",
+   "entradas": "https://tickets.baila.fm/generacion-cris-contra-el-cancer-madrid-2027-17-feb-entradas",
    "agotado": false
   },
   {
@@ -1299,6 +1254,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Remember del Arena: Especial Fallas",
+   "fecha": "2027-03-06T17:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/remember-arena-20270306/",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "Siloé",
    "fecha": "2027-03-12T20:45:00",
    "ciudad": "Madrid",
@@ -1332,6 +1296,15 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/squeeze-20271403/",
    "entradas": "https://tickets.oneboxtds.com/roigarena/events/59906?hl=es-ES",
+   "agotado": false
+  },
+  {
+   "titulo": "Saint Etienne",
+   "fecha": "2027-03-19T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/saint-etienne-20270319/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3064375?hl=es-ES",
    "agotado": false
   },
   {
@@ -1412,7 +1385,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/emotional-by-miguel-serna-270410/",
-   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3052954?hl=es-ES",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -1476,6 +1449,15 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/pignoise-valencia-20270417/",
    "entradas": "https://tickets.oneboxtds.com/roigarena/select/3039192?hl=es-ES",
+   "agotado": false
+  },
+  {
+   "titulo": "SanLuis - Aunque Sea Todo World Tour 2027",
+   "fecha": "2027-04-18T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/San-Luis-20270418/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3053388?hl=es-ES",
    "agotado": false
   },
   {
@@ -1548,6 +1530,15 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/seguridad-social-20270501/",
    "entradas": "https://www.roigarena.com/es/event/seguridad-social-20270501/tickets/",
+   "agotado": false
+  },
+  {
+   "titulo": "Harlem Globetrotters - Rivales Gira 2027",
+   "fecha": "2027-05-03",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/harlem-globetrotters-rivales-gira-2027/3-5-2027/00:00",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -1736,7 +1727,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/camilo-20270703/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3052427?hl=es-ES",
    "agotado": false
   },
   {
@@ -1763,8 +1754,8 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/cano-anais-tour-2027/16-7-2027/21:00",
-   "entradas": "https://entradas.baila.fm/baila/select/2882436",
-   "agotado": false
+   "entradas": null,
+   "agotado": true
   },
   {
    "titulo": "Deacon Blue",
@@ -1804,11 +1795,11 @@ window.AGENDA = {
   },
   {
    "titulo": "Rodrigo Cuevas - La Belleza",
-   "fecha": "2027-10-22",
+   "fecha": "2027-10-22T20:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/rodrigo-cuevas-la-belleza/22-10-2027/00:00",
-   "entradas": null,
+   "info": "https://www.movistararena.es/programacion/evento/rodrigo-cuevas-la-belleza/22-10-2027/20:30",
+   "entradas": "https://entradas.baila.fm/baila/select/3051516",
    "agotado": false
   },
   {

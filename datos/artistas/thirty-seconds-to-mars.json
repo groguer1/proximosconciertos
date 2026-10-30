@@ -3,7 +3,7 @@
  "slug": "thirty-seconds-to-mars",
  "tipo": "MusicGroup",
  "gira": "A Beautiful Lie vs This Is War",
- "revisado": "2026-10-20",
+ "revisado": "2026-10-30",
  "fuente": "https://thirtysecondstomars.com/tour",
  "fuente_nombre": "web oficial de Thirty Seconds to Mars",
  "fechas": [
@@ -24,10 +24,10 @@
  ],
  "vigilar": {
   "url": "https://thirtysecondstomars.com/tour",
-  "patron": "tour-date/([a-z0-9-]*spain-\\d{4}-\\d\\d-\\d\\d)",
+  "patron": "/tour/([a-z0-9-]*spain-\\d{4}-\\d\\d-\\d\\d)/",
   "huella": [
-   "roig-arena-valencia-spain-2027-04-09",
-   "vistalegre-madrid-spain-2027-04-08"
+   "movistar-arena-madrid-spain-2027-04-08",
+   "roig-arena-valencia-spain-2027-04-09"
   ]
  }
 }

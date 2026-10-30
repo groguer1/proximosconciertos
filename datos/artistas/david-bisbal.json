@@ -2,7 +2,7 @@
  "artista": "David Bisbal",
  "slug": "david-bisbal",
  "gira": "Tour Eternos España 2027",
- "revisado": "2026-10-24",
+ "revisado": "2026-10-30",
  "fuente": "https://tienda.davidbisbal.com/pages/tour-eternos-espana-2027",
  "fuente_nombre": "web oficial de David Bisbal",
  "fechas": [
@@ -74,14 +74,23 @@
    "hora": "",
    "ciudad": "Almería",
    "recinto": "Plaza de Toros de Almería",
-   "entradas": "https://davidbisbal.lnk.to/26_06_26_almeriaWE"
+   "entradas": "",
+   "nota": "Lista de espera en la web oficial (30/10/2026)"
+  },
+  {
+   "fecha": "2027-06-27",
+   "hora": "",
+   "ciudad": "Almería",
+   "recinto": "Plaza de Toros de Almería",
+   "entradas": "https://davidbisbal.lnk.to/27_06_27_almeria"
   },
   {
    "fecha": "2027-07-01",
    "hora": "21:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "entradas": "https://davidbisbal.lnk.to/01_07_27_MadridWE"
+   "entradas": "",
+   "nota": "Lista de espera en la web oficial (30/10/2026)"
   },
   {
    "fecha": "2027-07-03",
@@ -116,14 +125,30 @@
    "hora": "",
    "ciudad": "Chiclana de la Frontera",
    "recinto": "Concert Music Festival",
-   "entradas": "https://www.ticketmaster.es/event/1961719038?subchannel_id=11800&brand=es_concertmusicfest"
+   "entradas": "",
+   "estado": "agotado"
+  },
+  {
+   "fecha": "2027-07-25",
+   "hora": "",
+   "ciudad": "Chiclana de la Frontera",
+   "recinto": "Concert Music Festival",
+   "entradas": "https://www.ticketmaster.es/event/2096418512?subchannel_id=11800&brand=es_concertmusicfest"
   },
   {
    "fecha": "2027-09-09",
    "hora": "",
    "ciudad": "Sevilla",
    "recinto": "Plaza de Toros de la Real Maestranza",
-   "entradas": "https://davidbisbal.lnk.to/09_09_27_SevillaWE"
+   "entradas": "",
+   "nota": "Lista de espera en la web oficial (30/10/2026)"
+  },
+  {
+   "fecha": "2027-09-10",
+   "hora": "",
+   "ciudad": "Sevilla",
+   "recinto": "Plaza de Toros de la Real Maestranza",
+   "entradas": "https://davidbisbal.lnk.to/10_06_2027_sevilla"
   }
  ],
  "vigilar": {
@@ -133,17 +158,19 @@
    "01_07_27_MadridWE",
    "04_06_27_CorunaWE",
    "09_09_27_SevillaWE",
+   "10_06_2027_sevilla",
    "10_07_27_alicanteWE",
    "11_06_27_BCNWE",
    "12_06_27_zgzWE",
    "17_07_27_VDLSWE",
    "19-de-junio-2027-plaza-de-toros-murcia",
-   "1961719038",
+   "2096418512",
    "22-de-mayo-2027-roig-arena-valencia",
    "22_06_27_albaceteWE",
    "22_07_2027_fuengirolaWE",
    "25_06_27_grxWE",
    "26_06_26_almeriaWE",
+   "27_06_27_almeria",
    "29_05_27_BilbaoWE",
    "david-bisbal-en-cordoba-821181",
    "david-bisbal-valladolid-28-de-mayo"
