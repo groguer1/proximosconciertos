@@ -1,32 +1,14 @@
-// Generado por actualizar.py el 2026-10-30. No editar a mano.
+// Generado por actualizar.py el 2026-10-31. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-10-30",
+ "actualizado": "2026-10-31",
  "eventos": [
-  {
-   "titulo": "Morat- YEM World Tour",
-   "fecha": "2026-10-30T20:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/morat-yem-world-tour/30-10-2026/20:00",
-   "entradas": null,
-   "agotado": false
-  },
-  {
-   "titulo": "Tot s'acaba - La Fúmiga",
-   "fecha": "2026-10-30T20:30:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/la-fumiga-tot-s-acaba-20261030/",
-   "entradas": "https://venta.ticketing.roigarena.com/buy/?id=60698&color=ff5200&afiliado=roigarena_app",
-   "agotado": false
-  },
   {
    "titulo": "Morat- YEM World Tour",
    "fecha": "2026-10-31T20:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/morat-yem-world-tour/31-10-2026/20:00",
-   "entradas": null,
+   "entradas": "https://entradas.baila.fm/baila/select/2634241",
    "agotado": false
   },
   {
