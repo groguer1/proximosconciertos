@@ -1,25 +1,7 @@
-// Generado por actualizar.py el 2026-10-31. No editar a mano.
+// Generado por actualizar.py el 2026-11-01. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-10-31",
+ "actualizado": "2026-11-01",
  "eventos": [
-  {
-   "titulo": "Morat- YEM World Tour",
-   "fecha": "2026-10-31T20:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/morat-yem-world-tour/31-10-2026/20:00",
-   "entradas": "https://entradas.baila.fm/baila/select/2634241",
-   "agotado": false
-  },
-  {
-   "titulo": "Tot s'acaba - La Fúmiga",
-   "fecha": "2026-10-31T20:30:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/la-fumiga-tot-s-acaba-20261031/",
-   "entradas": "https://venta.ticketing.roigarena.com/buy/?id=60699&color=ff5200&afiliado=roigarena_app",
-   "agotado": false
-  },
   {
    "titulo": "PRESENTACIÓN FUNDACIÓN PICCOLO ALL MOZART",
    "fecha": "2026-11-01T19:30:00",
@@ -160,7 +142,7 @@ window.AGENDA = {
    "fecha": "2026-11-13T21:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/yandel-sinfonico",
+   "info": "https://www.movistararena.es/programacion/evento/yandel-sinfonico/13-11-2026/21:00",
    "entradas": null,
    "agotado": true
   },
@@ -187,7 +169,7 @@ window.AGENDA = {
    "fecha": "2026-11-14T21:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/yandel-sinfonico",
+   "info": "https://www.movistararena.es/programacion/evento/yandel-sinfonico/14-11-2026/21:00",
    "entradas": null,
    "agotado": true
   },
@@ -205,7 +187,7 @@ window.AGENDA = {
    "fecha": "2026-11-15T21:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/agorazein-agz-siempre",
+   "info": "https://www.movistararena.es/programacion/evento/agorazein-agz-siempre/15-11-2026/21:00",
    "entradas": null,
    "agotado": true
   },
@@ -214,7 +196,7 @@ window.AGENDA = {
    "fecha": "2026-11-16T21:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/agorazein-agz-siempre",
+   "info": "https://www.movistararena.es/programacion/evento/agorazein-agz-siempre/16-11-2026/21:00",
    "entradas": null,
    "agotado": true
   },
@@ -223,27 +205,27 @@ window.AGENDA = {
    "fecha": "2026-11-17T21:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/agorazein-agz-siempre",
+   "info": "https://www.movistararena.es/programacion/evento/agorazein-agz-siempre/17-11-2026/21:00",
    "entradas": null,
-   "agotado": true
+   "agotado": false
   },
   {
    "titulo": "Agorazein (AGZ) - Siempre",
    "fecha": "2026-11-18T21:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/agorazein-agz-siempre",
+   "info": "https://www.movistararena.es/programacion/evento/agorazein-agz-siempre/18-11-2026/21:00",
    "entradas": null,
-   "agotado": true
+   "agotado": false
   },
   {
    "titulo": "Vetusta Morla - Gira de Vuelta Canciones de Ida",
    "fecha": "2026-11-19T20:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/vetusta-morla-gira-de-vuelta-canciones-de-ida",
+   "info": "https://www.movistararena.es/programacion/evento/vetusta-morla-gira-de-vuelta-canciones-de-ida/19-11-2026/20:30",
    "entradas": null,
-   "agotado": true
+   "agotado": false
   },
   {
    "titulo": "50 aniversario Orquesta Mondragón",
@@ -259,7 +241,7 @@ window.AGENDA = {
    "fecha": "2026-11-20T20:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/vetusta-morla-gira-de-vuelta-canciones-de-ida",
+   "info": "https://www.movistararena.es/programacion/evento/vetusta-morla-gira-de-vuelta-canciones-de-ida/20-11-2026/20:30",
    "entradas": null,
    "agotado": true
   },
@@ -277,7 +259,7 @@ window.AGENDA = {
    "fecha": "2026-11-21T20:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/vetusta-morla-gira-de-vuelta-canciones-de-ida",
+   "info": "https://www.movistararena.es/programacion/evento/vetusta-morla-gira-de-vuelta-canciones-de-ida/21-11-2026/20:30",
    "entradas": null,
    "agotado": true
   },
