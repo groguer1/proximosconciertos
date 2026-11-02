@@ -1,16 +1,7 @@
-// Generado por actualizar.py el 2026-11-01. No editar a mano.
+// Generado por actualizar.py el 2026-11-02. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-01",
+ "actualizado": "2026-11-02",
  "eventos": [
-  {
-   "titulo": "PRESENTACIÓN FUNDACIÓN PICCOLO ALL MOZART",
-   "fecha": "2026-11-01T19:30:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/presentacion-fundacion-piccolo-all-mozart-20261101/",
-   "entradas": "https://tickets.oneboxtds.com/roigarena/events/61502",
-   "agotado": false
-  },
   {
    "titulo": "Pitbull - I'M BACK",
    "fecha": "2026-11-05T20:30:00",
@@ -1674,6 +1665,15 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/montaner-el-ltimo-regreso-una-vuelta-m-s-para-que-seas-feliz/19-6-2027/20:30",
    "entradas": "https://tickets.baila.fm/ricardo-montaner-el-ultimo-regreso-madrid-2027",
+   "agotado": false
+  },
+  {
+   "titulo": "Queens of the Stone Age",
+   "fecha": "2027-06-21T20:30:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/queens-of-the-stone-age-20270621/",
+   "entradas": null,
    "agotado": false
   },
   {
