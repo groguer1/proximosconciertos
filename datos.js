@@ -1,16 +1,7 @@
-// Generado por actualizar.py el 2026-11-02. No editar a mano.
+// Generado por actualizar.py el 2026-11-04. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-02",
+ "actualizado": "2026-11-04",
  "eventos": [
-  {
-   "titulo": "Pitbull - I'M BACK",
-   "fecha": "2026-11-05T20:30:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/pitbull-i-m-back/5-11-2026/20:30",
-   "entradas": "https://www.ticketmaster.es/event/603968801?subchannel_id=43&brand=base_mb_es",
-   "agotado": false
-  },
   {
    "titulo": "This is Michael",
    "fecha": "2026-11-05T21:00:00",
@@ -18,6 +9,15 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/this-is-michael-valencia-20261105/",
    "entradas": "https://www.enterticket.com/events/this-is-michael-en-valencia-714718",
+   "agotado": false
+  },
+  {
+   "titulo": "Pitbull - I'M BACK",
+   "fecha": "2026-11-05T21:15:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/pitbull-i-m-back/5-11-2026/21:15",
+   "entradas": "https://www.ticketmaster.es/event/603968801?subchannel_id=43&brand=base_mb_es",
    "agotado": false
   },
   {
@@ -44,7 +44,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/shinova-20261007/",
-   "entradas": "https://www.roigarena.com/es/event/shinova-20261007/tickets/",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -220,7 +220,7 @@ window.AGENDA = {
   },
   {
    "titulo": "50 aniversario Orquesta Mondragón",
-   "fecha": "2026-11-19T22:00:00",
+   "fecha": "2026-11-19T21:30:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/50-aniversario-la-orquesta-mondragon-20261119/",
@@ -422,7 +422,7 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/miguel-rios-fin-de-gira-el-ultimo-vals/8-12-2026/19:30",
-   "entradas": "https://entradas.baila.fm/baila/select/2908950",
+   "entradas": "https://entradas.baila.fm/baila/select/3043437",
    "agotado": false
   },
   {
@@ -1191,6 +1191,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "MALA CONDUCTA 007 : John Pō",
+   "fecha": "2027-03-04T19:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/john-po-20270304/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3065410?hl=es-ES",
+   "agotado": false
+  },
+  {
    "titulo": "Mala Conducta 007 : L0rna",
    "fecha": "2027-03-05T19:00:00",
    "ciudad": "Valencia",
@@ -1214,7 +1223,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/remember-arena-20270306/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3067794?hl=es-ES",
    "agotado": false
   },
   {
@@ -1506,6 +1515,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Scorpions - Love, Peace & Rock 'N' Roll Tour 2027",
+   "fecha": "2027-05-08",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/scorpions-love-peace-y-rock-n-roll-tour-2027/8-5-2027/00:00",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "FMS Internacional 2027",
    "fecha": "2027-05-08T18:00:00",
    "ciudad": "Valencia",
@@ -1749,6 +1767,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Paula Mattheus",
+   "fecha": "2027-10-09T20:30:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/paula-mattheus/9-10-2027/20:30",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "Rodrigo Cuevas - La Belleza",
    "fecha": "2027-10-15T21:00:00",
    "ciudad": "Valencia",
@@ -1825,9 +1852,18 @@ window.AGENDA = {
    "fecha": "2027-12-03T20:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/el-barrio-lo-que-guardas-te-hace-volver/3-12-2027/20:30",
+   "info": "https://www.movistararena.es/programacion/evento/el-barrio-lo-que-guardas-te-hace-volver",
    "entradas": null,
-   "agotado": false
+   "agotado": true
+  },
+  {
+   "titulo": "El Barrio - Lo que guardas te hace volver",
+   "fecha": "2027-12-04T20:30:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/el-barrio-lo-que-guardas-te-hace-volver",
+   "entradas": null,
+   "agotado": true
   },
   {
    "titulo": "Pignoise - Anunciado en Televisión Gira 2027",
@@ -1836,6 +1872,24 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/pignoise-anunciado-en-televisi-n-gira-2027/10-12-2027/21:00",
    "entradas": "https://tickets.baila.fm/pignoise-en-madrid-2027",
+   "agotado": false
+  },
+  {
+   "titulo": "André Rieu - Y su Orquesta Johann Strauss.",
+   "fecha": "2028-01-20",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/andre-rieu-y-su-orquesta-johann-strauss/20-1-2028/00:00",
+   "entradas": null,
+   "agotado": false
+  },
+  {
+   "titulo": "André Rieu",
+   "fecha": "2028-01-21",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/andre-rieu-20280121/",
+   "entradas": null,
    "agotado": false
   },
   {
