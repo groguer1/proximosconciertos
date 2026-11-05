@@ -1,6 +1,6 @@
-// Generado por actualizar.py el 2026-11-04. No editar a mano.
+// Generado por actualizar.py el 2026-11-05. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-04",
+ "actualizado": "2026-11-05",
  "eventos": [
   {
    "titulo": "This is Michael",
@@ -656,8 +656,8 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/amaral-dolce-vita-tour-fin-de-gira/28-12-2026/20:30",
-   "entradas": "https://entradas.baila.fm/baila/events/50066",
-   "agotado": false
+   "entradas": null,
+   "agotado": true
   },
   {
    "titulo": "La Oreja de Van Gogh - Tantas cosas que contar Tour 2026",
