@@ -1,25 +1,7 @@
-// Generado por actualizar.py el 2026-11-05. No editar a mano.
+// Generado por actualizar.py el 2026-11-06. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-05",
+ "actualizado": "2026-11-06",
  "eventos": [
-  {
-   "titulo": "This is Michael",
-   "fecha": "2026-11-05T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/this-is-michael-valencia-20261105/",
-   "entradas": "https://www.enterticket.com/events/this-is-michael-en-valencia-714718",
-   "agotado": false
-  },
-  {
-   "titulo": "Pitbull - I'M BACK",
-   "fecha": "2026-11-05T21:15:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/pitbull-i-m-back/5-11-2026/21:15",
-   "entradas": "https://www.ticketmaster.es/event/603968801?subchannel_id=43&brand=base_mb_es",
-   "agotado": false
-  },
   {
    "titulo": "Duran Duran - Free To Love Tour",
    "fecha": "2026-11-06T21:00:00",
@@ -332,7 +314,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/mind-enterprises-20261128/",
-   "entradas": "https://www.enterticket.es/eventos/mind-enterprises-live-en-valencia-auditorio-roig-arena-607235",
+   "entradas": "https://www.roigarena.com/es/event/mind-enterprises-20261128/tickets/",
    "agotado": false
   },
   {
@@ -521,7 +503,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/melendi-pop-rock-tour-20261213/",
-   "entradas": "https://www.roigarena.com/es/event/melendi-pop-rock-tour-20261213/tickets/",
+   "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2708206?hl=es-ES",
    "agotado": false
   },
   {
@@ -674,7 +656,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/concierto-ano-nuevo-20270101/",
-   "entradas": "https://tickets.oneboxtds.com/roigarena/events/60916?hl=es-ES",
+   "entradas": "https://entradas.roigarena.com/roigarena/select/3044487",
    "agotado": false
   },
   {
@@ -989,8 +971,8 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/carlos-ares-fin-de-gira/30-1-2027/20:30",
-   "entradas": "https://entradas.baila.fm/baila/select/2717431",
-   "agotado": false
+   "entradas": null,
+   "agotado": true
   },
   {
    "titulo": "Kabrönes",
@@ -1224,6 +1206,24 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/remember-arena-20270306/",
    "entradas": "https://tickets.oneboxtds.com/roigarena/select/3067794?hl=es-ES",
+   "agotado": false
+  },
+  {
+   "titulo": "Wisin - Universidad del perreo",
+   "fecha": "2027-03-06T21:00:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/wisin-universidad-del-perreo/6-3-2027/21:00",
+   "entradas": null,
+   "agotado": false
+  },
+  {
+   "titulo": "Homenaje a Nino Bravo Rock y Corazón",
+   "fecha": "2027-03-06T22:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/homenaje-nino-20270306/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3067599?hl=es-ES",
    "agotado": false
   },
   {
@@ -1498,11 +1498,11 @@ window.AGENDA = {
   },
   {
    "titulo": "Harlem Globetrotters - Rivales Gira 2027",
-   "fecha": "2027-05-03",
+   "fecha": "2027-05-03T19:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/harlem-globetrotters-rivales-gira-2027/3-5-2027/00:00",
-   "entradas": null,
+   "info": "https://www.movistararena.es/programacion/evento/harlem-globetrotters-rivales-gira-2027/3-5-2027/19:00",
+   "entradas": "https://entradas.baila.fm/baila/select/3002452",
    "agotado": false
   },
   {
@@ -1520,7 +1520,7 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/scorpions-love-peace-y-rock-n-roll-tour-2027/8-5-2027/00:00",
-   "entradas": null,
+   "entradas": "https://tickets.baila.fm/scorpions-en-madrid-2027-08-may-entradas",
    "agotado": false
   },
   {
@@ -1691,7 +1691,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/queens-of-the-stone-age-20270621/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3071626?hl=es-ES",
    "agotado": false
   },
   {
@@ -1740,6 +1740,15 @@ window.AGENDA = {
    "agotado": true
   },
   {
+   "titulo": "Ultraligera - Lapsus Tour",
+   "fecha": "2027-09-09",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/ultraligera-lapsus-tour/9-9-2027/00:00",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "Deacon Blue",
    "fecha": "2027-09-24T20:00:00",
    "ciudad": "Valencia",
@@ -1772,7 +1781,7 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/paula-mattheus/9-10-2027/20:30",
-   "entradas": null,
+   "entradas": "https://tickets.baila.fm/paula-mattheus-2027-09-oct-madrid-entradas",
    "agotado": false
   },
   {
@@ -1876,10 +1885,10 @@ window.AGENDA = {
   },
   {
    "titulo": "André Rieu - Y su Orquesta Johann Strauss.",
-   "fecha": "2028-01-20",
+   "fecha": "2028-01-20T20:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/andre-rieu-y-su-orquesta-johann-strauss/20-1-2028/00:00",
+   "info": "https://www.movistararena.es/programacion/evento/andre-rieu-y-su-orquesta-johann-strauss/20-1-2028/20:00",
    "entradas": null,
    "agotado": false
   },

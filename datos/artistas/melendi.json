@@ -2,10 +2,10 @@
   "artista": "Melendi",
   "slug": "melendi",
   "gira": "Pop Rock Tour",
-  "revisado": "2026-11-02",
+  "revisado": "2026-11-06",
   "fuente": "https://www.melendioficial.com/conciertos/",
   "fuente_nombre": "web oficial de Melendi",
-  "nota_2027": "A 4 de octubre de 2026, la web oficial de Melendi no publica ninguna fecha en 2027.",
+  "nota_2027": "A 6 de noviembre de 2026, la web oficial de Melendi publica diez fechas en España en 2027 (de Avilés el 8 de mayo a Chiclana el 13 de agosto), sin hora todavía.",
   "fechas": [
     {
       "fecha": "2026-10-10",
@@ -142,6 +142,76 @@
       "recinto": "Movistar Arena",
       "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/2680519?hl=es-ES",
       "ficha": "https://www.melendioficial.com/event/madrid-3/"
+    },
+    {
+      "fecha": "2027-05-08",
+      "ciudad": "Avilés",
+      "recinto": "Pabellón de Exposiciones de La Magdalena",
+      "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/3053400",
+      "ficha": "https://www.melendioficial.com/conciertos/"
+    },
+    {
+      "fecha": "2027-05-14",
+      "ciudad": "Valladolid",
+      "recinto": "Pingüinos Arena",
+      "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/3064336",
+      "ficha": "https://www.melendioficial.com/conciertos/"
+    },
+    {
+      "fecha": "2027-05-29",
+      "ciudad": "Albacete",
+      "recinto": "Espacio IFAB",
+      "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/3053822",
+      "ficha": "https://www.melendioficial.com/conciertos/"
+    },
+    {
+      "fecha": "2027-06-10",
+      "ciudad": "Mérida",
+      "recinto": "Stone & Music Festival",
+      "entradas": "https://www.eventsentradas.com/eventos/stone-and-music-merida/447-entradas-melendi-stone-and-music",
+      "ficha": "https://www.melendioficial.com/conciertos/"
+    },
+    {
+      "fecha": "2027-07-09",
+      "ciudad": "Sevilla",
+      "recinto": "Icónica Occident Sevilla Fest",
+      "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/3055893",
+      "ficha": "https://www.melendioficial.com/conciertos/"
+    },
+    {
+      "fecha": "2027-07-10",
+      "ciudad": "Córdoba",
+      "recinto": "Córdoba Live",
+      "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/3053819",
+      "ficha": "https://www.melendioficial.com/conciertos/"
+    },
+    {
+      "fecha": "2027-07-16",
+      "ciudad": "Úbeda",
+      "recinto": "Recinto Ferial de Úbeda",
+      "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/3054033",
+      "ficha": "https://www.melendioficial.com/conciertos/"
+    },
+    {
+      "fecha": "2027-07-17",
+      "ciudad": "Alicante",
+      "recinto": "Área 12 Alicante",
+      "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/3055732",
+      "ficha": "https://www.melendioficial.com/conciertos/"
+    },
+    {
+      "fecha": "2027-08-05",
+      "ciudad": "Santander",
+      "recinto": "Campa de la Magdalena",
+      "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/3056028",
+      "ficha": "https://www.melendioficial.com/conciertos/"
+    },
+    {
+      "fecha": "2027-08-13",
+      "ciudad": "Chiclana de la Frontera",
+      "recinto": "Concert Music Festival",
+      "entradas": "https://www.ticketmaster.es/event/1978985575",
+      "ficha": "https://www.melendioficial.com/conciertos/"
     }
   ],
   "vigilar": {
