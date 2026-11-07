@@ -1,16 +1,7 @@
-// Generado por actualizar.py el 2026-11-06. No editar a mano.
+// Generado por actualizar.py el 2026-11-07. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-06",
+ "actualizado": "2026-11-07",
  "eventos": [
-  {
-   "titulo": "Duran Duran - Free To Love Tour",
-   "fecha": "2026-11-06T21:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/duran-duran-free-to-love-tour/6-11-2026/21:00",
-   "entradas": "https://tickets.baila.fm/duran-duran-madrid-2026",
-   "agotado": false
-  },
   {
    "titulo": "House Arena",
    "fecha": "2026-11-07T15:00:00",
