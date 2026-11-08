@@ -1,34 +1,7 @@
-// Generado por actualizar.py el 2026-11-07. No editar a mano.
+// Generado por actualizar.py el 2026-11-08. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-07",
+ "actualizado": "2026-11-08",
  "eventos": [
-  {
-   "titulo": "House Arena",
-   "fecha": "2026-11-07T15:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/house-arena-20261107/",
-   "entradas": "https://www.roigarena.com/es/event/house-arena-20261107/tickets/",
-   "agotado": false
-  },
-  {
-   "titulo": "La Tormenta Perfecta Tour - Shinova",
-   "fecha": "2026-11-07T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/shinova-20261007/",
-   "entradas": null,
-   "agotado": false
-  },
-  {
-   "titulo": "Nicky Jam",
-   "fecha": "2026-11-07T21:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/nicky-jam/7-11-2026/21:00",
-   "entradas": "https://tickets.baila.fm/nicky-jam-madrid-2026",
-   "agotado": false
-  },
   {
    "titulo": "Roll with the punches - Bryan Adams",
    "fecha": "2026-11-08T20:00:00",
