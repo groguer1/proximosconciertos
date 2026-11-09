@@ -1,25 +1,7 @@
-// Generado por actualizar.py el 2026-11-08. No editar a mano.
+// Generado por actualizar.py el 2026-11-09. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-08",
+ "actualizado": "2026-11-09",
  "eventos": [
-  {
-   "titulo": "Roll with the punches - Bryan Adams",
-   "fecha": "2026-11-08T20:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/bryan-adams-20261108/",
-   "entradas": "https://www.ticketvip.es/evento-entradas-bryan-adams-valencia-2026",
-   "agotado": false
-  },
-  {
-   "titulo": "Servando & Florentino",
-   "fecha": "2026-11-08T20:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/servando-y-florentino-20261108/",
-   "entradas": null,
-   "agotado": false
-  },
   {
    "titulo": "Yandel - Sinfónico",
    "fecha": "2026-11-09T21:00:00",
