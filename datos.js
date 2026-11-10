@@ -1,16 +1,7 @@
-// Generado por actualizar.py el 2026-11-09. No editar a mano.
+// Generado por actualizar.py el 2026-11-10. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-09",
+ "actualizado": "2026-11-10",
  "eventos": [
-  {
-   "titulo": "Yandel - Sinfónico",
-   "fecha": "2026-11-09T21:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/yandel-sinfonico/9-11-2026/21:00",
-   "entradas": null,
-   "agotado": false
-  },
   {
    "titulo": "Bryan Adams - Roll with the Punches",
    "fecha": "2026-11-10T20:30:00",
@@ -44,7 +35,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/raphaelisimo-tour-2026-20261113/",
-   "entradas": "https://www.ticketvip.es/evento-entradas-raphael-valencia-2026",
+   "entradas": "https://www.roigarena.com/es/event/raphaelisimo-tour-2026-20261113/tickets/",
    "agotado": false
   },
   {
@@ -170,7 +161,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/lagos-valencia-tour-2026-20261120/",
-   "entradas": "https://tickets.oneboxtds.com/lasordera/select/2921855",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -1160,7 +1151,7 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/wisin-universidad-del-perreo/6-3-2027/21:00",
-   "entradas": null,
+   "entradas": "https://tickets.baila.fm/wisin-en-madrid-2027-06-mar-entradas",
    "agotado": false
   },
   {
@@ -1515,6 +1506,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Dani Martín",
+   "fecha": "2027-05-15T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/dani-martin-20270515/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/events/61911",
+   "agotado": false
+  },
+  {
    "titulo": "Quevedo - El Baifo Tour 2027",
    "fecha": "2027-05-17T20:30:00",
    "ciudad": "Madrid",
@@ -1574,7 +1574,16 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/david-bisbal-20270522/",
-   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3021121?hl=es-ES",
+   "entradas": null,
+   "agotado": false
+  },
+  {
+   "titulo": "Fall Out Boy - Twilight of the Punks Tour",
+   "fecha": "2027-05-23T20:30:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/fall-out-boy-twilight-of-the-punks-tour/23-5-2027/20:30",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -1677,20 +1686,38 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Dani Martín - Las Últimas 14 noches de la Gira 25 Pts Años",
+   "fecha": "2027-07-09T20:30:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/dani-mart-n-las-ltimas-14-noches-de-la-gira-25-pts-a-os",
+   "entradas": null,
+   "agotado": false
+  },
+  {
+   "titulo": "Dani Martín - Las Últimas 14 noches de la Gira 25 Pts Años",
+   "fecha": "2027-07-10T20:30:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/dani-mart-n-las-ltimas-14-noches-de-la-gira-25-pts-a-os",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "Cano- Anais Tour 2027",
    "fecha": "2027-07-16T21:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/cano-anais-tour-2027/16-7-2027/21:00",
+   "info": "https://www.movistararena.es/programacion/evento/cano-anais-tour-2027",
    "entradas": null,
    "agotado": true
   },
   {
    "titulo": "Ultraligera - Lapsus Tour",
-   "fecha": "2027-09-09",
+   "fecha": "2027-09-09T20:45:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/ultraligera-lapsus-tour/9-9-2027/00:00",
+   "info": "https://www.movistararena.es/programacion/evento/ultraligera-lapsus-tour/9-9-2027/20:45",
    "entradas": null,
    "agotado": false
   },
@@ -1835,16 +1862,16 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/andre-rieu-y-su-orquesta-johann-strauss/20-1-2028/20:00",
-   "entradas": null,
+   "entradas": "https://tickets.baila.fm/andre-rieu-madrid-20-01-2028",
    "agotado": false
   },
   {
    "titulo": "André Rieu",
-   "fecha": "2028-01-21",
+   "fecha": "2028-01-21T20:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/andre-rieu-20280121/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3073900?hl=es-ES",
    "agotado": false
   },
   {
