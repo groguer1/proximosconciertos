@@ -1,16 +1,7 @@
-// Generado por actualizar.py el 2026-11-10. No editar a mano.
+// Generado por actualizar.py el 2026-11-11. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-10",
+ "actualizado": "2026-11-11",
  "eventos": [
-  {
-   "titulo": "Bryan Adams - Roll with the Punches",
-   "fecha": "2026-11-10T20:30:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/bryan-adams-roll-with-the-punches/10-11-2026/20:30",
-   "entradas": "https://entradas.baila.fm/baila/select/2750402",
-   "agotado": false
-  },
   {
    "titulo": "Miranda!",
    "fecha": "2026-11-11T21:00:00",
@@ -55,6 +46,15 @@ window.AGENDA = {
    "info": "https://www.movistararena.es/programacion/evento/yandel-sinfonico/13-11-2026/21:00",
    "entradas": null,
    "agotado": true
+  },
+  {
+   "titulo": "Las Noches del Arena - Generación EGB",
+   "fecha": "2026-11-14",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/noches-del-arena-261114/",
+   "entradas": null,
+   "agotado": false
   },
   {
    "titulo": "Los mejores años de nuestra vida - Hombres G",
@@ -220,7 +220,7 @@ window.AGENDA = {
   },
   {
    "titulo": "ACCEPT",
-   "fecha": "2026-11-27T18:45:00",
+   "fecha": "2026-11-27T21:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/accept-20261127/",
@@ -1002,21 +1002,21 @@ window.AGENDA = {
    "agotado": false
   },
   {
-   "titulo": "Barry B",
-   "fecha": "2027-02-13",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/barryb-20270213/",
-   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3041916?hl=es-ES",
-   "agotado": false
-  },
-  {
    "titulo": "La Gira - Hakuna",
    "fecha": "2027-02-13T20:30:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/hakuna-valencia-20270213/",
    "entradas": "https://tickets.oneboxtds.com/roigarena/select/2939973?hl=es-ES",
+   "agotado": false
+  },
+  {
+   "titulo": "Barry B",
+   "fecha": "2027-02-13T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/barryb-20270213/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3041916?hl=es-ES",
    "agotado": false
   },
   {
@@ -1511,7 +1511,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/dani-martin-20270515/",
-   "entradas": "https://tickets.oneboxtds.com/roigarena/events/61911",
+   "entradas": "https://www.elcorteingles.es/entradas/conciertos/entradas-dani-martin-valencia-2027-valencia/",
    "agotado": false
   },
   {
