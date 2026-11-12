@@ -1,16 +1,7 @@
-// Generado por actualizar.py el 2026-11-11. No editar a mano.
+// Generado por actualizar.py el 2026-11-12. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-11",
+ "actualizado": "2026-11-12",
  "eventos": [
-  {
-   "titulo": "Miranda!",
-   "fecha": "2026-11-11T21:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/miranda/11-11-2026/21:00",
-   "entradas": null,
-   "agotado": false
-  },
   {
    "titulo": "St. Paul & The Broken Bones",
    "fecha": "2026-11-12T21:00:00",
@@ -62,7 +53,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/hombres-g-20261114/",
-   "entradas": null,
+   "entradas": "https://www.roigarena.com/es/event/hombres-g-20261114/tickets/",
    "agotado": false
   },
   {
@@ -179,7 +170,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/santero-y-los-muchachos-gira-todas-las-luces-20261121/",
-   "entradas": "https://www.roigarena.com/es/event/santero-y-los-muchachos-gira-todas-las-luces-20261121/tickets/",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -1371,6 +1362,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Pablo Alborán",
+   "fecha": "2027-04-24",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/pablo-alboran-20270424/",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "Pasado, presente y futuro - Bombai",
    "fecha": "2027-04-24T21:00:00",
    "ciudad": "Valencia",
@@ -1583,7 +1583,7 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/fall-out-boy-twilight-of-the-punks-tour/23-5-2027/20:30",
-   "entradas": null,
+   "entradas": "https://www.ticketmaster.es/event/412819502?subchannel_id=43&brand=base_mb_es",
    "agotado": false
   },
   {
@@ -1692,7 +1692,7 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/dani-mart-n-las-ltimas-14-noches-de-la-gira-25-pts-a-os",
    "entradas": null,
-   "agotado": false
+   "agotado": true
   },
   {
    "titulo": "Dani Martín - Las Últimas 14 noches de la Gira 25 Pts Años",
@@ -1701,7 +1701,7 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/dani-mart-n-las-ltimas-14-noches-de-la-gira-25-pts-a-os",
    "entradas": null,
-   "agotado": false
+   "agotado": true
   },
   {
    "titulo": "Cano- Anais Tour 2027",
@@ -1713,13 +1713,40 @@ window.AGENDA = {
    "agotado": true
   },
   {
+   "titulo": "Cano- Anais Tour 2027",
+   "fecha": "2027-07-17T21:00:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/cano-anais-tour-2027",
+   "entradas": null,
+   "agotado": true
+  },
+  {
+   "titulo": "Ultraligera - Lapsus Tour",
+   "fecha": "2027-09-08T20:45:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/ultraligera-lapsus-tour",
+   "entradas": null,
+   "agotado": true
+  },
+  {
    "titulo": "Ultraligera - Lapsus Tour",
    "fecha": "2027-09-09T20:45:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/ultraligera-lapsus-tour/9-9-2027/20:45",
+   "info": "https://www.movistararena.es/programacion/evento/ultraligera-lapsus-tour",
    "entradas": null,
-   "agotado": false
+   "agotado": true
+  },
+  {
+   "titulo": "Ultraligera - Lapsus Tour",
+   "fecha": "2027-09-10T20:45:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/ultraligera-lapsus-tour",
+   "entradas": null,
+   "agotado": true
   },
   {
    "titulo": "Deacon Blue",
@@ -1819,6 +1846,15 @@ window.AGENDA = {
    "info": "https://www.movistararena.es/programacion/evento/lucho-rk-sordo-de-un-pie-tour/8-11-2027/20:30",
    "entradas": null,
    "agotado": true
+  },
+  {
+   "titulo": "Daft Funk Live",
+   "fecha": "2027-11-13T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/daft-funk-live-20271113/",
+   "entradas": null,
+   "agotado": false
   },
   {
    "titulo": "El Kanka - Gira La Calma",
