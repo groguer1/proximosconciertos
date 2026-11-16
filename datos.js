@@ -1,97 +1,7 @@
-// Generado por actualizar.py el 2026-11-12. No editar a mano.
+// Generado por actualizar.py el 2026-11-16. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-12",
+ "actualizado": "2026-11-16",
  "eventos": [
-  {
-   "titulo": "St. Paul & The Broken Bones",
-   "fecha": "2026-11-12T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/st-paul-the-broken-bones-20261112/",
-   "entradas": "https://www.roigarena.com/es/event/st-paul-the-broken-bones-20261112/tickets/",
-   "agotado": false
-  },
-  {
-   "titulo": "Raphaelísimo Tour 2026 - Raphael",
-   "fecha": "2026-11-13T20:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/raphaelisimo-tour-2026-20261113/",
-   "entradas": "https://www.roigarena.com/es/event/raphaelisimo-tour-2026-20261113/tickets/",
-   "agotado": false
-  },
-  {
-   "titulo": "Ultraswan Tour - Abhir",
-   "fecha": "2026-11-13T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/abhir-20261113/",
-   "entradas": "https://www.ticketmaster.es/event/abhir-entradas/1424774329",
-   "agotado": false
-  },
-  {
-   "titulo": "Yandel - Sinfónico",
-   "fecha": "2026-11-13T21:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/yandel-sinfonico/13-11-2026/21:00",
-   "entradas": null,
-   "agotado": true
-  },
-  {
-   "titulo": "Las Noches del Arena - Generación EGB",
-   "fecha": "2026-11-14",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/noches-del-arena-261114/",
-   "entradas": null,
-   "agotado": false
-  },
-  {
-   "titulo": "Los mejores años de nuestra vida - Hombres G",
-   "fecha": "2026-11-14T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/hombres-g-20261114/",
-   "entradas": "https://www.roigarena.com/es/event/hombres-g-20261114/tickets/",
-   "agotado": false
-  },
-  {
-   "titulo": "Vincen García",
-   "fecha": "2026-11-14T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/vincen-garcia-20261114/",
-   "entradas": "https://www.notikumi.com/2026/11/14/pinata-valencia-presenta-vincen-garcia",
-   "agotado": false
-  },
-  {
-   "titulo": "Yandel - Sinfónico",
-   "fecha": "2026-11-14T21:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/yandel-sinfonico/14-11-2026/21:00",
-   "entradas": null,
-   "agotado": true
-  },
-  {
-   "titulo": "El Despecho Tour - Jesse & Joy",
-   "fecha": "2026-11-15T20:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/jesse-and-joy-20261115/",
-   "entradas": null,
-   "agotado": false
-  },
-  {
-   "titulo": "Agorazein (AGZ) - Siempre",
-   "fecha": "2026-11-15T21:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/agorazein-agz-siempre/15-11-2026/21:00",
-   "entradas": null,
-   "agotado": true
-  },
   {
    "titulo": "Agorazein (AGZ) - Siempre",
    "fecha": "2026-11-16T21:00:00",
@@ -99,7 +9,7 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/agorazein-agz-siempre/16-11-2026/21:00",
    "entradas": null,
-   "agotado": true
+   "agotado": false
   },
   {
    "titulo": "Agorazein (AGZ) - Siempre",
@@ -145,15 +55,6 @@ window.AGENDA = {
    "info": "https://www.movistararena.es/programacion/evento/vetusta-morla-gira-de-vuelta-canciones-de-ida/20-11-2026/20:30",
    "entradas": null,
    "agotado": true
-  },
-  {
-   "titulo": "Tour 2026 - Lagos",
-   "fecha": "2026-11-20T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/lagos-valencia-tour-2026-20261120/",
-   "entradas": null,
-   "agotado": false
   },
   {
    "titulo": "Vetusta Morla - Gira de Vuelta Canciones de Ida",
@@ -800,7 +701,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/xoel-lopez-20272201/",
-   "entradas": "https://tickets.oneboxtds.com/roigarena/events/59866?hl=es-ES",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -901,6 +802,15 @@ window.AGENDA = {
    "info": "https://www.movistararena.es/programacion/evento/carlos-ares-fin-de-gira/30-1-2027/20:30",
    "entradas": null,
    "agotado": true
+  },
+  {
+   "titulo": "La Pantera bby - Filipenses tour",
+   "fecha": "2027-01-31",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/la-pantera/31-1-2027/00:00",
+   "entradas": null,
+   "agotado": false
   },
   {
    "titulo": "Kabrönes",
@@ -1200,12 +1110,30 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Paulo Londra - Tour 2027",
+   "fecha": "2027-03-21",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/paulo-londra-tour-2027/21-3-2027/00:00",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "Kings of Metal Fighting The World Tour 2027 - Manowar",
    "fecha": "2027-03-23T20:30:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/manowar-tour-2027-20270323/",
    "entradas": "https://www.roigarena.com/es/event/manowar-tour-2027-20270323/tickets/",
+   "agotado": false
+  },
+  {
+   "titulo": "Paulo Londra 2027 Tour",
+   "fecha": "2027-03-25T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/paulo-londra-20270325/",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -1232,7 +1160,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/el-barrio-20270403/",
-   "entradas": "https://entradas.roigarena.com/roigarena/select/2904514",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -1251,6 +1179,15 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/thirty-seconds-to-mars-a-beautiful-lie-vs-this-is-war/8-4-2027/20:30",
    "entradas": "https://www.ticketmaster.es/event/65562275?subchannel_id=43&brand=base_mb_es",
+   "agotado": false
+  },
+  {
+   "titulo": "Funambulista",
+   "fecha": "2027-04-09",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/funambulista-20270409/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3076207?hl=es-ES",
    "agotado": false
   },
   {
@@ -1305,6 +1242,15 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/megadeth/12-4-2027/21:00",
    "entradas": "https://tickets.baila.fm/megadeth-en-madrid-2027",
+   "agotado": false
+  },
+  {
+   "titulo": "La Pantera",
+   "fecha": "2027-04-14",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/la-pantera-20270414/",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -1479,6 +1425,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Sin Bandera - Escenas Tour",
+   "fecha": "2027-05-09",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/sin-bandera-escenas-tour/9-5-2027/00:00",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "The World of Hans Zimmer A New Dimension",
    "fecha": "2027-05-10T20:00:00",
    "ciudad": "Valencia",
@@ -1511,7 +1466,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/dani-martin-20270515/",
-   "entradas": "https://www.elcorteingles.es/entradas/conciertos/entradas-dani-martin-valencia-2027-valencia/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3073152?hl=es-ES",
    "agotado": false
   },
   {
@@ -1848,12 +1803,12 @@ window.AGENDA = {
    "agotado": true
   },
   {
-   "titulo": "Daft Funk Live",
+   "titulo": "Daft Funk Live – A Retrospective Celebration of Daft Punk",
    "fecha": "2027-11-13T21:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/daft-funk-live-20271113/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3076036?hl=es-ES",
    "agotado": false
   },
   {
