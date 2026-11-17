@@ -1,16 +1,7 @@
-// Generado por actualizar.py el 2026-11-16. No editar a mano.
+// Generado por actualizar.py el 2026-11-17. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-16",
+ "actualizado": "2026-11-17",
  "eventos": [
-  {
-   "titulo": "Agorazein (AGZ) - Siempre",
-   "fecha": "2026-11-16T21:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/agorazein-agz-siempre/16-11-2026/21:00",
-   "entradas": null,
-   "agotado": false
-  },
   {
    "titulo": "Agorazein (AGZ) - Siempre",
    "fecha": "2026-11-17T21:00:00",
@@ -54,7 +45,7 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/vetusta-morla-gira-de-vuelta-canciones-de-ida/20-11-2026/20:30",
    "entradas": null,
-   "agotado": true
+   "agotado": false
   },
   {
    "titulo": "Vetusta Morla - Gira de Vuelta Canciones de Ida",
@@ -63,7 +54,7 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/vetusta-morla-gira-de-vuelta-canciones-de-ida/21-11-2026/20:30",
    "entradas": null,
-   "agotado": true
+   "agotado": false
   },
   {
    "titulo": "Todas las luces Tour - Santero y los muchachos",
@@ -701,7 +692,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/xoel-lopez-20272201/",
-   "entradas": null,
+   "entradas": "https://www.enterticket.es/eventos/xoel-lopez-en-valencia-319359",
    "agotado": false
   },
   {
@@ -804,21 +795,21 @@ window.AGENDA = {
    "agotado": true
   },
   {
-   "titulo": "La Pantera bby - Filipenses tour",
-   "fecha": "2027-01-31",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/la-pantera/31-1-2027/00:00",
-   "entradas": null,
-   "agotado": false
-  },
-  {
    "titulo": "Kabrönes",
    "fecha": "2027-01-31T20:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/kabrones-en-valencia-20270131/",
    "entradas": "https://www.roigarena.com/es/event/kabrones-en-valencia-20270131/tickets/",
+   "agotado": false
+  },
+  {
+   "titulo": "La Pantera bby - Filipenses tour",
+   "fecha": "2027-01-31T20:00:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/la-pantera/31-1-2027/20:00",
+   "entradas": "https://entradas.baila.fm/baila/select/3075729",
    "agotado": false
   },
   {
@@ -1020,7 +1011,7 @@ window.AGENDA = {
    "agotado": false
   },
   {
-   "titulo": "Mala Conducta 007 : L0rna",
+   "titulo": "Mala Conducta 007: L0rna + TK MAMI",
    "fecha": "2027-03-05T19:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
@@ -1164,6 +1155,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "L'Entourloop",
+   "fecha": "2027-04-03T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/l-entourloop-20270403/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3077929?hl=es-ES",
+   "agotado": false
+  },
+  {
    "titulo": "Simple Minds - V Tour 2027",
    "fecha": "2027-04-07T20:45:00",
    "ciudad": "Madrid",
@@ -1250,7 +1250,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/la-pantera-20270414/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3078790?hl=es-ES",
    "agotado": false
   },
   {
@@ -1426,10 +1426,10 @@ window.AGENDA = {
   },
   {
    "titulo": "Sin Bandera - Escenas Tour",
-   "fecha": "2027-05-09",
+   "fecha": "2027-05-09T20:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/sin-bandera-escenas-tour/9-5-2027/00:00",
+   "info": "https://www.movistararena.es/programacion/evento/sin-bandera-escenas-tour/9-5-2027/20:30",
    "entradas": null,
    "agotado": false
   },
@@ -1486,6 +1486,15 @@ window.AGENDA = {
    "info": "https://www.movistararena.es/programacion/evento/quevedo-el-baifo-tour-2027",
    "entradas": null,
    "agotado": true
+  },
+  {
+   "titulo": "The Cat Empire",
+   "fecha": "2027-05-19",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/the-cat-empire-20270519/",
+   "entradas": null,
+   "agotado": false
   },
   {
    "titulo": "Metrika",
@@ -1620,6 +1629,15 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/camilo-20270703/",
    "entradas": "https://tickets.oneboxtds.com/roigarena/select/3052427?hl=es-ES",
+   "agotado": false
+  },
+  {
+   "titulo": "Luis Fonsi - Mar Infinito World Tour",
+   "fecha": "2027-07-04T20:30:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/luis-fonsi-mar-infinito-world-tour/4-7-2027/20:30",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -1845,6 +1863,24 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/pignoise-anunciado-en-televisi-n-gira-2027/10-12-2027/21:00",
    "entradas": "https://tickets.baila.fm/pignoise-en-madrid-2027",
+   "agotado": false
+  },
+  {
+   "titulo": "Pecos",
+   "fecha": "2027-12-19T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/pecos-20271219/",
+   "entradas": null,
+   "agotado": false
+  },
+  {
+   "titulo": "Pecos - Concierto para una despedida",
+   "fecha": "2027-12-26",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/pecos-concierto-para-una-despedida/26-12-2027/00:00",
+   "entradas": null,
    "agotado": false
   },
   {
