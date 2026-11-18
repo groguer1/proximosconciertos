@@ -1,23 +1,14 @@
-// Generado por actualizar.py el 2026-11-17. No editar a mano.
+// Generado por actualizar.py el 2026-11-18. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-17",
+ "actualizado": "2026-11-18",
  "eventos": [
-  {
-   "titulo": "Agorazein (AGZ) - Siempre",
-   "fecha": "2026-11-17T21:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/agorazein-agz-siempre/17-11-2026/21:00",
-   "entradas": null,
-   "agotado": false
-  },
   {
    "titulo": "Agorazein (AGZ) - Siempre",
    "fecha": "2026-11-18T21:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/agorazein-agz-siempre/18-11-2026/21:00",
-   "entradas": null,
+   "entradas": "https://entradas.baila.fm/baila/select/2686820",
    "agotado": false
   },
   {
@@ -808,9 +799,9 @@ window.AGENDA = {
    "fecha": "2027-01-31T20:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/la-pantera/31-1-2027/20:00",
-   "entradas": "https://entradas.baila.fm/baila/select/3075729",
-   "agotado": false
+   "info": "https://www.movistararena.es/programacion/evento/la-pantera",
+   "entradas": null,
+   "agotado": true
   },
   {
    "titulo": "Gira La Calma - El Kanka",
@@ -820,6 +811,15 @@ window.AGENDA = {
    "info": "https://www.roigarena.com/es/event/gira-la-calma-el-kanka-20273101/",
    "entradas": "https://entradas.roigarena.com/roigarena/select/2912939",
    "agotado": false
+  },
+  {
+   "titulo": "La Pantera bby - Filipenses tour",
+   "fecha": "2027-02-01T20:00:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/la-pantera",
+   "entradas": null,
+   "agotado": true
   },
   {
    "titulo": "SB2 Tour Deluxe - Hecky",
@@ -1675,6 +1675,15 @@ window.AGENDA = {
    "info": "https://www.movistararena.es/programacion/evento/dani-mart-n-las-ltimas-14-noches-de-la-gira-25-pts-a-os",
    "entradas": null,
    "agotado": true
+  },
+  {
+   "titulo": "Maluma - Loco x Volver",
+   "fecha": "2027-07-12",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/maluma-loco-x-volver/12-7-2027/00:00",
+   "entradas": null,
+   "agotado": false
   },
   {
    "titulo": "Cano- Anais Tour 2027",
