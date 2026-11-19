@@ -1,16 +1,7 @@
-// Generado por actualizar.py el 2026-11-18. No editar a mano.
+// Generado por actualizar.py el 2026-11-19. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-18",
+ "actualizado": "2026-11-19",
  "eventos": [
-  {
-   "titulo": "Agorazein (AGZ) - Siempre",
-   "fecha": "2026-11-18T21:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/agorazein-agz-siempre/18-11-2026/21:00",
-   "entradas": "https://entradas.baila.fm/baila/select/2686820",
-   "agotado": false
-  },
   {
    "titulo": "Vetusta Morla - Gira de Vuelta Canciones de Ida",
    "fecha": "2026-11-19T20:30:00",
@@ -1102,10 +1093,10 @@ window.AGENDA = {
   },
   {
    "titulo": "Paulo Londra - Tour 2027",
-   "fecha": "2027-03-21",
+   "fecha": "2027-03-21T20:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/paulo-londra-tour-2027/21-3-2027/00:00",
+   "info": "https://www.movistararena.es/programacion/evento/paulo-londra-tour-2027/21-3-2027/20:30",
    "entradas": null,
    "agotado": false
   },
@@ -1430,7 +1421,7 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/sin-bandera-escenas-tour/9-5-2027/20:30",
-   "entradas": null,
+   "entradas": "https://tickets.baila.fm/sin-bandera-09-may-2027-madrid-entradas",
    "agotado": false
   },
   {
@@ -1637,7 +1628,7 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/luis-fonsi-mar-infinito-world-tour/4-7-2027/20:30",
-   "entradas": null,
+   "entradas": "https://tickets.baila.fm/luis-fonsi-mar-infinito-world-tour-2027-04-jul-madrid-entradas",
    "agotado": false
   },
   {
@@ -1678,10 +1669,10 @@ window.AGENDA = {
   },
   {
    "titulo": "Maluma - Loco x Volver",
-   "fecha": "2027-07-12",
+   "fecha": "2027-07-12T20:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/maluma-loco-x-volver/12-7-2027/00:00",
+   "info": "https://www.movistararena.es/programacion/evento/maluma-loco-x-volver/12-7-2027/20:30",
    "entradas": null,
    "agotado": false
   },
@@ -1885,10 +1876,10 @@ window.AGENDA = {
   },
   {
    "titulo": "Pecos - Concierto para una despedida",
-   "fecha": "2027-12-26",
+   "fecha": "2027-12-26T20:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/pecos-concierto-para-una-despedida/26-12-2027/00:00",
+   "info": "https://www.movistararena.es/programacion/evento/pecos-concierto-para-una-despedida/26-12-2027/20:30",
    "entradas": null,
    "agotado": false
   },
