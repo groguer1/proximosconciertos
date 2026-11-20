@@ -1,41 +1,14 @@
-// Generado por actualizar.py el 2026-11-19. No editar a mano.
+// Generado por actualizar.py el 2026-11-20. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-19",
+ "actualizado": "2026-11-20",
  "eventos": [
-  {
-   "titulo": "Vetusta Morla - Gira de Vuelta Canciones de Ida",
-   "fecha": "2026-11-19T20:30:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/vetusta-morla-gira-de-vuelta-canciones-de-ida/19-11-2026/20:30",
-   "entradas": null,
-   "agotado": false
-  },
-  {
-   "titulo": "50 aniversario Orquesta Mondragón",
-   "fecha": "2026-11-19T21:30:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/50-aniversario-la-orquesta-mondragon-20261119/",
-   "entradas": "https://www.notikumi.com/2026/11/19/50-aniversario-orquesta-mondragon-en-valencia",
-   "agotado": false
-  },
-  {
-   "titulo": "Vetusta Morla - Gira de Vuelta Canciones de Ida",
-   "fecha": "2026-11-20T20:30:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/vetusta-morla-gira-de-vuelta-canciones-de-ida/20-11-2026/20:30",
-   "entradas": null,
-   "agotado": false
-  },
   {
    "titulo": "Vetusta Morla - Gira de Vuelta Canciones de Ida",
    "fecha": "2026-11-21T20:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/vetusta-morla-gira-de-vuelta-canciones-de-ida/21-11-2026/20:30",
-   "entradas": null,
+   "entradas": "https://entradas.baila.fm/baila/select/2757618",
    "agotado": false
   },
   {
@@ -80,7 +53,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/los-fabulosos-cadillacs-en-valencia-20261126/",
-   "entradas": null,
+   "entradas": "https://www.roigarena.com/es/event/los-fabulosos-cadillacs-en-valencia-20261126/tickets/",
    "agotado": false
   },
   {
@@ -1097,7 +1070,7 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/paulo-londra-tour-2027/21-3-2027/20:30",
-   "entradas": null,
+   "entradas": "https://www.ticketmaster.es/event/506702545?subchannel_id=43&brand=base_mb_es",
    "agotado": false
   },
   {
@@ -1115,7 +1088,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/paulo-londra-20270325/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3079366?hl=es-ES",
    "agotado": false
   },
   {
@@ -1304,7 +1277,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/pablo-alboran-20270424/",
-   "entradas": null,
+   "entradas": "https://pabloalboran.es/pages/24-de-abril-2026-valencia-roig-arena",
    "agotado": false
   },
   {
@@ -1322,7 +1295,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/pasion-vega-20270425/",
-   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3043572?hl=es-ES",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3080472?hl=es-ES",
    "agotado": false
   },
   {
@@ -1506,6 +1479,15 @@ window.AGENDA = {
    "agotado": true
   },
   {
+   "titulo": "La Cabra Mecánica",
+   "fecha": "2027-05-21T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/la-cabra-mecanica-20270521/",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "Burning",
    "fecha": "2027-05-22T21:00:00",
    "ciudad": "Valencia",
@@ -1672,9 +1654,27 @@ window.AGENDA = {
    "fecha": "2027-07-12T20:30:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/maluma-loco-x-volver/12-7-2027/20:30",
+   "info": "https://www.movistararena.es/programacion/evento/maluma-loco-x-volver",
    "entradas": null,
-   "agotado": false
+   "agotado": true
+  },
+  {
+   "titulo": "Maluma - Loco x Volver",
+   "fecha": "2027-07-13T20:30:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/maluma-loco-x-volver",
+   "entradas": null,
+   "agotado": true
+  },
+  {
+   "titulo": "Maluma - Loco x Volver",
+   "fecha": "2027-07-14T20:30:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/maluma-loco-x-volver",
+   "entradas": null,
+   "agotado": true
   },
   {
    "titulo": "Cano- Anais Tour 2027",
