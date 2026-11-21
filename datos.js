@@ -1,6 +1,6 @@
-// Generado por actualizar.py el 2026-11-20. No editar a mano.
+// Generado por actualizar.py el 2026-11-21. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-20",
+ "actualizado": "2026-11-21",
  "eventos": [
   {
    "titulo": "Vetusta Morla - Gira de Vuelta Canciones de Ida",
