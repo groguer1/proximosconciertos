@@ -2,10 +2,10 @@
  "artista": "Vetusta Morla",
  "slug": "vetusta-morla",
  "gira": "Gira de Vuelta Canciones de Ida",
- "revisado": "2026-11-21",
+ "revisado": "2026-11-23",
  "fuente": "https://www.vetustamorla.com/gira/",
  "fuente_nombre": "web oficial de Vetusta Morla",
- "nota_2027": "A 4 de octubre de 2026, la web oficial de Vetusta Morla no publica ninguna fecha en 2027.",
+ "nota_2027": "Sí. A 23 de noviembre de 2026, la web oficial de Vetusta Morla anuncia doce fechas en 2027, casi todas en festivales: SanSan (Benicàssim), Vive Linares, Tarraco Arena (Tarragona), Ouren Sound Fest, Antorchas (Albacete), Gran Reserva (Calahorra), Cruïlla (Barcelona), BBK Live (Bilbao), PortAmérica, Santander Music, Recorda Fest (A Coruña) y Cordobita Fest (Córdoba). En los festivales de varios días, el día de su actuación aún no está publicado.",
  "fechas": [
   {
    "fecha": "2026-10-09",
@@ -85,6 +85,111 @@
    "entradas": "",
    "ficha": "https://www.vetustamorla.com/gira/madrid-movistar-arena/",
    "estado": "agotado"
+  },
+  {
+   "fecha": "2027-03-25",
+   "hora": "",
+   "ciudad": "Benicàssim",
+   "recinto": "SanSan Festival",
+   "entradas": "https://sansanfestival.com/2027/",
+   "ficha": "https://www.vetustamorla.com/gira/benicassim-sansan-festival-2027/",
+   "fecha_fin": "2027-03-27"
+  },
+  {
+   "fecha": "2027-05-07",
+   "hora": "",
+   "ciudad": "Linares",
+   "recinto": "Vive Linares",
+   "entradas": "",
+   "ficha": "https://www.vetustamorla.com/gira/linares-vive-linares-2027/",
+   "fecha_fin": "2027-05-08"
+  },
+  {
+   "fecha": "2027-05-15",
+   "hora": "",
+   "ciudad": "Tarragona",
+   "recinto": "Tarraco Arena",
+   "entradas": "https://tickets.tarracoarena.com/tarracoarena/events",
+   "ficha": "https://www.vetustamorla.com/gira/tarragona-tarraco-arena-2027/"
+  },
+  {
+   "fecha": "2027-05-21",
+   "hora": "",
+   "ciudad": "Ourense",
+   "recinto": "Ouren Sound Fest",
+   "entradas": "https://ourensoundfest.com",
+   "ficha": "https://www.vetustamorla.com/gira/ourense-ouren-sound-fest-2027/",
+   "fecha_fin": "2027-05-22"
+  },
+  {
+   "fecha": "2027-06-17",
+   "hora": "",
+   "ciudad": "Albacete",
+   "recinto": "Antorchas Festival",
+   "entradas": "https://antorchasfestival.com",
+   "ficha": "https://www.vetustamorla.com/gira/albacete-antorchas-festival-2027/",
+   "fecha_fin": "2027-06-19"
+  },
+  {
+   "fecha": "2027-06-26",
+   "hora": "",
+   "ciudad": "Calahorra",
+   "recinto": "Gran Reserva Festival",
+   "entradas": "https://granreservafestival.es",
+   "ficha": "https://www.vetustamorla.com/gira/calahorra-gran-reserva-festival-2027/"
+  },
+  {
+   "fecha": "2027-07-07",
+   "hora": "",
+   "ciudad": "Barcelona",
+   "recinto": "Cruïlla Festival",
+   "entradas": "",
+   "ficha": "https://www.vetustamorla.com/gira/barcelona-cruilla-festival-2027/",
+   "fecha_fin": "2027-07-10"
+  },
+  {
+   "fecha": "2027-07-08",
+   "hora": "",
+   "ciudad": "Bilbao",
+   "recinto": "Bilbao BBK Live",
+   "entradas": "https://bilbaobbklive.com",
+   "ficha": "https://www.vetustamorla.com/gira/bilbao-bbk-live-2027/",
+   "fecha_fin": "2027-07-10"
+  },
+  {
+   "fecha": "2027-07-08",
+   "hora": "",
+   "ciudad": "Portas",
+   "recinto": "Festival PortAmérica",
+   "entradas": "https://portamerica.es",
+   "ficha": "https://www.vetustamorla.com/gira/portas-festival-portamerica-2027/",
+   "fecha_fin": "2027-07-10"
+  },
+  {
+   "fecha": "2027-08-06",
+   "hora": "",
+   "ciudad": "Santander",
+   "recinto": "Santander Music",
+   "entradas": "https://santandermusic.es",
+   "ficha": "https://www.vetustamorla.com/gira/santander-santander-music-2027/",
+   "fecha_fin": "2027-08-07"
+  },
+  {
+   "fecha": "2027-09-03",
+   "hora": "",
+   "ciudad": "A Coruña",
+   "recinto": "Recorda Fest",
+   "entradas": "https://recordafest.es",
+   "ficha": "https://www.vetustamorla.com/gira/a-coruna-recorda-fest-2027/",
+   "fecha_fin": "2027-09-04"
+  },
+  {
+   "fecha": "2027-09-11",
+   "hora": "",
+   "ciudad": "Córdoba",
+   "recinto": "Cordobita Fest",
+   "entradas": "",
+   "ficha": "https://www.vetustamorla.com/gira/cordoba-cordobita-fest-2027/"
   }
  ],
  "tipo": "MusicGroup",
@@ -92,7 +197,18 @@
   "url": "https://www.vetustamorla.com/gira/",
   "patron": "vetustamorla\\.com/gira/([a-z0-9-]+)/",
   "huella": [
-   "madrid-movistar-arena"
+   "a-coruna-recorda-fest-2027",
+   "albacete-antorchas-festival-2027",
+   "barcelona-cruilla-festival-2027",
+   "benicassim-sansan-festival-2027",
+   "bilbao-bbk-live-2027",
+   "calahorra-gran-reserva-festival-2027",
+   "cordoba-cordobita-fest-2027",
+   "linares-vive-linares-2027",
+   "ourense-ouren-sound-fest-2027",
+   "portas-festival-portamerica-2027",
+   "santander-santander-music-2027",
+   "tarragona-tarraco-arena-2027"
   ]
  }
 }

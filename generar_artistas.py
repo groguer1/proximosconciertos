@@ -27,8 +27,23 @@ def fecha_corta(d):
     return f"{d.day} de {MESES[d.month-1]}"
 
 
+def fin(f):
+    """Último día de la fecha: el propio día, o el último del festival si va con «fecha_fin»."""
+    return datetime.date.fromisoformat(f.get("fecha_fin") or f["fecha"])
+
+
+def dias_corto(f):
+    """«25 de marzo», o «25-27 de marzo» si es un festival de varios días."""
+    d, h = datetime.date.fromisoformat(f["fecha"]), fin(f)
+    if h == d:
+        return fecha_corta(d)
+    if h.month == d.month:
+        return f"{d.day}-{h.day} de {MESES[d.month-1]}"
+    return f"{fecha_corta(d)} al {fecha_corta(h)}"
+
+
 def pagina(a):
-    fechas = [f for f in a["fechas"] if datetime.date.fromisoformat(f["fecha"]) >= HOY]
+    fechas = [f for f in a["fechas"] if fin(f) >= HOY]
     fechas.sort(key=lambda f: f["fecha"])
     rev = datetime.date.fromisoformat(a["revisado"])
     anios = sorted({f["fecha"][:4] for f in fechas}) or [str(HOY.year)]
@@ -47,7 +62,8 @@ def pagina(a):
     filas, por_ciudad = [], {}
     for f in fechas:
         d = datetime.date.fromisoformat(f["fecha"])
-        por_ciudad.setdefault(f["ciudad"], []).append(d)
+        por_ciudad.setdefault(f["ciudad"], []).append(dias_corto(f))
+        rango = fin(f) != d
         hora = f.get("hora", "")
         estado = f.get("estado", "")
         destino = f.get("entradas") or f.get("ficha") or a["fuente"]
@@ -55,22 +71,27 @@ def pagina(a):
         boton = "Ver en la web oficial ↗" if estado == "agotado" or not f.get("entradas") else "Entradas oficiales ↗"
         gira_f = f" · {e(f['gira'])}" if f.get("gira") else ""
         filas.append(f"""<li class="row{' soldout' if estado == 'agotado' else ''}">
-  <div class="cal"><b>{d.day}</b><small>{MESES[d.month-1][:3]}</small></div>
+  <div class="cal"><b>{f"{d.day}-{fin(f).day}" if rango and fin(f).month == d.month else d.day}</b><small>{MESES[d.month-1][:3]}</small></div>
   <div class="info">
     <strong>{e(f['ciudad'])}{f' <em class="tag-{estado}">{etiqueta}</em>' if etiqueta else ''}</strong>
-    <span>{e(f['recinto'])} · {fecha_larga(d).capitalize()} · {e(hora) + ' h' if hora else 'hora por confirmar'}{gira_f}</span>
+    <span>{e(f['recinto'])} · {(f"Festival del {dias_corto(f)} de {d.year} · día de {e(a['artista'])} por confirmar" if rango else fecha_larga(d).capitalize() + " · " + (e(hora) + ' h' if hora else 'hora por confirmar'))}{gira_f}</span>
   </div>
   <a class="btn" href="{e(destino)}" target="_blank" rel="noopener nofollow">{boton}</a>
 </li>""")
 
     resumen = "".join(
-        f"<li><b>{e(c)}</b>: {', '.join(fecha_corta(x) for x in ds)}</li>" for c, ds in por_ciudad.items())
+        f"<li><b>{e(c)}</b>: {', '.join(ds)}</li>" for c, ds in por_ciudad.items())
 
     eventos_ld = [{
         "@type": "MusicEvent",
-        "name": f"{a['artista']} · {a['gira']} en {f['ciudad']}",
+        "name": (f"{a['artista']} en {f['recinto']}" if f.get("fecha_fin")
+                 else f"{a['artista']} · {a['gira']} en {f['ciudad']}"),
         "startDate": f"{f['fecha']}T{f['hora']}:00" if f.get("hora") else f["fecha"],
-        "description": (f"Concierto de {a['artista']} ({a['gira']}) en {f['recinto']}, {f['ciudad']}, "
+        **({"endDate": f["fecha_fin"]} if f.get("fecha_fin") else {}),
+        "description": (f"{a['artista']} en {f['recinto']} ({f['ciudad']}), festival del {dias_corto(f)} de {f['fecha'][:4]}; "
+                        f"el día de su actuación está por confirmar. Fechas verificadas en la {a['fuente_nombre']}."
+                        if f.get("fecha_fin") else
+                        f"Concierto de {a['artista']} ({a['gira']}) en {f['recinto']}, {f['ciudad']}, "
                         f"el {fecha_larga(datetime.date.fromisoformat(f['fecha']))}. Fecha verificada en la {a['fuente_nombre']}."),
         "image": IMAGENES_EVENTO,
         "eventStatus": "https://schema.org/EventScheduled",
@@ -84,7 +105,7 @@ def pagina(a):
     faq = [
         (f"¿Cuándo actúa {a['artista']} en España?",
          f"El {a['gira']} tiene {n} conciertos: " + "; ".join(
-             f"{c}, {', '.join(fecha_corta(x) for x in ds)}" for c, ds in por_ciudad.items()) + "."),
+             f"{c}, {', '.join(ds)}" for c, ds in por_ciudad.items()) + "."),
         (f"¿Dónde se compran las entradas de {a['artista']}?",
          f"En los enlaces de venta que publica la {a['fuente_nombre']}. Cada fecha de esta página "
          f"enlaza directamente a esa venta. Desconfía de reventas con precios por encima del oficial."),
@@ -223,7 +244,7 @@ if __name__ == "__main__":
             print(f"⚠ {a['artista']}: revisado hace {dias} días; toca repasarlo contra {a['fuente']}")
         (RAIZ / "artistas" / f"{a['slug']}.html").write_text(pagina(a), encoding="utf-8")
         indice[a["artista"].lower()] = f"artistas/{a['slug']}.html"
-        print(f"{a['artista']}: {sum(1 for f in a['fechas'] if f['fecha'] >= HOY.isoformat())} fechas")
+        print(f"{a['artista']}: {sum(1 for f in a['fechas'] if fin(f) >= HOY)} fechas")
     # enlaces estáticos en la portada (Google no sigue los que pinta el JavaScript)
     import re as _re
     nombres = {}

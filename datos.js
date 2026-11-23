@@ -1,34 +1,7 @@
-// Generado por actualizar.py el 2026-11-21. No editar a mano.
+// Generado por actualizar.py el 2026-11-23. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-21",
+ "actualizado": "2026-11-23",
  "eventos": [
-  {
-   "titulo": "Vetusta Morla - Gira de Vuelta Canciones de Ida",
-   "fecha": "2026-11-21T20:30:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/vetusta-morla-gira-de-vuelta-canciones-de-ida/21-11-2026/20:30",
-   "entradas": "https://entradas.baila.fm/baila/select/2757618",
-   "agotado": false
-  },
-  {
-   "titulo": "Todas las luces Tour - Santero y los muchachos",
-   "fecha": "2026-11-21T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/santero-y-los-muchachos-gira-todas-las-luces-20261121/",
-   "entradas": null,
-   "agotado": false
-  },
-  {
-   "titulo": "Omega 30ª Aniversario",
-   "fecha": "2026-11-22T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/omega-morente-20261122/",
-   "entradas": "https://www.notikumi.com/2026/11/22/pinata-valencia-presenta-omega-30-aniversario",
-   "agotado": false
-  },
   {
    "titulo": "Juntos - La máquina del tiempo Europa Tour",
    "fecha": "2026-11-26T20:00:00",
@@ -372,39 +345,12 @@ window.AGENDA = {
    "agotado": false
   },
   {
-   "titulo": "Rudolph, El Musical",
-   "fecha": "2026-12-26T18:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/rudolph-musical-20261226/",
-   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3044307?hl=es-ES",
-   "agotado": false
-  },
-  {
    "titulo": "Taburete- El perro que fuma tour 2026",
    "fecha": "2026-12-26T21:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/taburete-el-perro-que-fuma-tour-2026/26-12-2026/21:00",
    "entradas": "https://entradas.baila.fm/baila/select/2630430",
-   "agotado": false
-  },
-  {
-   "titulo": "Rudolph El Musical",
-   "fecha": "2026-12-27T18:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/rudolph-musical-20261227/",
-   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3044308?hl=es-ES",
-   "agotado": false
-  },
-  {
-   "titulo": "Rudolph, El Musical",
-   "fecha": "2026-12-28T18:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/rudolph-musical-20261228/",
-   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3044309?hl=es-ES",
    "agotado": false
   },
   {
@@ -468,15 +414,6 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/luli-pamp-n-millones-de-gracias-world-tour/4-1-2027/18:00",
    "entradas": "https://entradas.baila.fm/baila/select/2923119",
-   "agotado": false
-  },
-  {
-   "titulo": "Estoy Solo en Casa | 19:30h",
-   "fecha": "2027-01-04T19:30:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/estoy-solo-en-casa202701044/",
-   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3064302?hl=es-ES",
    "agotado": false
   },
   {
@@ -1836,6 +1773,24 @@ window.AGENDA = {
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/el-kanka-gira-la-calma/26-11-2027/21:00",
    "entradas": "https://baila.fm/eventos/entradas-concierto-el-kanka-gira-la-calma-movistar-arena-madrid-2027/",
+   "agotado": false
+  },
+  {
+   "titulo": "\"Legacy\", a Pink Floyd Tribute Show",
+   "fecha": "2027-11-27",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/roger-water-20271127/",
+   "entradas": null,
+   "agotado": false
+  },
+  {
+   "titulo": "ROGER WATERS Presents LEGACY - A Pink Floyd Tribute Show",
+   "fecha": "2027-11-29",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/roger-waters-presents-legacy-a-pink-floyd-tribute-show/29-11-2027/00:00",
+   "entradas": null,
    "agotado": false
   },
   {
