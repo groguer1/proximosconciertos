@@ -2,10 +2,10 @@
  "artista": "Vetusta Morla",
  "slug": "vetusta-morla",
  "gira": "Gira de Vuelta Canciones de Ida",
- "revisado": "2026-11-23",
+ "revisado": "2026-11-24",
  "fuente": "https://www.vetustamorla.com/gira/",
  "fuente_nombre": "web oficial de Vetusta Morla",
- "nota_2027": "Sí. A 23 de noviembre de 2026, la web oficial de Vetusta Morla anuncia doce fechas en 2027, casi todas en festivales: SanSan (Benicàssim), Vive Linares, Tarraco Arena (Tarragona), Ouren Sound Fest, Antorchas (Albacete), Gran Reserva (Calahorra), Cruïlla (Barcelona), BBK Live (Bilbao), PortAmérica, Santander Music, Recorda Fest (A Coruña) y Cordobita Fest (Córdoba). En los festivales de varios días, el día de su actuación aún no está publicado.",
+ "nota_2027": "Sí. A 24 de noviembre de 2026, la web oficial de Vetusta Morla anuncia trece fechas en 2027, casi todas en festivales: SanSan (Benicàssim), Vive Linares, Tarraco Arena (Tarragona), Ouren Sound Fest, Antorchas (Albacete), Gran Reserva (Calahorra), Cruïlla (Barcelona), BBK Live (Bilbao), PortAmérica, Cooltural Fest (Almería), Santander Music, Recorda Fest (A Coruña) y Cordobita Fest (Córdoba). En los festivales de varios días, el día de su actuación aún no está publicado.",
  "fechas": [
   {
    "fecha": "2026-10-09",
@@ -175,6 +175,15 @@
    "fecha_fin": "2027-08-07"
   },
   {
+   "fecha": "2027-08-19",
+   "hora": "",
+   "ciudad": "Almería",
+   "recinto": "Cooltural Fest",
+   "entradas": "https://coolturalfest.com",
+   "ficha": "https://www.vetustamorla.com/gira/almeria-cooltural-fest-2027/",
+   "fecha_fin": "2027-08-21"
+  },
+  {
    "fecha": "2027-09-03",
    "hora": "",
    "ciudad": "A Coruña",
@@ -199,6 +208,7 @@
   "huella": [
    "a-coruna-recorda-fest-2027",
    "albacete-antorchas-festival-2027",
+   "almeria-cooltural-fest-2027",
    "barcelona-cruilla-festival-2027",
    "benicassim-sansan-festival-2027",
    "bilbao-bbk-live-2027",

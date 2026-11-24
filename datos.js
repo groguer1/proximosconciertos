@@ -1,6 +1,6 @@
-// Generado por actualizar.py el 2026-11-23. No editar a mano.
+// Generado por actualizar.py el 2026-11-24. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-23",
+ "actualizado": "2026-11-24",
  "eventos": [
   {
    "titulo": "Juntos - La máquina del tiempo Europa Tour",
@@ -1340,6 +1340,15 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/the-world-of-hans-zimmer-a-new-dimension-20270510/",
+   "entradas": null,
+   "agotado": false
+  },
+  {
+   "titulo": "Nil Moliner",
+   "fecha": "2027-05-14",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/nil-moliner-20270514/",
    "entradas": null,
    "agotado": false
   },
