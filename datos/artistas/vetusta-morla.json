@@ -2,10 +2,10 @@
  "artista": "Vetusta Morla",
  "slug": "vetusta-morla",
  "gira": "Gira de Vuelta Canciones de Ida",
- "revisado": "2026-11-24",
+ "revisado": "2026-11-25",
  "fuente": "https://www.vetustamorla.com/gira/",
  "fuente_nombre": "web oficial de Vetusta Morla",
- "nota_2027": "Sí. A 24 de noviembre de 2026, la web oficial de Vetusta Morla anuncia trece fechas en 2027, casi todas en festivales: SanSan (Benicàssim), Vive Linares, Tarraco Arena (Tarragona), Ouren Sound Fest, Antorchas (Albacete), Gran Reserva (Calahorra), Cruïlla (Barcelona), BBK Live (Bilbao), PortAmérica, Cooltural Fest (Almería), Santander Music, Recorda Fest (A Coruña) y Cordobita Fest (Córdoba). En los festivales de varios días, el día de su actuación aún no está publicado.",
+ "nota_2027": "Sí. A 25 de noviembre de 2026, la web oficial de Vetusta Morla anuncia quince fechas en 2027, casi todas en festivales: SanSan (Benicàssim), Toledo Beat, Vive Linares, Tarraco Arena (Tarragona), Ouren Sound Fest, Antorchas (Albacete), Gran Reserva (Calahorra), Cruïlla (Barcelona), BBK Live (Bilbao), PortAmérica, Santander Music, Cooltural Fest (Almería), Bahía Sound (Cádiz), Recorda Fest (A Coruña) y Cordobita Fest (Córdoba). En los festivales de varios días, el día de su actuación aún no está publicado.",
  "fechas": [
   {
    "fecha": "2026-10-09",
@@ -105,6 +105,15 @@
    "fecha_fin": "2027-05-08"
   },
   {
+   "fecha": "2027-05-07",
+   "hora": "",
+   "ciudad": "Toledo",
+   "recinto": "Toledo Beat",
+   "entradas": "https://toledofestival.es",
+   "ficha": "https://www.vetustamorla.com/gira/toledo-toledo-beat-2027/",
+   "fecha_fin": "2027-05-08"
+  },
+  {
    "fecha": "2027-05-15",
    "hora": "",
    "ciudad": "Tarragona",
@@ -184,6 +193,14 @@
    "fecha_fin": "2027-08-21"
   },
   {
+   "fecha": "2027-08-28",
+   "hora": "",
+   "ciudad": "Cádiz",
+   "recinto": "Bahía Sound",
+   "entradas": "https://bahiasound.es",
+   "ficha": "https://www.vetustamorla.com/gira/cadiz-bahia-sound-2027/"
+  },
+  {
    "fecha": "2027-09-03",
    "hora": "",
    "ciudad": "A Coruña",
@@ -212,13 +229,15 @@
    "barcelona-cruilla-festival-2027",
    "benicassim-sansan-festival-2027",
    "bilbao-bbk-live-2027",
+   "cadiz-bahia-sound-2027",
    "calahorra-gran-reserva-festival-2027",
    "cordoba-cordobita-fest-2027",
    "linares-vive-linares-2027",
    "ourense-ouren-sound-fest-2027",
    "portas-festival-portamerica-2027",
    "santander-santander-music-2027",
-   "tarragona-tarraco-arena-2027"
+   "tarragona-tarraco-arena-2027",
+   "toledo-toledo-beat-2027"
   ]
  }
 }

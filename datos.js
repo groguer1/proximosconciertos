@@ -1,6 +1,6 @@
-// Generado por actualizar.py el 2026-11-24. No editar a mano.
+// Generado por actualizar.py el 2026-11-25. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-24",
+ "actualizado": "2026-11-25",
  "eventos": [
   {
    "titulo": "Juntos - La máquina del tiempo Europa Tour",
@@ -26,7 +26,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/los-fabulosos-cadillacs-en-valencia-20261126/",
-   "entradas": "https://www.roigarena.com/es/event/los-fabulosos-cadillacs-en-valencia-20261126/tickets/",
+   "entradas": null,
    "agotado": false
   },
   {
@@ -125,7 +125,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/nina-pastori-20261206/",
-   "entradas": "https://concerttourroig10da.betix.tech/#/open/checkout/product/00-00089tI/event/00-00089s6/show/00-0003dwP",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/2982017?hl=es-ES",
    "agotado": false
   },
   {
@@ -174,7 +174,7 @@ window.AGENDA = {
    "agotado": false
   },
   {
-   "titulo": "Gira 25 aniversario ¿Qué pides tu? - Alex Ubago",
+   "titulo": "Gira 25 aniversario ¿Qué pides tú? - Alex Ubago",
    "fecha": "2026-12-10T21:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
@@ -1214,7 +1214,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/pablo-alboran-20270424/",
-   "entradas": "https://pabloalboran.es/pages/24-de-abril-2026-valencia-roig-arena",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3082311?hl=es-ES",
    "agotado": false
   },
   {
@@ -1299,6 +1299,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "Zona Cero Tour - Rulo y la Contrabanda",
+   "fecha": "2027-05-07T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/zona-cero-tour-20270507/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/events/62470",
+   "agotado": false
+  },
+  {
    "titulo": "Scorpions - Love, Peace & Rock 'N' Roll Tour 2027",
    "fecha": "2027-05-08",
    "ciudad": "Madrid",
@@ -1358,8 +1367,8 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/the-world-of-hans-zimmer-a-new-dimension-2027/14-5-2027/20:00",
-   "entradas": "https://entradas.baila.fm/baila/select/2801709",
-   "agotado": false
+   "entradas": null,
+   "agotado": true
   },
   {
    "titulo": "Walls- El Día que me olvides Tour",
@@ -1790,7 +1799,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/roger-water-20271127/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3082766?hl=es-ES",
    "agotado": false
   },
   {
@@ -1799,6 +1808,15 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/roger-waters-presents-legacy-a-pink-floyd-tribute-show/29-11-2027/00:00",
+   "entradas": "https://tickets.baila.fm/roger-waters-presents-legacy-a-pink-floyd-tribute-show-madrid-2027-29-nov-entradas",
+   "agotado": false
+  },
+  {
+   "titulo": "Heilung - Eld Geit Fardha Europe Tour",
+   "fecha": "2027-12-02T20:00:00",
+   "ciudad": "Madrid",
+   "recinto": "Movistar Arena",
+   "info": "https://www.movistararena.es/programacion/evento/heilung-eld-geit-fardha-europe-tour/2-12-2027/20:00",
    "entradas": null,
    "agotado": false
   },
