@@ -1,6 +1,6 @@
-// Generado por actualizar.py el 2026-11-25. No editar a mano.
+// Generado por actualizar.py el 2026-11-26. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-25",
+ "actualizado": "2026-11-26",
  "eventos": [
   {
    "titulo": "Juntos - La máquina del tiempo Europa Tour",
@@ -903,7 +903,7 @@ window.AGENDA = {
    "agotado": false
   },
   {
-   "titulo": "MALA CONDUCTA 007 : John Pō",
+   "titulo": "Mala Conducta 007: John Po + Vreno Yg",
    "fecha": "2027-03-04T19:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
@@ -999,6 +999,15 @@ window.AGENDA = {
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/saint-etienne-20270319/",
    "entradas": "https://tickets.oneboxtds.com/roigarena/select/3064375?hl=es-ES",
+   "agotado": false
+  },
+  {
+   "titulo": "SIMEÓ - \"PARTITA ZERO\"",
+   "fecha": "2027-03-20T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/simeo-partita-zero-20270320/",
+   "entradas": null,
    "agotado": false
   },
   {

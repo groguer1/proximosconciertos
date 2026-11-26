@@ -2,7 +2,7 @@
   "artista": "Melendi",
   "slug": "melendi",
   "gira": "Pop Rock Tour",
-  "revisado": "2026-11-18",
+  "revisado": "2026-11-26",
   "fuente": "https://www.melendioficial.com/conciertos/",
   "fuente_nombre": "web oficial de Melendi",
   "nota_2027": "A 6 de noviembre de 2026, la web oficial de Melendi publica diez fechas en España en 2027 (de Avilés el 8 de mayo a Chiclana el 13 de agosto), sin hora todavía.",
@@ -165,6 +165,13 @@
       "ficha": "https://www.melendioficial.com/conciertos/"
     },
     {
+      "fecha": "2027-06-05",
+      "ciudad": "Valencia",
+      "recinto": "Estadio Ciudad de Valencia",
+      "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/3082646",
+      "ficha": "https://www.melendioficial.com/conciertos/"
+    },
+    {
       "fecha": "2027-06-10",
       "ciudad": "Mérida",
       "recinto": "Stone & Music Festival",
@@ -200,6 +207,13 @@
       "ficha": "https://www.melendioficial.com/conciertos/"
     },
     {
+      "fecha": "2027-07-30",
+      "ciudad": "Murcia",
+      "recinto": "Espacio Norte",
+      "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/3082469",
+      "ficha": "https://www.melendioficial.com/conciertos/"
+    },
+    {
       "fecha": "2027-08-05",
       "ciudad": "Santander",
       "recinto": "Campa de la Magdalena",
@@ -211,6 +225,20 @@
       "ciudad": "Chiclana de la Frontera",
       "recinto": "Concert Music Festival",
       "entradas": "https://www.ticketmaster.es/event/1978985575",
+      "ficha": "https://www.melendioficial.com/conciertos/"
+    },
+    {
+      "fecha": "2027-08-21",
+      "ciudad": "Fuengirola",
+      "recinto": "Marenostrum Fuengirola",
+      "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/3082432",
+      "ficha": "https://www.melendioficial.com/conciertos/"
+    },
+    {
+      "fecha": "2027-08-28",
+      "ciudad": "Almería",
+      "recinto": "Recinto Ferial de Almería",
+      "entradas": "https://tickets.oneboxtds.com/melendi_poprock_tour/select/3082506",
       "ficha": "https://www.melendioficial.com/conciertos/"
     }
   ],
