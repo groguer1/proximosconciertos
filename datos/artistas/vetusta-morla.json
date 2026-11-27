@@ -2,10 +2,10 @@
  "artista": "Vetusta Morla",
  "slug": "vetusta-morla",
  "gira": "Gira de Vuelta Canciones de Ida",
- "revisado": "2026-11-25",
+ "revisado": "2026-11-27",
  "fuente": "https://www.vetustamorla.com/gira/",
  "fuente_nombre": "web oficial de Vetusta Morla",
- "nota_2027": "Sí. A 25 de noviembre de 2026, la web oficial de Vetusta Morla anuncia quince fechas en 2027, casi todas en festivales: SanSan (Benicàssim), Toledo Beat, Vive Linares, Tarraco Arena (Tarragona), Ouren Sound Fest, Antorchas (Albacete), Gran Reserva (Calahorra), Cruïlla (Barcelona), BBK Live (Bilbao), PortAmérica, Santander Music, Cooltural Fest (Almería), Bahía Sound (Cádiz), Recorda Fest (A Coruña) y Cordobita Fest (Córdoba). En los festivales de varios días, el día de su actuación aún no está publicado.",
+ "nota_2027": "Sí. A 27 de noviembre de 2026, la web oficial de Vetusta Morla anuncia dieciséis fechas en 2027, casi todas en festivales: SanSan (Benicàssim), Toledo Beat, Vive Linares, Tarraco Arena (Tarragona), Ouren Sound Fest, Stone & Music (Mérida), Antorchas (Albacete), Gran Reserva (Calahorra), Cruïlla (Barcelona), BBK Live (Bilbao), PortAmérica, Santander Music, Cooltural Fest (Almería), Bahía Sound (Cádiz), Recorda Fest (A Coruña) y Cordobita Fest (Córdoba). En los festivales de varios días, el día de su actuación aún no está publicado.",
  "fechas": [
   {
    "fecha": "2026-10-09",
@@ -131,6 +131,14 @@
    "fecha_fin": "2027-05-22"
   },
   {
+   "fecha": "2027-06-04",
+   "hora": "",
+   "ciudad": "Mérida",
+   "recinto": "Stone & Music Festival",
+   "entradas": "https://www.eventsentradas.com/eventos/ficha/454-entradas-vetusta-morla-stone-and-music",
+   "ficha": "https://www.vetustamorla.com/gira/merida-stone-music-festival-2027/"
+  },
+  {
    "fecha": "2027-06-17",
    "hora": "",
    "ciudad": "Albacete",
@@ -233,6 +241,7 @@
    "calahorra-gran-reserva-festival-2027",
    "cordoba-cordobita-fest-2027",
    "linares-vive-linares-2027",
+   "merida-stone-music-festival-2027",
    "ourense-ouren-sound-fest-2027",
    "portas-festival-portamerica-2027",
    "santander-santander-music-2027",

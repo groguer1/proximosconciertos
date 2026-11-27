@@ -1,34 +1,7 @@
-// Generado por actualizar.py el 2026-11-26. No editar a mano.
+// Generado por actualizar.py el 2026-11-27. No editar a mano.
 window.AGENDA = {
- "actualizado": "2026-11-26",
+ "actualizado": "2026-11-27",
  "eventos": [
-  {
-   "titulo": "Juntos - La máquina del tiempo Europa Tour",
-   "fecha": "2026-11-26T20:00:00",
-   "ciudad": "Madrid",
-   "recinto": "Movistar Arena",
-   "info": "https://www.movistararena.es/programacion/evento/juntos-la-maquina-del-tiempo-europa-tour/26-11-2026/20:00",
-   "entradas": null,
-   "agotado": false
-  },
-  {
-   "titulo": "Fin de la aventura Tour - Carolina Durante",
-   "fecha": "2026-11-26T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/carolina-durante-20261126/",
-   "entradas": "https://feverup.com/m/476599",
-   "agotado": false
-  },
-  {
-   "titulo": "Los Fabulosos Cadillacs en Valencia",
-   "fecha": "2026-11-26T21:00:00",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/los-fabulosos-cadillacs-en-valencia-20261126/",
-   "entradas": null,
-   "agotado": false
-  },
   {
    "titulo": "ACCEPT",
    "fecha": "2026-11-27T21:00:00",
@@ -422,8 +395,8 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/carolina-durante-fin-de-la-aventura/8-1-2027/20:00",
-   "entradas": "https://entradas.baila.fm/baila/select/2654665",
-   "agotado": false
+   "entradas": null,
+   "agotado": true
   },
   {
    "titulo": "Cupido",
@@ -777,6 +750,15 @@ window.AGENDA = {
    "agotado": false
   },
   {
+   "titulo": "In The Hood - Wade",
+   "fecha": "2027-02-07",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/wade-20270207/",
+   "entradas": null,
+   "agotado": false
+  },
+  {
    "titulo": "Siempre Héroes",
    "fecha": "2027-02-11T21:00:00",
    "ciudad": "Valencia",
@@ -903,7 +885,7 @@ window.AGENDA = {
    "agotado": false
   },
   {
-   "titulo": "Mala Conducta 007: John Po + Vreno Yg",
+   "titulo": "Mala Conducta 007: John Põ + Vreno Yg",
    "fecha": "2027-03-04T19:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
@@ -1002,12 +984,12 @@ window.AGENDA = {
    "agotado": false
   },
   {
-   "titulo": "SIMEÓ - \"PARTITA ZERO\"",
+   "titulo": "Rubén Simeó - Partita Zero",
    "fecha": "2027-03-20T21:00:00",
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/simeo-partita-zero-20270320/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3083417?hl=es-ES",
    "agotado": false
   },
   {
@@ -1362,15 +1344,6 @@ window.AGENDA = {
    "agotado": false
   },
   {
-   "titulo": "Nil Moliner",
-   "fecha": "2027-05-14",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/nil-moliner-20270514/",
-   "entradas": null,
-   "agotado": false
-  },
-  {
    "titulo": "The World of Hans Zimmer - A New Dimension 2027",
    "fecha": "2027-05-14T20:00:00",
    "ciudad": "Madrid",
@@ -1378,6 +1351,15 @@ window.AGENDA = {
    "info": "https://www.movistararena.es/programacion/evento/the-world-of-hans-zimmer-a-new-dimension-2027/14-5-2027/20:00",
    "entradas": null,
    "agotado": true
+  },
+  {
+   "titulo": "Nil Moliner",
+   "fecha": "2027-05-14T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/nil-moliner-20270514/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3091061?hl=es-ES",
+   "agotado": false
   },
   {
    "titulo": "Walls- El Día que me olvides Tour",
@@ -1416,21 +1398,21 @@ window.AGENDA = {
    "agotado": true
   },
   {
-   "titulo": "The Cat Empire",
-   "fecha": "2027-05-19",
-   "ciudad": "Valencia",
-   "recinto": "Roig Arena",
-   "info": "https://www.roigarena.com/es/event/the-cat-empire-20270519/",
-   "entradas": null,
-   "agotado": false
-  },
-  {
    "titulo": "Metrika",
    "fecha": "2027-05-19T21:00:00",
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/metrika/19-5-2027/21:00",
    "entradas": "https://tickets.baila.fm/metrika-en-madrid-2027",
+   "agotado": false
+  },
+  {
+   "titulo": "The Cat Empire",
+   "fecha": "2027-05-19T21:00:00",
+   "ciudad": "Valencia",
+   "recinto": "Roig Arena",
+   "info": "https://www.roigarena.com/es/event/the-cat-empire-20270519/",
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3082291?hl=es-ES",
    "agotado": false
   },
   {
@@ -1862,7 +1844,7 @@ window.AGENDA = {
    "ciudad": "Valencia",
    "recinto": "Roig Arena",
    "info": "https://www.roigarena.com/es/event/pecos-20271219/",
-   "entradas": null,
+   "entradas": "https://tickets.oneboxtds.com/roigarena/select/3078518?hl=es-ES",
    "agotado": false
   },
   {
@@ -1871,7 +1853,7 @@ window.AGENDA = {
    "ciudad": "Madrid",
    "recinto": "Movistar Arena",
    "info": "https://www.movistararena.es/programacion/evento/pecos-concierto-para-una-despedida/26-12-2027/20:30",
-   "entradas": null,
+   "entradas": "https://tickets.baila.fm/pecos-2027-26-dic-madrid-entradas",
    "agotado": false
   },
   {
